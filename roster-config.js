@@ -16,6 +16,7 @@ window.WEEKLY_ROSTER = {
     ],
     tuesday: [
       { name: "Lucy", nationality: "Chinese", height: "162 cm", weight: "54 kg", age: 23, cup: "D", description: "Excellent Chinese team member", image: "images/lucy.jpg", hoverImages:["images/lucy1.jpg","images/lucy2.jpg","images/lucy3.jpg"] },
+      { name: "Enaya", nationality: "India", height: "164 cm", weight: "57 kg", age: 21, cup: "E", description: "Friendly India team member", image: "images/enaya.jpg", hoverImages:["images/enaya1.jpg"] },
       { name: "Rainbow", nationality: "Chinese", height: "164 cm", weight: "53kg", age: 23, cup: "D", description: "Cute young Chinese team member", image: "images/rainbow.jpg", hoverImages:["images/rainbow1.jpg","images/rainbow2.jpg","images/rainbow3.jpg"] },
       { name: "Ayumi", nationality: "Japanese", height: "166 cm", weight: "49 kg", age: 25, cup: "D", description: "Fun cosplay-loving Japanese team member", image: "images/Ayumi.jpg", hoverImages:["images/Ayumi1.jpg","images/Ayumi2.jpg","images/Ayumi3.jpg","images/Ayumi4.jpg"] },
       { name: "Melody", nationality: "Brazilian", height: "165 cm", weight: "50 kg", age: 22, cup: "D", description: "Gorgeous Brazilian team member", image: "images/Melody.jpg", hoverImages:["images/Melody1.jpg","images/Melody2.jpg","images/Melody3.jpg","images/Melody4.jpg"] },
