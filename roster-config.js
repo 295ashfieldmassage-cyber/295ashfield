@@ -25,7 +25,7 @@ window.WEEKLY_ROSTER = {
     wednesday: [
       { name: "BB", nationality: "Korean", height: "164 cm", weight: "51kg", age: 21, cup: "C", description: "Lovely Korean beauty", image: "images/BB.jpg", hoverImages:["images/BB1.jpg","images/BB2.jpg","images/BB3.jpg","images/BB4.jpg"] },
       { name: "Lulu", nationality: "Chinese", height: "166cm", weight: "55kg", age: 26, cup: "D", description: "Excellent skills team member", image: "images/lulu.jpg", hoverImages:["images/lulu1.jpg","images/lulu2.jpg","images/lulu3.jpg"] },
-      { name: "Mina", nationality: "Thai", height: "165 cm", weight: "57 kg", age: 28, cup: "E", description: "Friendly Thai team member", image: "images/mina.jpg", hoverImages:["images/Mina1.jpg","images/Mina2.jpg","images/Mina3.jpg"] },
+      { name: "Ayumi", nationality: "Japanese", height: "166 cm", weight: "49 kg", age: 25, cup: "D", description: "Fun cosplay-loving Japanese team member", image: "images/Ayumi.jpg", hoverImages:["images/Ayumi1.jpg","images/Ayumi2.jpg","images/Ayumi3.jpg","images/Ayumi4.jpg"] },
       { name: "Enaya", nationality: "India", height: "164 cm", weight: "57 kg", age: 21, cup: "E", description: "Friendly India team member", image: "images/enaya.jpg", hoverImages:["images/enaya1.jpg"] },
       { name: "Lucy", nationality: "Chinese", height: "162 cm", weight: "54 kg", age: 23, cup: "D", description: "Excellent Chinese massage practitioner", image: "images/lucy.jpg", hoverImages:["images/lucy1.jpg","images/lucy2.jpg","images/lucy3.jpg"] }
     ],
