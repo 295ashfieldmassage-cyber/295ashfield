@@ -45,8 +45,10 @@ window.WEEKLY_ROSTER = {
       { name: "Lily", nationality: "Chinese", height: "168 cm", weight: "47kg", age: 21, cup: "B", description: "Fun playful Chinese team member", image: "images/lily.jpg", hoverImages:["images/lily1.jpg","images/lily2.jpg","images/lily3.jpg"] },
       { name: "Isabella", nationality: "Singaporean", height: "168 cm", weight: "50 kg", age: 26, cup: "D", description: "Stunning Singaporean team member", image: "images/Isabella.jpg" },
       { name: "Bella", nationality: "Thai", height: "163 cm", weight: "57kg", age: 26, cup: "C", description: "Fun playful Thai team member", image: "images/bella.jpg", hoverImages:["images/bella1.jpg","images/bella2.jpg","images/bella3.jpg"] },
-      { name: "Aya", nationality: "Chinese", height: "169 cm", weight: "55kg", age: 24, cup: "C", description: "Fun playful Chinese team member", image: "images/aya.jpg", hoverImages:["images/aya1.jpg","images/bella2.jpg","images/bella3.jpg"] },
-      { name: "Melody", nationality: "Brazilian", height: "165 cm", weight: "50 kg", age: 22, cup: "D", description: "Gorgeous Brazilian team member", image: "images/Melody.jpg" }
+      { name: "Lucy", nationality: "Chinese", height: "162 cm", weight: "54 kg", age: 23, cup: "D", description: "Excellent Chinese massage practitioner", image: "images/lucy.jpg", hoverImages:["images/lucy1.jpg","images/lucy2.jpg","images/lucy3.jpg"] },
+      { name: "Melody", nationality: "Brazilian", height: "165 cm", weight: "50 kg", age: 22, cup: "D", description: "Gorgeous Brazilian team member", image: "images/Melody.jpg", hoverImages:["images/Melody1.jpg","images/Melody2.jpg","images/Melody3.jpg","images/Melody4.jpg"] },
+      { name: "Aya", nationality: "Chinese", height: "169 cm", weight: "50 kg", age: 24, cup: "C", description: "Friendly Chinese team member", image: "images/aya.jpg", hoverImages:["images/aya1.jpg","images/aya2.jpg","images/aya3.jpg"] }
+
     ],
     saturday: [
       { name: "Jade", nationality: "Chinese", height: "165 cm", weight: "50 kg", age: 20, cup: "C", description: "Sweet and fresh student style", image: "images/Jade.jpg" , hoverImages:["images/jade1.jpg","images/jade2.jpg","images/jade3.jpg"]},
