@@ -571,3 +571,22 @@ footer{display:flex;align-items:center;justify-content:space-between;gap:20px;pa
 [dir="rtl"] .weekly-person-button{text-align:right}[dir="rtl"] .weekly-person-button:hover,[dir="rtl"] .weekly-person-button[aria-pressed="true"]{transform:translateX(-3px)}
 @media(max-width:820px){.weekly-roster-showcase{grid-template-columns:1fr}.weekly-featured-person{min-height:560px}.weekly-people{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:560px){.weekly-featured-person{min-height:520px}.weekly-people{grid-template-columns:1fr}.weekly-person-button:hover,.weekly-person-button[aria-pressed="true"]{transform:none}}
+}
+
+/* Night Price - 295 */
+.night-price {
+  background: #ffe3ee;
+  border: 1px solid #e91e63;
+  border-radius: 8px;
+  padding: 5px 10px;
+}
+
+.night-price small {
+  color: #ad1457;
+  font-weight: 700;
+}
+
+.night-price strong {
+  color: #d81b60;
+  font-weight: 800;
+}
