@@ -573,12 +573,12 @@ footer{display:flex;align-items:center;justify-content:space-between;gap:20px;pa
 @media(max-width:560px){.weekly-featured-person{min-height:520px}.weekly-people{grid-template-columns:1fr}.weekly-person-button:hover,.weekly-person-button[aria-pressed="true"]{transform:none}}
 }
 
-/* Night Price - 295 */
 .night-price {
-  background: #ffe3ee;
-  border: 1px solid #e91e63;
-  border-radius: 8px;
-  padding: 5px 10px;
+    background: #fff0f5;
+    border: 2px solid #e91e63;
+    border-radius: 10px;
+    padding: 6px 12px;
+    display: inline-block;
 }
 
 .night-price small {
