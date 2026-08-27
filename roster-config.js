@@ -51,12 +51,11 @@ window.WEEKLY_ROSTER = {
     ],
     friday: [
       { name: "Sweet", nationality: "Philippines", height: "160 cm", weight: "47 kg", age: 24, cup: "C", description: "Friendly Philippines team member", image: "images/sweet.jpg", hoverImages:["images/sweet1.jpg","images/sweet2.jpg","images/sweet3.jpg"] },
-      { name: "Lucy", nationality: "Chinese", height: "162 cm", weight: "54 kg", age: 23, cup: "D", description: "Excellent Chinese team member", image: "images/lucy.jpg", hoverImages:["images/lucy1.jpg","images/lucy2.jpg","images/lucy3.jpg"] },
+      { name: "Amy", nationality: "Chinese", height: "164 cm", weight: "60kg", age: 28, cup: "G", description: "Excellent Skills Chinese team member", image: "images/amy.jpg", hoverImages:["images/amy1.jpg","images/amy2.jpg","images/amy3.jpg"] },
       { name: "Tia", nationality: "Vietnam", height: "165 cm", weight: "54kg", age: 30, cup: "D", description: "Fun playful Vietnam team member", image: "images/tia.jpg" , hoverImages:["images/tia1.jpg","images/tia2.jpg","images/tia3.jpg"] },
       { name: "Rose", nationality: "Vietnam", height: "163 cm", weight: "57kg", age: 26, cup: "C", description: "Fun playful Vietnam team member", image: "images/rose.jpg", hoverImages:["images/rose1.jpg","images/rose2.jpg","images/rose3.jpg"] },
-      { name: "Lucy", nationality: "Chinese", height: "162 cm", weight: "54 kg", age: 23, cup: "D", description: "Excellent Chinese massage practitioner", image: "images/lucy.jpg", hoverImages:["images/lucy1.jpg","images/lucy2.jpg","images/lucy3.jpg"] },
       { name: "Melody", nationality: "Brazilian", height: "165 cm", weight: "50 kg", age: 22, cup: "D", description: "Gorgeous Brazilian team member", image: "images/Melody.jpg", hoverImages:["images/Melody1.jpg","images/Melody2.jpg","images/Melody3.jpg","images/Melody4.jpg"] },
-      { name: "Aya", nationality: "Chinese", height: "169 cm", weight: "50 kg", age: 24, cup: "C", description: "Friendly Chinese team member", image: "images/aya.jpg", hoverImages:["images/aya1.jpg","images/aya2.jpg","images/aya3.jpg"] }
+      { name: "Angelina", nationality: "French", height: "164cm", weight: "65 kg", age: 32, cup: "G", description: "Good at BDSM", image: "images/angelina.jpg" , hoverImages:["images/angelina1.jpg","images/angelina2.jpg","images/angelina3.jpg"]}
 
   ],
     saturday: [
