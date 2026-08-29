@@ -68,6 +68,7 @@ window.WEEKLY_ROSTER = {
     ],
     sunday: [
       { name: "BB", nationality: "Korean", height: "164 cm", weight: "51kg", age: 21, cup: "C", description: "Lovely Korean beauty", image: "images/BB.jpg", hoverImages:["images/BB1.jpg","images/BB2.jpg","images/BB3.jpg","images/BB4.jpg"] },
+      { name: "Ai", nationality: "Japanese", height: "163 cm", weight: "46kg", age: 20, cup: "C", description: "Cute young Japan team member", image: "images/ai.jpg", hoverImages:["images/ai1.jpg","images/ai2.jpg","images/ai3.jpg"] }, 
       { name: "Rose", nationality: "Vietnam", height: "163 cm", weight: "57kg", age: 26, cup: "D", description: "Fun playful Vietnam team member", image: "images/rose.jpg", hoverImages:["images/rose1.jpg","images/rose2.jpg","images/rose3.jpg"] },
       { name: "Amber", nationality: "Taiwan", height: "159 cm", weight: "44 kg", age: 23, cup: "B", description: "Excellent skills Taiwan team member", image: "images/amber.jpg", hoverImages:["images/amber1.jpg","images/amber2.jpg","images/amber3.jpg"] },
       { name: "Sally", nationality: "Thai", height: "164 cm", weight: "54 kg", age: 23, cup: "D", description: "New young thai team member", image: "images/sally.jpg", hoverImages:["images/sally1.jpg","images/sally2.jpg","images/sally3.jpg","images/sally4.jpg"] },
