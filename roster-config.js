@@ -23,8 +23,8 @@ window.WEEKLY_ROSTER = {
     ],
     tuesday: [
       { name: "Lucy", nationality: "Chinese", height: "162 cm", weight: "54 kg", age: 23, cup: "D", description: "Excellent Chinese team member", image: "images/lucy.jpg", hoverImages:["images/lucy1.jpg","images/lucy2.jpg","images/lucy3.jpg"] },
+      { name: "Wendy", nationality: "Chinese", height: "170 cm", weight: "49 kg", age: 21, cup: "B", description: "Tall, stunning Chinese beauty", image: "images/Wendy.jpg", hoverImages:["images/wendy1.jpg","images/wendyy2.jpg"] },
       { name: "Aya", nationality: "Chinese", height: "168 cm", weight: "47kg", age: 23, cup: "B", description: "Fun playful Chinese team member", image: "images/aya.jpg", hoverImages:["images/aya1.jpg","images/aya2.jpg","images/aya3.jpg"] },
-      { name: "Moon", nationality: "Vietnam", height: "163 cm", weight: "56 kg", age: 25, cup: "D", description: "Fun playful Vietnam team member", image: "images/moon.jpg", hoverImages:["images/moon1.jpg","images/moon2.jpg","images/moon3.jpg"] },
       { name: "Melody", nationality: "Brazilian", height: "165 cm", weight: "50 kg", age: 22, cup: "D", description: "Gorgeous Brazilian team member", image: "images/Melody.jpg", hoverImages:["images/Melody1.jpg","images/Melody2.jpg","images/Melody3.jpg","images/Melody4.jpg"] },
       { name: "Regina", nationality: "Colombia", height: "162 cm", weight: "60 kg", age: 22, cup: "D", description: "Young Pretty Colombia team member", image: "images/regina.jpg", hoverImages:["images/regina1.jpg","images/regina2.jpg"] },
       { name: "Tia", nationality: "Vietnam", height: "165 cm", weight: "54kg", age: 30, cup: "D", description: "Fun playful Vietnam team member", image: "images/tia.jpg" , hoverImages:["images/tia1.jpg","images/tia2.jpg","images/tia3.jpg"] },
