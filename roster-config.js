@@ -44,6 +44,7 @@ window.WEEKLY_ROSTER = {
     ],
     thursday: [
       { name: "Mila", nationality: "Chinese", height: "166 cm", weight: "50 kg", age: 21, cup: "B", description: " New to industry team member", image: "images/mila.jpg" , hoverImages:["images/mila1.jpg","images/mila2.jpg","images/mila3.jpg","images/mila4.jpg"]},
+      { name: "Fiona", nationality: "Chinese", height: "162 cm", weight: "50 kg", age: 25, cup: "D", description: "Excellent Chinese team member", image: "images/fiona.jpg" , hoverImages:["images/fiona1.jpg","images/fiona2.jpg","images/fiona3.jpg"]},
       { name: "BB", nationality: "Korean", height: "164 cm", weight: "51kg", age: 21, cup: "C", description: "Lovely Korean beauty", image: "images/BB.jpg", hoverImages:["images/BB1.jpg","images/BB2.jpg","images/BB3.jpg","images/BB4.jpg"] },
       { name: "Lucy", nationality: "Chinese", height: "162 cm", weight: "54 kg", age: 23, cup: "D", description: "Excellent Chinese team member", image: "images/lucy.jpg", hoverImages:["images/lucy1.jpg","images/lucy2.jpg","images/lucy3.jpg"] },
       { name: "May", nationality: "Chinese", height: "164 cm", weight: "50 kg", age: 28, cup: "D", description: "Excellent Chinese team member", image: "images/may.jpg" , hoverImages:["images/may1.jpg","images/may2.jpg","images/may3.jpg"]},
