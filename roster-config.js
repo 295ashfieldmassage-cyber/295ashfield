@@ -34,11 +34,11 @@ window.WEEKLY_ROSTER = {
 
     ],
     wednesday: [
-      { name: "Aya", nationality: "Chinese", height: "168 cm", weight: "47kg", age: 23, cup: "B", description: "Fun playful Chinese team member", image: "images/aya.jpg", hoverImages:["images/aya1.jpg","images/aya2.jpg","images/aya3.jpg"] },
       { name: "Mila", nationality: "Chinese", height: "166 cm", weight: "50 kg", age: 21, cup: "B", description: " New to industry team member", image: "images/mila.jpg" , hoverImages:["images/mila1.jpg","images/mila2.jpg","images/mila3.jpg","images/mila4.jpg"]},
       { name: "Melody", nationality: "Brazilian", height: "165 cm", weight: "50 kg", age: 22, cup: "D", description: "Gorgeous Brazilian team member", image: "images/Melody.jpg", hoverImages:["images/Melody1.jpg","images/Melody2.jpg","images/Melody3.jpg","images/Melody4.jpg"] },
       { name: "Lucy", nationality: "Chinese", height: "162 cm", weight: "54 kg", age: 23, cup: "D", description: "Excellent Chinese team member", image: "images/lucy.jpg", hoverImages:["images/lucy1.jpg","images/lucy2.jpg","images/lucy3.jpg"] },
       { name: "Moon", nationality: "Vietnam", height: "163 cm", weight: "56 kg", age: 25, cup: "D", description: "Fun playful Vietnam team member", image: "images/moon.jpg", hoverImages:["images/moon1.jpg","images/moon2.jpg","images/moon3.jpg"] },
+      { name: "Andie", nationality: "Korean", height: "165 cm", weight: "58 kg", age: 25, cup: "D", description: "Gorgeous korean team member", image: "images/andie.jpg", hoverImages:["images/andie1.jpg","images/andie2.jpg","images/andie3.jpg","images/andie4.jpg"] },
       { name: "Tia", nationality: "Vietnam", height: "165 cm", weight: "54kg", age: 30, cup: "D", description: "Fun playful Vietnam team member", image: "images/tia.jpg" , hoverImages:["images/tia1.jpg","images/tia2.jpg","images/tia3.jpg"] },
       { name: "Rose", nationality: "Vietnam", height: "163 cm", weight: "57kg", age: 26, cup: "C", description: "Fun playful Vietnam team member", image: "images/rose.jpg", hoverImages:["images/rose1.jpg","images/rose2.jpg","images/rose3.jpg"] }
     ],
@@ -50,7 +50,6 @@ window.WEEKLY_ROSTER = {
       { name: "Melody", nationality: "Brazilian", height: "165 cm", weight: "50 kg", age: 22, cup: "D", description: "Gorgeous Brazilian team member", image: "images/Melody.jpg", hoverImages:["images/Melody1.jpg","images/Melody2.jpg","images/Melody3.jpg","images/Melody4.jpg"] },
       { name: "Tia", nationality: "Vietnam", height: "165 cm", weight: "54kg", age: 30, cup: "D", description: "Fun playful Vietnam team member", image: "images/tia.jpg" , hoverImages:["images/tia1.jpg","images/tia2.jpg","images/tia3.jpg"] },
       { name: "Rose", nationality: "Vietnam", height: "163 cm", weight: "57kg", age: 26, cup: "C", description: "Fun playful Vietnam team member", image: "images/rose.jpg", hoverImages:["images/rose1.jpg","images/rose2.jpg","images/rose3.jpg"] },
-      { name: "Aya", nationality: "Chinese", height: "168 cm", weight: "47kg", age: 23, cup: "B", description: "Fun playful Chinese team member", image: "images/aya.jpg", hoverImages:["images/aya1.jpg","images/aya2.jpg","images/aya3.jpg"] },
       { name: "Anna", nationality: "Australian", height: "166 cm", weight: "49 kg", age: 30, cup: "B", description: "Blonde, blue-eyed Australian team member", image: "images/anna.jpg" }
     ],
     friday: [
@@ -58,7 +57,6 @@ window.WEEKLY_ROSTER = {
       { name: "Mila", nationality: "Chinese", height: "166 cm", weight: "50 kg", age: 21, cup: "B", description: " New to industry team member", image: "images/mila.jpg" , hoverImages:["images/mila1.jpg","images/mila2.jpg","images/mila3.jpg","images/mila4.jpg"]},
       { name: "Lucy", nationality: "Chinese", height: "162 cm", weight: "54 kg", age: 23, cup: "D", description: "Excellent Chinese team member", image: "images/lucy.jpg", hoverImages:["images/lucy1.jpg","images/lucy2.jpg","images/lucy3.jpg"] },
       { name: "Ai", nationality: "Japanese", height: "160 cm", weight: "45 kg", age: 19, cup: "C", description: "Friendly cute japanese team member", image: "images/ai.jpg", hoverImages:["images/ai1.jpg","images/ai2.jpg","images/ai3.jpg"] },
-      { name: "Aria", nationality: "Africa", height: "176 cm", weight: "50 kg", age: 21, cup: "B", description: " Amazing Africa team member", image: "images/aria.jpg" , hoverImages:["images/aria1.jpg","images/aria2.jpg","images/aria3.jpg","images/aria4.jpg"]},
       { name: "Melody", nationality: "Brazilian", height: "165 cm", weight: "50 kg", age: 22, cup: "D", description: "Gorgeous Brazilian team member", image: "images/Melody.jpg", hoverImages:["images/Melody1.jpg","images/Melody2.jpg","images/Melody3.jpg","images/Melody4.jpg"] },
       { name: "Tia", nationality: "Vietnam", height: "165 cm", weight: "54kg", age: 30, cup: "D", description: "Fun playful Vietnam team member", image: "images/tia.jpg" , hoverImages:["images/tia1.jpg","images/tia2.jpg","images/tia3.jpg"] },
       { name: "Rose", nationality: "Vietnam", height: "163 cm", weight: "57kg", age: 26, cup: "C", description: "Fun playful Vietnam team member", image: "images/rose.jpg", hoverImages:["images/rose1.jpg","images/rose2.jpg","images/rose3.jpg"] },
