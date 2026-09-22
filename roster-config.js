@@ -336,6 +336,22 @@
         "images/wendy2.jpg",
         "images/wendy3.jpg"
       ]
+     },
+    Erin: {
+      name: "Erin",
+      nationality: "Chinese",
+      height: "165cm",
+      weight: "49 kg",
+      age: 21,
+      cup: "B",
+      description: "TOP1, stunning Chinese beauty",
+      image: "images/erin.jpg",
+      hoverImages: [
+        "images/erin1.jpg",
+        "images/erin.jpg"
+      
+      ]
+  
     },
      Tia: {
       name: "Tia",
@@ -517,7 +533,7 @@
 
   const weeklyNames = {
     monday: ["Lucy", "Melody","Bella", "Tia", "Rose" ],
-    tuesday: [ "Liya","Lucy", "Moon", "Wendy", "Melody", "Tia", "Rose"],
+    tuesday: [ "Liya","Erin","Lucy", "Moon", "Wendy", "Melody", "Tia", "Rose"],
     wednesday: ["Melody","Kitty", "Moon","Jeniffer",  "Lucy", "Tia", "Rose"],
     thursday: ["Fiona","Lucy", "May",  "Melody", "Andie", "Anna" ,"Tia", "Rose"],
     friday: ["Bruna", "Lucy", "Sasa", "Melody", "Ai","Tia", "Rose"],
