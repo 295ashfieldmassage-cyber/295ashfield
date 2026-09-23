@@ -518,6 +518,24 @@
       role: "Massage Practitioner",
       description: "Highly skilled massage practitioner",
       image: "images/amber.jpg"
+    
+    },
+    Angelina: {
+      name: "Angelina",
+      nationality: "French",
+      height: "165 cm",
+      weight: "65 kg",
+      age: 29,
+      cup: "D",
+      role: "Good at cosplay-loving",
+      description: "Friendly massage practitioner",
+      image: "images/angelina.jpg",
+      hoverImages: [
+        "images/angelina1.jpg",
+        "images/angelina2.jpg",
+        "images/anglina3.jpg"
+      ]
+
     },
     Selina: {
       name: "Selina",
@@ -533,11 +551,11 @@
 
   const weeklyNames = {
     monday: ["Lucy", "Melody","Bella", "Tia", "Rose" ],
-    tuesday: [ "Liya","Erin","Lucy", "Moon", "Wendy", "Melody", "Tia", "Rose"],
-    wednesday: ["Melody","Kitty", "Moon","Jeniffer",  "Lucy", "Tia", "Rose"],
+    tuesday: [ "Liya","Erin","Lucy", "Wendy", "Melody", "Tia", "Rose"],
+    wednesday: ["Ai","Angelina", "Jeniffer",  "Lucy", "Tia", "Rose"],
     thursday: ["Fiona","Lucy", "May",  "Melody", "Andie", "Anna" ,"Tia", "Rose"],
-    friday: ["Bruna", "Lucy", "Sasa", "Melody", "Ai","Tia", "Rose"],
-    saturday: ["Mickey", "Jade", "May", "Wendy","Melody",  "Tia", "Rose"],
+    friday: [ "Lucy", "Sasa", "Melody", "Ai","Tia", "Rose"],
+    saturday: ["Mickey", "Jade", "May", "Lucy","Wendy","Melody",  "Tia", "Rose"],
     sunday: ["Lucy", "Dodo", "Melody", "Ai",  "Tia", "Rose"]
   };
 
