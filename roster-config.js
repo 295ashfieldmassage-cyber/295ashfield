@@ -520,6 +520,23 @@
       image: "images/amber.jpg"
     
     },
+    Aria: {
+      name: "Aria",
+      nationality: "Africa",
+      height: "175 cm",
+      weight: "55 kg",
+      age: 21,
+      cup: "B",
+      role: "super model ",
+      description: "Charming young africa ",
+      image: "images/aria.jpg",
+      hoverImages: [
+        "images/aria1.jpg",
+        "images/aria2.jpg",
+        "images/aria3.jpg"
+      ]
+
+    },
     Angelina: {
       name: "Angelina",
       nationality: "French",
@@ -553,7 +570,7 @@
     monday: ["Lucy", "Melody","Bella", "Tia", "Rose" ],
     tuesday: [ "Liya","Erin","Lucy", "Wendy", "Melody", "Tia", "Rose"],
     wednesday: ["Ai","Angelina", "Jeniffer",  "Lucy", "Tia", "Rose"],
-    thursday: ["Fiona","Lucy", "May",  "Melody", "Andie", "Anna" ,"Tia", "Rose"],
+    thursday: ["Aria","Fiona","Lucy", "May",  "Melody", "Andie", "Anna" ,"Tia", "Rose"],
     friday: [ "Lucy", "Sasa", "Melody", "Ai","Tia", "Rose"],
     saturday: ["Mickey", "Jade", "May", "Lucy","Wendy","Melody",  "Tia", "Rose"],
     sunday: ["Lucy", "Dodo", "Melody", "Ai",  "Tia", "Rose"]
