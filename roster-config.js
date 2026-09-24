@@ -138,6 +138,22 @@
         "images/Melody4.jpg"
       ]
     },
+    Mona: {
+      name: "Mona",
+      nationality: "Thai",
+      height: "165 cm",
+      weight: "52 kg",
+      age: 22,
+      cup: "D",
+      description: "Gorgeous Thai team member",
+      image: "images/mona.jpg",
+      hoverImages: [
+        "images/mona1.jpg",
+        "images/mona2.jpg",
+        "images/mona3.jpg",
+        "images/mona4.jpg"
+      ]
+    },
     Lina: {
       name: "Lina",
       nationality: "Korean",
@@ -520,6 +536,17 @@
       image: "images/amber.jpg"
     
     },
+    Rani: {
+      name: "Rani",
+      nationality: "India",
+      height: "163cm",
+      weight: "57 kg",
+      age: 22,
+      cup: "D",
+      role: "Massage Practitioner",
+      description: "Highly skilled massage practitioner",
+      
+    },
     Aria: {
       name: "Aria",
       nationality: "Africa",
@@ -571,9 +598,9 @@
     tuesday: [ "Liya","Erin","Lucy", "Wendy", "Melody", "Tia", "Rose"],
     wednesday: ["Ai","Angelina", "Jeniffer",  "Lucy", "Tia", "Rose"],
     thursday: ["Aria","Fiona","Lucy", "May",  "Melody", "Andie", "Anna" ,"Tia", "Rose"],
-    friday: [ "Lucy", "Sasa", "Melody", "Ai","Tia", "Rose"],
+    friday: [ "Mona", "Ai","Sasa", "Angelina","Melody", "May","Tia", "Rose"],
     saturday: ["Mickey", "Jade", "May", "Lucy","Wendy","Melody",  "Tia", "Rose"],
-    sunday: ["Lucy", "Dodo", "Melody", "Ai",  "Tia", "Rose"]
+    sunday: ["Lucy", "Dodo", "Melody","Rani", "Ai", "Angelina", "Tia", "Rose"]
   };
 
   const days = {};
