@@ -532,11 +532,11 @@
       age: 21,
       cup: "D",
       description: " New Pretty thai team member",
-      image: "images/mona-main.jpg",
+      image: "mona.jpg",
       hoverImages: [
-        "images/mona1.jpg",
-        "images/mona2.jpg",
-        "images/mona3.jpg"
+        "mona1.jpg",
+        "mona2.jpg",
+        "mona3.jpg"
       ]
     
     },
