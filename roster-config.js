@@ -588,11 +588,11 @@
       cup: "B",
       role: "Open minded Friendly Chinese ",
       description: "Charming Chinese Girl ",
-      image: "images/amanda.jpg",
+      image: "amanda.jpg",
       hoverImages: [
-        "images/amanda1.jpg",
-        "images/amanda2.jpg",
-        "images/amanda3.jpg"
+        "amanda1.jpg",
+        "amanda2.jpg",
+        "amanda3.jpg"
       ]
 
     },
