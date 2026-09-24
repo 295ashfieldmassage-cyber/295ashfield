@@ -523,6 +523,22 @@
         "images/dodo3.jpg"
       ]
     
+     },
+     Mona: {
+      name: "Mona",
+      nationality: "Thai",
+      height: "163 cm",
+      weight: "50 kg",
+      age: 21,
+      cup: "D",
+      description: " New Pretty thai team member",
+      image: "images/Mona.jpg",
+      hoverImages: [
+        "images/mona1.jpg",
+        "images/mona2.jpg",
+        "images/mona3.jpg"
+      ]
+    
     },
     Amber: {
       name: "Amber",
