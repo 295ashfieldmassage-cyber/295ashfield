@@ -578,6 +578,22 @@
         "images/aria2.jpg",
         "images/aria3.jpg"
       ]
+    },
+    Amanda: {
+      name: "Amanda",
+      nationality: "Chinese",
+      height: "1652cm",
+      weight: "55 kg",
+      age: 23,
+      cup: "B",
+      role: "Open minded Friendly Chinese ",
+      description: "Charming Chinese Girl ",
+      image: "images/amanda.jpg",
+      hoverImages: [
+        "images/amanda1.jpg",
+        "images/amanda2.jpg",
+        "images/amanda3.jpg"
+      ]
 
     },
     Angelina: {
@@ -614,7 +630,7 @@
     tuesday: [ "Liya","Erin","Lucy", "Wendy", "Melody", "Tia", "Rose"],
     wednesday: ["Ai","Angelina", "Jeniffer",  "Lucy", "Tia", "Rose"],
     thursday: ["Aria","Fiona","Lucy", "May",  "Melody", "Andie", "Anna" ,"Tia", "Rose"],
-    friday: [ "Mona", "Ai","Sasa", "Angelina","Melody", "May","Tia", "Rose"],
+    friday: [ "Mona", "Amanda","Ai","Sasa", "Angelina","Melody", "May","Tia", "Rose"],
     saturday: ["Mickey", "Jade", "May", "Lucy","Wendy","Melody",  "Tia", "Rose"],
     sunday: ["Lucy", "Dodo", "Melody","Rani", "Ai", "Angelina", "Tia", "Rose"]
   };
