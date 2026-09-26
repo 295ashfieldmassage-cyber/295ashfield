@@ -582,7 +582,7 @@
     Amanda: {
       name: "Amanda",
       nationality: "Chinese",
-      height: "1652cm",
+      height: "162cm",
       weight: "55 kg",
       age: 23,
       cup: "B",
@@ -593,6 +593,23 @@
         "amanda1.jpg",
         "amanda2.jpg",
         "amanda3.jpg"
+      ]
+
+    }, 
+    Rani: {
+      name: "Rani",
+      nationality: "India",
+      height: "165cm",
+      weight: "58kg",
+      age: 23,
+      cup: "C",
+      role: "Stunning Friendly India",
+      description: "Charming India Girl ",
+      image: "rani.jpg",
+      hoverImages: [
+        "rani1.jpg",
+        "rani2.jpg",
+        "rani3.jpg"
       ]
 
     },
@@ -632,7 +649,7 @@
     thursday: ["Aria","Fiona","Lucy", "May",  "Melody", "Andie", "Anna" ,"Tia", "Rose"],
     friday: [ "Mona", "Amanda","Ai","Sasa", "Angelina","Melody", "May","Tia", "Rose"],
     saturday: ["Mickey", "Jade", "May", "Lucy","Wendy","Melody",  "Tia", "Rose"],
-    sunday: ["Lucy", "Dodo", "Melody","Rani", "Ai", "Angelina", "Tia", "Rose"]
+    sunday: ["Rani", "Ai", "Angelina", "Tia", "Rose"]
   };
 
   const days = {};
