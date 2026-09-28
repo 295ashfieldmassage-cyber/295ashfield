@@ -556,6 +556,24 @@
       ]
     
     },
+     Enaya: {
+      name: "Enaya",
+      nationality: "Indian",
+      height: "166cm",
+      weight: "56 kg",
+      age: 20,
+      cup: "D",
+      description: " Stunning Indian team member",
+      image: "enaya.jpg",
+      hoverImages: [
+        "enaya1.jpg",
+        "enaya2.jpg",
+        "enaya3.jpg",
+        "enaya4.jpg"
+     
+      ]
+    
+    },
     Amber: {
       name: "Amber",
       nationality: "Taiwanese",
@@ -659,6 +677,22 @@
         "karin2.jpg",
         "karin3.jpg"
       ]
+     }, 
+    Joline: {
+      name: "Joline",
+      nationality: "Vietnam",
+      height: "165cm",
+      weight: "57kg",
+      age: 24,
+      cup: "D",
+      role: "Nice service &Friendly Vietnam",
+      description: "Wonderfull Vietnam Girl ",
+      image: "joline.jpg",
+      hoverImages: [
+        "joline1.jpg",
+        "joline2.jpg",
+        "joline3.jpg"
+      ]
 
     },
     Angelina: {
@@ -696,11 +730,11 @@
 
   const weeklyNames = {
     monday: ["Domi", "Melody","Lola","Bella", "Tia", "Rose" ],
-    tuesday: [ "Liya","Selina","Ally", "Wendy", "Karin","Melody", "Tia", "Rose"],
+    tuesday: [ "Liya","Selina","Ally", "Wendy", "Karin","Melody","Angelina", "Tia", "Rose"],
     wednesday: ["Ai","Angelina", "Selina",  "Melody", "Tia", "Rose"],
-    thursday: ["Aria","Fiona", "May",  "Melody", "Tia", "Rose"],
+    thursday: ["Aria","Enaya", "May",  "Melody", "Tia", "Rose"],
     friday: [ "Amanda","Ai","Sasa", "Angelina","Melody", "May","Tia", "Rose"],
-    saturday: ["Mickey", "Jade", "May", "Tia", "Rose"],
+    saturday: ["Jade", "Joline", "May", "Lucy","Tia", "Rose"],
     sunday: ["Rani", "Lucy","Ai", "Angelina", "Tia", "Rose"]
   };
 
