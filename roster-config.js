@@ -564,13 +564,11 @@
       age: 20,
       cup: "D",
       description: " Stunning Indian team member",
-      image: "enaya.jpg",
+     image: "images/enaya.jpg",
       hoverImages: [
-        "enaya1.jpg",
-        "enaya2.jpg",
-        "enaya3.jpg",
-        "enaya4.jpg"
-     
+        "images/enaya1.jpg",
+        "images/enaya2.jpg",
+        "images/enaya3.jpg"
       ]
     
     },
@@ -678,8 +676,8 @@
         "karin3.jpg"
       ]
      }, 
-    Joline: {
-      name: "Joline",
+    Jolie: {
+      name: "Jolie",
       nationality: "Vietnam",
       height: "165cm",
       weight: "57kg",
@@ -687,11 +685,11 @@
       cup: "D",
       role: "Nice service &Friendly Vietnam",
       description: "Wonderfull Vietnam Girl ",
-      image: "joline.jpg",
+      image: "images/jolie.jpg",
       hoverImages: [
-        "joline1.jpg",
-        "joline2.jpg",
-        "joline3.jpg"
+        "images/jolie1.jpg",
+        "images/jolie2.jpg",
+        "images/jolie3.jpg"
       ]
 
     },
@@ -733,8 +731,8 @@
     tuesday: [ "Liya","Selina","Ally", "Wendy", "Karin","Melody","Angelina", "Tia", "Rose"],
     wednesday: ["Ai","Angelina", "Selina",  "Melody", "Tia", "Rose"],
     thursday: ["Aria","Enaya", "May",  "Melody", "Tia", "Rose"],
-    friday: [ "Amanda","Ai","Sasa", "Angelina","Melody", "May","Tia", "Rose"],
-    saturday: ["Jade", "Joline", "May", "Lucy","Tia", "Rose"],
+    friday: [ "Amanda","Bruna","Ai","Sasa", "Angelina","Melody", "May","Tia", "Rose"],
+    saturday: ["Jade", "Jolie", "May", "Lucy","Tia", "Rose"],
     sunday: ["Rani", "Lucy","Ai", "Angelina", "Tia", "Rose"]
   };
 
