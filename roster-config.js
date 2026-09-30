@@ -730,10 +730,10 @@
     monday: ["Domi", "Melody","Lola","Bella", "Tia", "Rose" ],
     tuesday: [ "Liya","Selina","Ally", "Wendy", "Karin","Melody","Angelina", "Tia", "Rose"],
     wednesday: ["Ai","Angelina", "Selina",  "Melody", "Tia", "Rose"],
-    thursday: ["Aria","Enaya", "May",  "Melody", "Tia", "Rose"],
-    friday: [ "Amanda","Bruna","Ai","Sasa", "Angelina","Melody", "May","Tia", "Rose"],
-    saturday: ["Jade", "Jolie", "May", "Lucy","Tia", "Rose"],
-    sunday: ["Rani", "Lucy","Ai", "Angelina", "Tia", "Rose"]
+    thursday: ["Wendy","Enaya", "May",  "Angelina", "Tia" ],
+    friday: [ "Amanda","Bruna","Ai","Sasa", "Angelina", "May","Tia"],
+    saturday: ["Jade", "Jolie", "May", "Lucy","Tia"],
+    sunday: ["Rani", "Lucy","Ai", "Angelina", "Tia"]
   };
 
   const days = {};
