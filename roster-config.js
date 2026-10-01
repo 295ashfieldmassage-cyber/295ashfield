@@ -708,6 +708,21 @@
         "images/angelina2.jpg",
         "images/anglina3.jpg"
       ]
+     },
+    Angie: {
+      name: "Angie",
+      nationality: "Brazil",
+      height: "165 cm",
+      weight: "50 kg",
+      age: 22,
+      cup: "B",
+      role: "Sexy Charming young girl",
+      description: "Friendly massage practitioner",
+      image: "images/angie.jpg",
+      hoverImages: [
+        "images/angie1.jpg",
+        "images/angie2.jpg"
+          ]
 
     },
     Selina: {
@@ -727,13 +742,13 @@
   };
 
   const weeklyNames = {
-    monday: ["Domi", "Melody","Lola","Bella", "Tia", "Rose" ],
-    tuesday: [ "Liya","Selina","Ally", "Wendy", "Karin","Melody","Angelina", "Tia", "Rose"],
-    wednesday: ["Ai","Angelina", "Selina",  "Melody", "Tia", "Rose"],
-    thursday: ["Wendy","Enaya", "May",  "Angelina", "Tia" ],
-    friday: [ "Amanda","Bruna","Ai","Sasa", "Angelina", "May","Tia"],
-    saturday: ["Jade", "Jolie", "May", "Lucy","Tia"],
-    sunday: ["Rani", "Lucy","Ai", "Angelina", "Tia"]
+    monday: ["Domi", "Lucy","Lola","Bella", "Tia"],
+    tuesday: [ "Selina","Lucy","Ally", "Melody","Angelina", "Tia"],
+    wednesday: ["Lucy","Angelina", "Selina",  "Melody", "Tia"],
+    thursday: ["Wendy","Enaya", "May", "Lucy", "Angelina", "Tia" ],
+    friday: [ "Amanda","Bruna","Angie","Dodo","Sasa","Angelina","Ai", "Tia"],
+    saturday: ["Jade", "Jolie", "May", "Dodo","Tia"],
+    sunday: ["Rani","Angie", "Lucy","Ai", "Dodo","Angelina", "Tia"]
   };
 
   const days = {};
