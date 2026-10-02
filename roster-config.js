@@ -508,6 +508,21 @@
         "images/bruna3.jpg"
       ]
     },
+     Ashley: {
+      name: "Ashley",
+      nationality: "Australian",
+      height: "168 cm",
+      weight: "63 kg",
+      age: 27,
+      cup: "D",
+      description: " Natual Busty Sweet team member 2-8pm",
+      image: "images/ashley.jpg",
+      hoverImages: [
+        "images/ashley1.jpg",
+        "images/ashley2.jpg",
+        "images/ashley3.jpg"
+      ]
+    },
      Dodo: {
       name: "Dodo",
       nationality: "Vietnam",
@@ -742,13 +757,13 @@
   };
 
   const weeklyNames = {
-    monday: ["Domi", "Lucy","Lola","Bella", "Tia"],
+    monday: ["Ashley", "Lucy","Lola","Bella", "Tia"],
     tuesday: [ "Selina","Lucy","Ally", "Melody","Angelina", "Tia"],
     wednesday: ["Lucy","Angelina", "Selina",  "Melody", "Tia"],
-    thursday: ["Wendy","Enaya", "May", "Lucy", "Angelina", "Tia" ],
-    friday: [ "Amanda","Bruna","Angie","Dodo","Sasa","Angelina","Ai", "Tia"],
-    saturday: ["Jade", "Jolie", "May", "Dodo","Tia"],
-    sunday: ["Rani","Angie", "Lucy","Ai", "Dodo","Angelina", "Tia"]
+    thursday: ["Wendy","Domi","Lucy","Enaya", "May", "Lucy", "Angelina", "Tia" ],
+    friday: [ "Amanda","Bruna","May","Lucy","Angie","Dodo","Sasa","Angelina", "Tia"],
+    saturday: ["Jade", "Jolie", "May", "Lucy","Dodo","Tia"],
+    sunday: ["Rani","Lucy","Ai", "Dodo","Angelina", "Tia"]
   };
 
   const days = {};
@@ -758,7 +773,7 @@
 
   window.ROSTER_PROFILES = profiles;
   window.WEEKLY_ROSTER = {
-    dateRange: "28th SE – 4th Oct 2026",
+    dateRange: "2nd Oct– 11th Oct 2026",
     address: "295 Liverpool Road, Ashfield NSW 2131",
     days
   };
