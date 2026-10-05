@@ -626,6 +626,38 @@
         "images/aria3.jpg"
       ]
     },
+    Mia: {
+      name: "Mia",
+      nationality: "Chinese",
+      height: "172 cm",
+      weight: "55 kg",
+      age: 21,
+      cup: "D",
+      role: "super model ",
+      description: "Charming young Chinese ",
+      image: "images/mia.jpg",
+      hoverImages: [
+        "images/mia1.jpg",
+        "images/mia2.jpg",
+        "images/mia3.jpg"
+      ]
+     },
+    Monica: {
+      name: "Monica",
+      nationality: "Chinese",
+      height: "162cm",
+      weight: "56 kg",
+      age: 24,
+      cup: "C",
+      role: "super nice lady ",
+      description: "Charming Open minded Chinese ",
+      image: "images/monica.jpg",
+      hoverImages: [
+        "images/monica1.jpg",
+        "images/monica2.jpg",
+        "images/monica3.jpg"
+      ]
+    },
     Amanda: {
       name: "Amanda",
       nationality: "Chinese",
@@ -758,12 +790,12 @@
 
   const weeklyNames = {
     monday: ["Ashley", "Lucy","Lola","Bella", "Tia"],
-    tuesday: [ "Selina","Lucy","Ally", "Melody","Angelina", "Tia"],
-    wednesday: ["Lucy","Angelina", "Selina",  "Melody", "Tia"],
-    thursday: ["Wendy","Domi","Lucy","Enaya", "May", "Lucy", "Angelina", "Tia" ],
-    friday: [ "Amanda","Bruna","May","Lucy","Angie","Dodo","Sasa","Angelina", "Tia"],
-    saturday: ["Jade", "Jolie", "May", "Lucy","Dodo","Tia"],
-    sunday: ["Rani","Lucy","Ai", "Dodo","Angelina", "Tia"]
+    tuesday: [ "Lucy","Ally", "Melody", "Tia"],
+    wednesday: ["Lucy","Mia","Domi","Angelina", "Selina",  "Melody", "Tia"],
+    thursday: ["Wendy","Mia","Domi","Lucy","Enaya", "May", "Lucy", "Angelina", "Tia" ],
+    friday: [ "Mia","May","Domi","Monica","Selina","Lucy","Sasa","Angelina", "Tia"],
+    saturday: [ "Mia","Jolie", "May", "Lucy","Tia"],
+    sunday: ["Mia","Lucy","Ai","Selina", "Angelina", "Tia"]
   };
 
   const days = {};
