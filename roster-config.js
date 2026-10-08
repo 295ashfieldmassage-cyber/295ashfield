@@ -803,6 +803,21 @@
         "images/chloe2.jpg",
         "images/chloe3.jpg"
       ]
+           },
+    Lucky: {
+      name: "Lucky",
+      nationality: "Vietnam",
+      height: "163 cm",
+      weight: "49 kg",
+      age: 22,
+      cup: "C",
+      role: "Sexy Charming young girl",
+      description: "Friendly massage practitioner",
+      image: "images/lucky.jpg",
+      hoverImages: [
+        "images/lucky1.jpg",
+        "images/lucky2.jpg"
+          ]
      },
     Angie: {
       name: "Angie",
@@ -841,7 +856,7 @@
     tuesday: [ "Lucy","Ally", "Melody", "Tia"],
     wednesday: ["Lucy","Mia","Domi","Angelina", "Tina",  "Tia"],
     thursday: ["Wendy","Mia","Domi","Lucy","Tina","May",  "Melody", "Angelina", "Tia" ],
-    friday: [ "Mia","May","Monica","Selina","Tina","Lucy","Sasa", "Melody","Angelina", "Tia"],
+    friday: [ "Mia","Lucky","May","Monica","Selina","Tina","Lucy","Sasa", "Melody","Angelina", "Tia"],
     saturday: [ "Mia","Jolie", "May", "Tina","Lucy", "Sarah","Melody","Tia"],
     sunday: ["Mia","Lucy","Ai","Selina", "Wendy","Tina","Angelina", "Melody", "Tia"]
   };
