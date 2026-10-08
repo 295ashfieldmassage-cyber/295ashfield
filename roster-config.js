@@ -771,6 +771,38 @@
         "images/tina2.jpg",
         "images/tina3.jpg"
       ]
+      },
+    Sarah: {
+      name: "Sarah",
+      nationality: "Japanese",
+      height: "171cm",
+      weight: "57kg",
+      age: 21,
+      cup: "B",
+      role: "Super modal Cute face",
+      description: "Friendly massage practitioner",
+      image: "images/sarah.jpg",
+      hoverImages: [
+        "images/sarah1.jpg",
+        "images/sarah2.jpg",
+        "images/sarah3.jpg"
+      ]
+       },
+    Chloe: {
+      name: "Chloe",
+      nationality: "Colombian",
+      height: "168cm",
+      weight: "57kg",
+      age: 23,
+      cup: "B",
+      role: "Sexy and charmnig body",
+      description: "Friendly massage practitioner",
+      image: "images/chloe.jpg",
+      hoverImages: [
+        "images/chloe1.jpg",
+        "images/chloe2.jpg",
+        "images/chloe3.jpg"
+      ]
      },
     Angie: {
       name: "Angie",
@@ -805,13 +837,13 @@
   };
 
   const weeklyNames = {
-    monday: ["Ashley", "Lucy","Lola","Bella", "Tia"],
+    monday: ["Chloe", "Lucy","Lola","Bella", "Tia"],
     tuesday: [ "Lucy","Ally", "Melody", "Tia"],
     wednesday: ["Lucy","Mia","Domi","Angelina", "Tina",  "Tia"],
     thursday: ["Wendy","Mia","Domi","Lucy","Tina","May",  "Melody", "Angelina", "Tia" ],
     friday: [ "Mia","May","Monica","Selina","Tina","Lucy","Sasa", "Melody","Angelina", "Tia"],
-    saturday: [ "Mia","Jolie", "May", "Tina","Lucy", "Melody","Tia"],
-    sunday: ["Mia","Lucy","Ai","Selina", "Tina","Angelina", "Melody", "Tia"]
+    saturday: [ "Mia","Jolie", "May", "Tina","Lucy", "Sarah","Melody","Tia"],
+    sunday: ["Mia","Lucy","Ai","Selina", "Wendy","Tina","Angelina", "Melody", "Tia"]
   };
 
   const days = {};
