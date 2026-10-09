@@ -645,7 +645,7 @@
     Monica: {
       name: "Monica",
       nationality: "Chinese",
-      height: "162cm",
+      height: "164cm",
       weight: "56 kg",
       age: 24,
       cup: "C",
@@ -771,6 +771,22 @@
         "images/tina2.jpg",
         "images/tina3.jpg"
       ]
+       },
+    Apple: {
+      name: "Apple",
+      nationality: "Chinese",
+      height: "167cm",
+      weight: "55 kg",
+      age: 23,
+      cup: "D",
+      role: "Good at NURU Massage",
+      description: "Friendly massage practitioner",
+      image: "images/apple.jpg",
+      hoverImages: [
+        "images/apple1.jpg",
+        "images/apple2.jpg",
+        "images/apple3.jpg"
+      ]
       },
     Sarah: {
       name: "Sarah",
@@ -804,6 +820,7 @@
         "images/chloe3.jpg"
       ]
            },
+
     Lucky: {
       name: "Lucky",
       nationality: "Vietnam",
@@ -853,12 +870,12 @@
 
   const weeklyNames = {
     monday: ["Chloe", "Lucy","Lola","Bella", "Tia"],
-    tuesday: [ "Lucy","Ally", "Melody", "Tia"],
+    tuesday: [ "Lucy","Ally","Monica", "Melody", "Tia"],
     wednesday: ["Lucy","Mia","Domi","Angelina", "Tina",  "Tia"],
     thursday: ["Wendy","Mia","Domi","Lucy","Tina","May",  "Melody", "Angelina", "Tia" ],
     friday: [ "Mia","Lucky","May","Monica","Selina","Tina","Lucy","Sasa", "Melody","Angelina", "Tia"],
-    saturday: [ "Mia","Jolie", "May", "Tina","Lucy", "Sarah","Melody","Tia"],
-    sunday: ["Mia","Lucy","Ai","Selina", "Wendy","Tina","Angelina", "Melody", "Tia"]
+    saturday: [ "Mia","Sarah", "May", "Tina","Apple", "Monica","Tia"],
+    sunday: ["Mia","Apple","Ai","Selina","Monica", "Wendy","Tina","Angelina",  "Tia"]
   };
 
   const days = {};
