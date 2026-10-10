@@ -784,8 +784,10 @@
       image: "images/apple.jpg",
       hoverImages: [
         "images/apple1.jpg",
-        "images/apple2.jpg",
-        "images/apple3.jpg"
+        "images/apple3.jpg",
+        "images/apple4.jpg",
+        "images/apple5.jpg",
+        "images/apple6.jpg"
       ]
       },
     Sarah: {
@@ -818,6 +820,23 @@
         "images/chloe1.jpg",
         "images/chloe2.jpg",
         "images/chloe3.jpg"
+      ]
+           },
+    Athena: {
+      name: "Athena",
+      nationality: "Greece",
+      height: "167cm",
+      weight: "58kg",
+      age: 20,
+      cup: "D",
+      role: "Cute face and charmnig body",
+      description: "Friendly massage practitioner",
+      image: "images/athena.jpg",
+      hoverImages: [
+        "images/athena1.jpg",
+        "images/athena2.jpg",
+        "images/athena3.jpg",
+        "images/athena4.jpg"
       ]
            },
 
@@ -869,13 +888,13 @@
   };
 
   const weeklyNames = {
-    monday: ["Chloe", "Lucy","Lola","Bella", "Tia"],
-    tuesday: [ "Lucy","Ally","Monica", "Melody", "Tia"],
-    wednesday: ["Lucy","Mia","Domi","Angelina", "Tina",  "Tia"],
+    monday: ["Chloe", "Domi","Lucy", "Melody","Tina", "Tia"],
+    tuesday: ["Sarah", "Lucy","Ally","Monica", "Melody", "Tia"],
+    wednesday: ["Lucy","Domi","Melody", "Angelina", "Tina",  "Tia"],
     thursday: ["Wendy","Mia","Domi","Lucy","Tina","May",  "Melody", "Angelina", "Tia" ],
-    friday: [ "Mia","Lucky","May","Monica","Selina","Tina","Lucy","Sasa", "Melody","Angelina", "Tia"],
-    saturday: [ "Mia","Sarah", "May", "Tina","Apple", "Monica","Tia"],
-    sunday: ["Mia","Apple","Ai","Selina","Monica", "Wendy","Tina","Angelina",  "Tia"]
+    friday: [ "Mia","Lucky","May","Monica","Selina","Tina","Lucy","Sasa", "Melody","Angelina", "Ai","Tia"],
+    saturday: [ "Mia","Sarah", "Athena","May", "Tina", "Monica","Tia"],
+    sunday: ["Apple","Ai","Selina","Monica", "Wendy","Tina","Angelina", "Sarah", "Athena", "Tia"]
   };
 
   const days = {};
