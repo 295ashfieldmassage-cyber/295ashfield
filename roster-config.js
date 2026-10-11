@@ -706,6 +706,22 @@
         "ally2.jpg",
         "ally3.jpg"
       ]
+      }, 
+    Tiffany: {
+      name: "Tiffany",
+      nationality: "Chinese",
+      height: "166cm",
+      weight: "55kg",
+      age: 24,
+      cup: "D",
+      role: "Stunning and Excellent service &Friendly Chinese",
+      description: "Wonderfull Chinese Girl ",
+      image: "tiffany.jpg",
+      hoverImages: [
+        "tiffany1.jpg",
+        "tiffany2.jpg",
+        "tiffany3.jpg"
+      ]
      }, 
     Karin: {
       name: "Karin",
@@ -839,7 +855,24 @@
         "images/athena4.jpg"
       ]
            },
-
+    BB: {
+      name: "BB",
+      nationality: "Chinese",
+      height: "164cm",
+      weight: "47kg",
+      age: 22,
+      cup: "C",
+      role: "Cute face and charmnig body",
+      description: "Open minded service",
+      image: "images/bb.jpg",
+      hoverImages: [
+        "images/bb1.jpg",
+        "images/bb2.jpg",
+        "images/bb3.jpg",
+        "images/bb4.jpg"
+      ]
+           },
+           
     Lucky: {
       name: "Lucky",
       nationality: "Vietnam",
@@ -888,13 +921,13 @@
   };
 
   const weeklyNames = {
-    monday: ["Chloe", "Domi","Lucy", "Melody","Tina", "Tia"],
-    tuesday: ["Sarah", "Lucy","Ally","Monica", "Melody", "Tia"],
-    wednesday: ["Lucy","Domi","Melody", "Angelina", "Tina",  "Tia"],
-    thursday: ["Wendy","Mia","Domi","Lucy","Tina","May",  "Melody", "Angelina", "Tia" ],
-    friday: [ "Mia","Lucky","May","Monica","Selina","Tina","Lucy","Sasa", "Melody","Angelina", "Ai","Tia"],
-    saturday: [ "Mia","Sarah", "Athena","May", "Tina", "Monica","Tia"],
-    sunday: ["Apple","Ai","Selina","Monica", "Wendy","Tina","Angelina", "Sarah", "Athena", "Tia"]
+    monday: ["Chloe", "BB","Angelina", "Melody", "Tia"],
+    tuesday: ["Sarah", "Tiffany","BB","Monica", "Melody", "Tia"],
+    wednesday: ["Lucy", "BB","Domi","Melody", "Angelina","Tia"],
+    thursday: ["Domi","Lucy","May",  "BB", "Melody", "Angelina", "Tia" ],
+    friday: ["May","Monica","Selina","Lucy","Melody","Angelina", "Ai","Tia"],
+    saturday: [ "Sarah", "May", "Jolie", "Tina", "Monica","Tia"],
+    sunday: ["Ai","Selina","Monica", "Lucy","Sarah",  "Tia"]
   };
 
   const days = {};
@@ -904,7 +937,7 @@
 
   window.ROSTER_PROFILES = profiles;
   window.WEEKLY_ROSTER = {
-    dateRange: "2nd Oct– 11th Oct 2026",
+    dateRange: "12th Oct– 18th Oct 2026",
     address: "295 Liverpool Road, Ashfield NSW 2131",
     days
   };
