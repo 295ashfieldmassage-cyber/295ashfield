@@ -810,10 +810,10 @@
       name: "Sarah",
       nationality: "Japanese",
       height: "171cm",
-      weight: "57kg",
-      age: 21,
+      weight: "47kg",
+      age: 19,
       cup: "B",
-      role: "Super modal Cute face",
+      role: "TOP1 Highly Recommend",
       description: "Friendly massage practitioner",
       image: "images/sarah.jpg",
       hoverImages: [
@@ -923,11 +923,11 @@
   const weeklyNames = {
     monday: ["Chloe", "BB","Angelina", "Melody", "Tia"],
     tuesday: ["Sarah", "Tiffany","BB","Monica", "Melody", "Tia"],
-    wednesday: ["Lucy", "BB","Domi","Melody", "Angelina","Tia"],
-    thursday: ["Domi","Lucy","May",  "BB", "Melody", "Angelina", "Tia" ],
-    friday: ["May","Monica","Selina","Lucy","Melody","Angelina", "Ai","Tia"],
-    saturday: [ "Sarah", "May", "Jolie", "Tina", "Monica","Tia"],
-    sunday: ["Ai","Selina","Monica", "Lucy","Sarah",  "Tia"]
+    wednesday: ["Lucy", "Selina","Apple", "Angelina","Tia"],
+    thursday: ["Lucy","May", "Melody", "Angelina", "Tia" ],
+    friday: ["May","Monica","Selina","Lucy","Melody","Angelina", "Tia"],
+    saturday: [ "Sarah", "May", "Jolie", "Melody","Tina", "Monica","Tia"],
+    sunday: ["Sarah","Ai","Selina","Monica", "Melody","Lucy","Sarah",  "Tia"]
   };
 
   const days = {};
