@@ -706,22 +706,6 @@
         "ally2.jpg",
         "ally3.jpg"
       ]
-      }, 
-    Tiffany: {
-      name: "Tiffany",
-      nationality: "Chinese",
-      height: "166cm",
-      weight: "55kg",
-      age: 24,
-      cup: "D",
-      role: "Stunning and Excellent service &Friendly Chinese",
-      description: "Wonderfull Chinese Girl ",
-      image: "tiffany.jpg",
-      hoverImages: [
-        "tiffany1.jpg",
-        "tiffany2.jpg",
-        "tiffany3.jpg"
-      ]
      }, 
     Karin: {
       name: "Karin",
@@ -800,20 +784,18 @@
       image: "images/apple.jpg",
       hoverImages: [
         "images/apple1.jpg",
-        "images/apple3.jpg",
-        "images/apple4.jpg",
-        "images/apple5.jpg",
-        "images/apple6.jpg"
+        "images/apple2.jpg",
+        "images/apple3.jpg"
       ]
       },
     Sarah: {
       name: "Sarah",
       nationality: "Japanese",
       height: "171cm",
-      weight: "47kg",
-      age: 19,
+      weight: "57kg",
+      age: 21,
       cup: "B",
-      role: "TOP1 Highly Recommend",
+      role: "Super modal Cute face",
       description: "Friendly massage practitioner",
       image: "images/sarah.jpg",
       hoverImages: [
@@ -838,41 +820,7 @@
         "images/chloe3.jpg"
       ]
            },
-    Athena: {
-      name: "Athena",
-      nationality: "Greece",
-      height: "167cm",
-      weight: "58kg",
-      age: 20,
-      cup: "D",
-      role: "Cute face and charmnig body",
-      description: "Friendly massage practitioner",
-      image: "images/athena.jpg",
-      hoverImages: [
-        "images/athena1.jpg",
-        "images/athena2.jpg",
-        "images/athena3.jpg",
-        "images/athena4.jpg"
-      ]
-           },
-    BB: {
-      name: "BB",
-      nationality: "Chinese",
-      height: "164cm",
-      weight: "47kg",
-      age: 22,
-      cup: "C",
-      role: "Cute face and charmnig body",
-      description: "Open minded service",
-      image: "images/bb.jpg",
-      hoverImages: [
-        "images/bb1.jpg",
-        "images/bb2.jpg",
-        "images/bb3.jpg",
-        "images/bb4.jpg"
-      ]
-           },
-           
+
     Lucky: {
       name: "Lucky",
       nationality: "Vietnam",
@@ -921,13 +869,13 @@
   };
 
   const weeklyNames = {
-    monday: ["Chloe", "BB","Angelina", "Melody", "Tia"],
-    tuesday: ["Sarah", "Tiffany","BB","Monica", "Melody", "Tia"],
-    wednesday: ["Lucy", "Selina","Apple", "Angelina","Tia"],
-    thursday: ["Lucy","May", "Melody", "Angelina", "Tia" ],
-    friday: ["May","Monica","Selina","Lucy","Melody","Angelina", "Tia"],
-    saturday: [ "Sarah", "May", "Jolie", "Melody","Tina", "Monica","Tia"],
-    sunday: ["Sarah","Ai","Selina","Monica", "Melody","Lucy","Sarah",  "Tia"]
+    monday: ["Chloe", "Lucy","Lola","Bella", "Tia"],
+    tuesday: [ "Lucy","Ally","Monica", "Melody", "Tia"],
+    wednesday: ["Lucy","Mia","Domi","Angelina", "Tina",  "Tia"],
+    thursday: ["Wendy","Mia","Domi","Lucy","Tina","May",  "Melody", "Angelina", "Tia" ],
+    friday: [ "Mia","Lucky","May","Monica","Selina","Tina","Lucy","Sasa", "Melody","Angelina", "Tia"],
+    saturday: [ "Mia","Sarah", "May", "Tina","Apple", "Monica","Tia"],
+    sunday: ["Mia","Apple","Ai","Selina","Monica", "Wendy","Tina","Angelina",  "Tia"]
   };
 
   const days = {};
@@ -937,7 +885,7 @@
 
   window.ROSTER_PROFILES = profiles;
   window.WEEKLY_ROSTER = {
-    dateRange: "12th Oct– 18th Oct 2026",
+    dateRange: "2nd Oct– 11th Oct 2026",
     address: "295 Liverpool Road, Ashfield NSW 2131",
     days
   };
