@@ -924,9 +924,9 @@
     monday: ["Chloe", "BB","Angelina", "Melody", "Tia"],
     tuesday: ["Sarah", "Tiffany","BB","Monica", "Melody", "Tia"],
     wednesday: ["Lucy", "Chloe","Selina","Apple","BB", "Angelina","Tia"],
-    thursday: ["Lucy","May", "Melody", "Angelina", "Tia" ],
-    friday: ["May","Monica","Selina","Lucy","Melody","Angelina", "Tia"],
-    saturday: [ "Sarah", "May", "Jolie", "Melody","Tina", "Monica","Tia"],
+    thursday: ["Lucy","May", "Melody", "BB","Angelina", "Tia" ],
+    friday: ["Jeniffer","Lucy","May","Monica","Selina","Melody","Angelina", "Tia"],
+    saturday: [ "Sarah", "May", "Lucy","Jolie", "Melody", "Monica","Tia"],
     sunday: ["Sarah","Ai","Selina","Monica", "Melody","Lucy","Sarah",  "Tia"]
   };
 
