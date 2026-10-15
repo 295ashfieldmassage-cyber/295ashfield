@@ -872,7 +872,22 @@
         "images/bb4.jpg"
       ]
            },
-           
+    Daisy: {
+      name: "Daisy",
+      nationality: "Chinese",
+      height: "169cm",
+      weight: "50kg",
+      age: 20,
+      cup: "C",
+      role: "Cute face and charmnig body",
+      description: "Start 5pm",
+      image: "images/daisy.jpg",
+      hoverImages: [
+        "images/daisy1.jpg",
+        "images/daisy2.jpg"
+       
+      ]
+           },    
     Lucky: {
       name: "Lucky",
       nationality: "Vietnam",
@@ -925,7 +940,7 @@
     tuesday: ["Sarah", "Tiffany","BB","Monica", "Melody", "Tia"],
     wednesday: ["Lucy", "Chloe","Selina","Apple","BB", "Angelina","Tia"],
     thursday: ["Lucy","May", "Melody", "BB","Angelina", "Tia" ],
-    friday: ["Jeniffer","Lucy","May","Monica","Selina","Melody","Angelina", "Tia"],
+    friday: ["Jeniffer","Daisy","Lucy","May","Selina","Melody","Lucky", "Tia"],
     saturday: [ "Sarah", "May", "Lucy","Jolie", "Melody", "Monica","Tia"],
     sunday: ["Sarah","Ai","Selina","Monica", "Melody","Lucy","Sarah",  "Tia"]
   };
