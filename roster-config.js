@@ -121,6 +121,22 @@
         "images/Ayumi3.jpg",
         "images/Ayumi4.jpg"
       ]
+     },
+    Mizuki: {
+      name: "Mizuki",
+      nationality: "Japanese",
+      height: "166 cm",
+      weight: "49 kg",
+      age: 24,
+      cup: "D",
+      description: "Fun cosplay-loving Japanese team member",
+      image: "images/mizuki.jpg",
+      hoverImages: [
+        "images/mizuki1.jpg",
+        "images/mizuki2.jpg",
+        "images/mizuki3.jpg",
+        "images/mizuki4.jpg"
+      ]
     },
     Melody: {
       name: "Melody",
@@ -970,7 +986,7 @@
   };
 
   const weeklyNames = {
-    monday: ["Lucy", "Isabella","Angelina", "Melody", "Tia"],
+    monday: ["Lucy","Mizuki", "Tiffany","Isabella","Angelina", "Melody", "Tia"],
     tuesday: ["Sarah", "Bianca","Lucy","Monica", "Melody", "Tia", "Isabella"],
     wednesday: ["Lucy", "Selina","Apple", "Angelina","Tia", "Isabella"],
     thursday: ["Lucy","May", "Melody",  "Isabella","Angelina", "Tia" ],
@@ -986,7 +1002,7 @@
 
   window.ROSTER_PROFILES = profiles;
   window.WEEKLY_ROSTER = {
-    dateRange: "17th Oct– 25th Oct 2026",
+    dateRange: "19th Oct– 25th Oct 2026",
     address: "295 Liverpool Road, Ashfield NSW 2131",
     days
   };
