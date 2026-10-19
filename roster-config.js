@@ -985,19 +985,76 @@
     }
   };
 
-  const weeklyNames = {
-    monday: ["Lucy","Mizuki", "Tiffany","Isabella","Angelina", "Melody", "Tia"],
-    tuesday: ["Sarah", "Bianca","Lucy","Monica", "Melody", "Tia", "Isabella"],
-    wednesday: ["Lucy", "Selina","Apple", "Angelina","Tia", "Isabella"],
-    thursday: ["Lucy","May", "Melody",  "Isabella","Angelina", "Tia" ],
-    friday: ["Chloe","Ai","Jeniffer", "Isabella","Lucy","Selina","Melody","Lucky", "Tia"],
-    saturday: ["Jolie","Selina","Melody","Monica","May","Tia"],
-    sunday: ["Sarah","May","Ai","Selina","Monica", "Melody", "Tia"]
+  // 每位女孩、每天都有独立时间。直接修改对应行的 morning 和 afternoon。
+  // 如果当天没有某一个时段，请填写空字符串，例如：afternoon: ""。
+  const weeklySchedule = {
+    monday: [
+      { name: "Lucy", morning: "10:00 AM – 3:00 AM" },
+      { name: "Mizuki", morning: "1:00 PM – 8:00 PM" },
+      { name: "Isabella", morning: "10:00 AM – 3:00 AM" },
+      { name: "Angelina", morning: "10:00 AM – 8:00 PM" },
+      { name: "Melody", morning: "10:00 AM – 8:00 PM" },
+      { name: "Tia", afternoon: "8:00 PM – 3:00 AM" }
+    ],
+    tuesday: [
+      { name: "Sarah", morning: "10:00 AM – 8:00 PM" },
+      { name: "Bianca", morning: "10:00 AM – 4:00 PM" },
+      { name: "Lucy", morning: "10:00 AM – 3:00 AM" },
+      { name: "Tia",  afternoon: "8:00 PM – 3:00 AM" }
+      
+    ],
+    wednesday: [
+      { name: "Lucy", morning: "10:00 AM – 8:00 PM", afternoon: "8:00 PM – 3:00 AM" },
+
+      { name: "Apple", morning: "11:00 AM – 12:00 AM" },
+      { name: "Angelina", morning: "10:00 AM – 8:00 PM" },
+      { name: "Tia",  afternoon: "8:00 PM – 3:00 AM" }, 
+       { name: "Melody", morning: "12:00 AM – 6:00 PM" },
+      { name: "Isabella", morning: "10:00 AM – 3:00 AM" }
+    ],
+    thursday: [
+      { name: "Lucy", morning: "10:00 AM – 83:00 AM" },
+      { name: "May", morning: "10:00 AM – 3:00 AM" },
+      { name: "Angelina", morning: "10:00 AM – 8:00 PM" },
+      { name: "Selina", morning: "1:00 PM – 9:00 PM" },
+      { name: "Tia",  afternoon: "8:00 PM – 3:00 AM" }
+    ],
+    friday: [
+      { name: "Chloe", morning: "10:00 AM – 9:00 PM" },
+      { name: "Ai", afternoon: "8:00 PM – 3:00 AM" },
+      { name: "Jeniffer", morning: "10:00 AM – 10:00 PM" },
+      { name: "Isabella", morning: "10:00 AM – 3:00 AM"},
+      { name: "Lucy", morning: "10:00 AM – 3:00 AM" },
+      { name: "Selina", morning: "1:00 PM – 9:00 PM" },
+      { name: "Lucky", morning: "10:00 AM – 8:00 PM" },
+      { name: "Andie", afternoon: "8:00 PM – 3:00 AM" },
+      { name: "Tia", afternoon: "8:00 PM – 3:00 AM" }
+    ],
+    saturday: [
+      { name: "Chloe", morning: "10:00 AM – 9:00 PM" },
+      { name: "Jolie", morning: "10:00 AM – 8:00 PM" },
+      { name: "Lucy", morning: "10:00 AM – 3:00 AM" },
+      { name: "Melody", morning: "10:00 AM – 8:00 PM" },
+      { name: "May", morning: "10:00 AM – 3:00 AM" },
+      { name: "Sarah",  afternoon: "5:00 PM – 11:00 PM" },
+      { name: "Tia", afternoon: "8:00 PM – 3:00 AM" }
+    ],
+    sunday: [
+      { name: "Sarah", morning: "10:00 AM – 9:00 PM" },
+      { name: "May", morning: "10:00 AM – 3:00 AM" },
+      { name: "Lucy", morning: "10:00 AM – 3:00 AM" },
+      { name: "Ai",  afternoon: "8:00 PM – 3:00 AM" },
+      { name: "Melody", morning: "11:00 AM – 12:00 AM" },
+      { name: "Tia", afternoon: "8:00 PM – 3:00 AM" }
+    ]
   };
 
   const days = {};
-  Object.entries(weeklyNames).forEach(([day, names]) => {
-    days[day] = names.map(name => ({ ...profiles[name] }));
+  Object.entries(weeklySchedule).forEach(([day, shifts]) => {
+    days[day] = shifts.map(shift => ({
+      ...profiles[shift.name],
+      workingHours: { morning: shift.morning, afternoon: shift.afternoon }
+    }));
   });
 
   window.ROSTER_PROFILES = profiles;
