@@ -1005,7 +1005,6 @@
     ],
     wednesday: [
       { name: "Lucy", morning: "10:00 AM – 8:00 PM", afternoon: "8:00 PM – 3:00 AM" },
-
       { name: "Apple", morning: "11:00 AM – 12:00 AM" },
       { name: "Angelina", morning: "10:00 AM – 8:00 PM" },
       { name: "Tia",  afternoon: "8:00 PM – 3:00 AM" }, 
@@ -1014,6 +1013,7 @@
     ],
     thursday: [
       { name: "Lucy", morning: "10:00 AM – 83:00 AM" },
+      { name: "Mizuki", morning: "11:00 AM – 7:00 PM" },
       { name: "May", morning: "10:00 AM – 3:00 AM" },
       { name: "Angelina", morning: "10:00 AM – 8:00 PM" },
       { name: "Selina", morning: "1:00 PM – 9:00 PM" },

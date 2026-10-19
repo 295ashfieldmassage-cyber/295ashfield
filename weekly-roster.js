@@ -4,12 +4,12 @@
   if (!config || !mount) return;
 
   const words = {
-    en: { eyebrow:"WEEKLY ANNOUNCEMENT", title:"295 Ashfield Weekly Roster", intro:"Select a day, then choose a team member to view her profile.", days:["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], note:"Roster may change. Please contact the studio to confirm availability.", nationality:"Nationality",height:"Height",weight:"Weight",age:"Age",cup:"Cup" },
-    zh: { eyebrow:"每周公告", title:"295 Ashfield 本周排班", intro:"选择日期，再选择工作人员查看个人资料。", days:["星期一","星期二","星期三","星期四","星期五","星期六","星期日"], note:"排班可能调整，请联系店内确认当天安排。",nationality:"国籍",height:"身高",weight:"体重",age:"年龄",cup:"罩杯" },
-    vi: { eyebrow:"THÔNG BÁO HẰNG TUẦN", title:"Lịch tuần 295 Ashfield", intro:"Chọn ngày, sau đó chọn một thành viên để xem hồ sơ.", days:["Thứ Hai","Thứ Ba","Thứ Tư","Thứ Năm","Thứ Sáu","Thứ Bảy","Chủ Nhật"], note:"Lịch có thể thay đổi. Vui lòng liên hệ studio để xác nhận.",nationality:"Quốc tịch",height:"Chiều cao",weight:"Cân nặng",age:"Tuổi",cup:"Cúp" },
-    ar: { eyebrow:"الإعلان الأسبوعي", title:"جدول 295 Ashfield الأسبوعي", intro:"اختر يوماً ثم اختر إحدى الموظفات لعرض ملفها.", days:["الاثنين","الثلاثاء","الأربعاء","الخميس","الجمعة","السبت","الأحد"], note:"قد يتغير الجدول. يرجى التواصل مع الاستوديو للتأكيد.",nationality:"الجنسية",height:"الطول",weight:"الوزن",age:"العمر",cup:"المقاس" },
-    ja: { eyebrow:"週間のお知らせ", title:"295 Ashfield 週間出勤表", intro:"曜日を選び、スタッフを選択してプロフィールをご覧ください。", days:["月曜日","火曜日","水曜日","木曜日","金曜日","土曜日","日曜日"], note:"出勤予定は変更になる場合があります。事前に店舗へお問い合わせください。",nationality:"国籍",height:"身長",weight:"体重",age:"年齢",cup:"カップ" },
-    ko: { eyebrow:"주간 안내", title:"295 Ashfield 주간 근무표", intro:"요일을 선택한 뒤 직원을 선택해 프로필을 확인하세요.", days:["월요일","화요일","수요일","목요일","금요일","토요일","일요일"], note:"근무 일정은 변경될 수 있으니 매장에 문의해 주세요.",nationality:"국적",height:"키",weight:"체중",age:"나이",cup:"컵" }
+    en: { eyebrow:"WEEKLY ANNOUNCEMENT", title:"295 Ashfield Weekly Roster", intro:"Select a day, then choose a team member to view her profile.", days:["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], note:"Roster may change. Please contact the studio to confirm availability.", nationality:"Nationality",height:"Height",weight:"Weight",age:"Age",cup:"Cup",workingHours:"Working Hours",morning:"Morning",afternoon:"Afternoon / Night" },
+    zh: { eyebrow:"每周公告", title:"295 Ashfield 本周排班", intro:"选择日期，再选择工作人员查看个人资料。", days:["星期一","星期二","星期三","星期四","星期五","星期六","星期日"], note:"排班可能调整，请联系店内确认当天安排。",nationality:"国籍",height:"身高",weight:"体重",age:"年龄",cup:"罩杯",workingHours:"上班时间",morning:"上午",afternoon:"下午 / 夜间" },
+    vi: { eyebrow:"THÔNG BÁO HẰNG TUẦN", title:"Lịch tuần 295 Ashfield", intro:"Chọn ngày, sau đó chọn một thành viên để xem hồ sơ.", days:["Thứ Hai","Thứ Ba","Thứ Tư","Thứ Năm","Thứ Sáu","Thứ Bảy","Chủ Nhật"], note:"Lịch có thể thay đổi. Vui lòng liên hệ studio để xác nhận.",nationality:"Quốc tịch",height:"Chiều cao",weight:"Cân nặng",age:"Tuổi",cup:"Cúp",workingHours:"Giờ làm việc",morning:"Buổi sáng",afternoon:"Buổi chiều / tối" },
+    ar: { eyebrow:"الإعلان الأسبوعي", title:"جدول 295 Ashfield الأسبوعي", intro:"اختر يوماً ثم اختر إحدى الموظفات لعرض ملفها.", days:["الاثنين","الثلاثاء","الأربعاء","الخميس","الجمعة","السبت","الأحد"], note:"قد يتغير الجدول. يرجى التواصل مع الاستوديو للتأكيد.",nationality:"الجنسية",height:"الطول",weight:"الوزن",age:"العمر",cup:"المقاس",workingHours:"ساعات العمل",morning:"الفترة الصباحية",afternoon:"الفترة المسائية / الليلية" },
+    ja: { eyebrow:"週間のお知らせ", title:"295 Ashfield 週間出勤表", intro:"曜日を選び、スタッフを選択してプロフィールをご覧ください。", days:["月曜日","火曜日","水曜日","木曜日","金曜日","土曜日","日曜日"], note:"出勤予定は変更になる場合があります。事前に店舗へお問い合わせください。",nationality:"国籍",height:"身長",weight:"体重",age:"年齢",cup:"カップ",workingHours:"勤務時間",morning:"午前",afternoon:"午後 / 夜" },
+    ko: { eyebrow:"주간 안내", title:"295 Ashfield 주간 근무표", intro:"요일을 선택한 뒤 직원을 선택해 프로필을 확인하세요.", days:["월요일","화요일","수요일","목요일","금요일","토요일","일요일"], note:"근무 일정은 변경될 수 있으니 매장에 문의해 주세요.",nationality:"국적",height:"키",weight:"체중",age:"나이",cup:"컵",workingHours:"근무 시간",morning:"오전",afternoon:"오후 / 야간" }
   };
   const dayKeys = Object.keys(config.days);
   function currentSydneyDay() {
@@ -50,6 +50,16 @@
     return words[saved] ? saved : "en";
   }
 
+  function workingHoursMarkup(person) {
+  const hours = person?.workingHours;
+  if (!hours) return "";
+
+  return [
+    hours.morning && `<span><bdi dir="ltr">${hours.morning}</bdi></span>`,
+    hours.afternoon && `<span><bdi dir="ltr">${hours.afternoon}</bdi></span>`
+  ].filter(Boolean).join("");
+}
+
   function render() {
     const lang = language();
     const t = words[lang];
@@ -75,12 +85,12 @@
         <div class="weekly-roster-showcase">
           ${selectedPerson ? `<article class="weekly-featured-person">
             <div class="weekly-featured-photo weekly-hover-photo" data-original-src="${selectedPerson.image}" data-hover-images='${JSON.stringify(typeof getHoverImages === "function" ? getHoverImages(selectedPerson) : (selectedPerson.hoverImages || []))}'><img src="${selectedPerson.image}" alt="${selectedPerson.name}" loading="eager"><span class="weekly-hover-hint">Hover</span></div>
-            <div class="weekly-featured-info"><span>${t.days[dayKeys.indexOf(selectedDay)]}</span><h3>${selectedPerson.name}</h3><p>${selectedDescription}</p>${selectedDetails.length ? `<dl>${selectedDetails.map(([label,value])=>`<div><dt>${label}</dt><dd>${value}</dd></div>`).join("")}</dl>` : ""}</div>
+            <div class="weekly-featured-info"><span>${t.days[dayKeys.indexOf(selectedDay)]}</span><h3>${selectedPerson.name}</h3>${selectedPerson.workingHours ? `<div class="weekly-working-hours">${workingHoursMarkup(selectedPerson,t)}</div>` : ""}<p>${selectedDescription}</p>${selectedDetails.length ? `<dl>${selectedDetails.map(([label,value])=>`<div><dt>${label}</dt><dd>${value}</dd></div>`).join("")}</dl>` : ""}</div>
           </article>` : ""}
           <div class="weekly-people" aria-label="${t.days[dayKeys.indexOf(selectedDay)]}">
             ${people.map((person,index) => {
               const nationality = person.nationality ? (nationalityNames[lang]?.[person.nationality] || person.nationality) : "";
-              return `<button type="button" class="weekly-person-button" data-person-index="${index}" aria-pressed="${index===selectedPersonIndex}"><span class="weekly-thumb-hover" data-original-src="${person.image}" data-hover-images='${JSON.stringify(typeof getHoverImages === "function" ? getHoverImages(person) : (person.hoverImages || []))}'><img src="${person.image}" alt="" loading="lazy"></span><span><strong>${person.name}</strong><small>${nationality || (descriptions[lang]?.[person.description] || person.description)}</small>${person.height ? `<em>${person.height} · ${person.weight} · ${person.age} · ${person.cup}</em>` : ""}</span></button>`;
+              return `<button type="button" class="weekly-person-button" data-person-index="${index}" aria-pressed="${index===selectedPersonIndex}"><span class="weekly-thumb-hover" data-original-src="${person.image}" data-hover-images='${JSON.stringify(typeof getHoverImages === "function" ? getHoverImages(person) : (person.hoverImages || []))}'><img src="${person.image}" alt="" loading="lazy"></span><span><strong>${person.name}</strong>${person.workingHours ? `<small class="weekly-working-time">${workingHoursMarkup(person,t,true)}</small>` : ""}<small>${nationality || (descriptions[lang]?.[person.description] || person.description)}</small>${person.height ? `<em>${person.height} · ${person.weight} · ${person.age} · ${person.cup}</em>` : ""}</span></button>`;
             }).join("")}
           </div>
         </div>
