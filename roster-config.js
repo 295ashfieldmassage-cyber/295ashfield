@@ -1014,6 +1014,22 @@
           ]
 
     },
+    Aurora: {
+      name: "Aurora",
+      nationality: "Bangladesh",
+      height: "160 cm",
+      weight: "47 kg",
+      age: 19,
+      cup: "C",
+      role: "New to massage shop young girl",
+      description: "Soft massage practitioner",
+      image: "images/aurora.jpg",
+      hoverImages: [
+        "images/aurora1.jpg",
+        "images/aurora2.jpg"
+          ]
+
+    },
     Lin: {
       name: "Lin",
       nationality: "Chinese",
@@ -1088,14 +1104,14 @@
       { name: "Chloe", morning: "10:00 AM – 9:00 PM" },
       { name: "Ai", afternoon: "8:00 PM – 3:00 AM" },
       { name: "Jeniffer", morning: "10:00 AM – 10:00 PM" },
-      { name: "Isabella", morning: "10:00 AM – 3:00 AM"},
+      { name: "Aurora", morning: "2:00 AM – 10:00 PM"},
       { name: "Lucy", morning: "10:00 AM – 3:00 AM" },
       { name: "Selina", morning: "1:00 PM – 9:00 PM" },
       { name: "Hebe", morning: "10:00 AM – 8:00 PM" },
       { name: "Lucky", morning: "10:00 AM – 8:00 PM" },
-      { name: "Kim", morning: "11:00 AM – 3:00 AM" },
-      { name: "Andie", afternoon: "8:00 PM – 3:00 AM" },
-      { name: "Tia", afternoon: "8:00 PM – 3:00 AM" }
+      { name: "Kim", morning: "11:00 AM – 3:00 PM" },
+      { name: "Andie", afternoon: "8:00 PM – 3:00 AM" }
+
     ],
     saturday: [
       { name: "Chloe", morning: "10:00 AM – 9:00 PM" },
