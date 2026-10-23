@@ -1048,6 +1048,24 @@
           ]
 
     },
+    Sugar: {
+      name: "Sugar",
+      nationality: "Cambodia",
+      height: "163 cm",
+      weight: "53kg",
+      age: 23,
+      cup: "D",
+      role: "Open minded friendly girl",
+      description: "Friendly massage practitioner",
+      image: "images/sugar.jpg",
+      hoverImages: [
+        "images/sugar1.jpg",
+        "images/sugar2.jpg",
+        "images/sugar3.jpg",
+        "images/sugar4.jpg"
+          ]
+
+    },
     Selina: {
       name: "Selina",
       nationality: "Chinese",
@@ -1068,6 +1086,7 @@
   // 如果当天没有某一个时段，请填写空字符串，例如：afternoon: ""。
   const weeklySchedule = {
     monday: [
+      { name: "Domi", morning: "11:00 AM – 5:00 PM" },
       { name: "Lucy", morning: "10:00 AM – 3:00 AM" },
       { name: "Mizuki", morning: "1:00 PM – 8:00 PM" },
       { name: "Isabella", morning: "10:00 AM – 3:00 AM" },
@@ -1079,33 +1098,36 @@
       { name: "Sarah", morning: "10:00 AM – 8:00 PM" },
       { name: "Bianca", morning: "10:00 AM – 4:00 PM" },
       { name: "Lucy", morning: "10:00 AM – 3:00 AM" },
+      { name: "Andie", afternoon: "2:00 PM – 3:00 AM" },
       { name: "Tia",  afternoon: "8:00 PM – 3:00 AM" }
       
     ],
     wednesday: [
+      { name: "Chloe", morning: "10:00 AM – 9:00 PM" },
       { name: "Lucy", morning: "10:00 AM – 3:00 PM" },
       { name: "Selina", morning: "1:00 PM – 9:00 PM" },
       { name: "Apple", morning: "11:00 AM – 12:00 AM" },
       { name: "Mizuki", morning: "1:00 PM – 6:00 PM" },
-      { name: "Melody", morning: "11:00 AM – 7:00 PM" },
-      { name: "Coco", morning: "11:00 AM – 3:00 AM" },
-      { name: "Isabella", morning: "10:00 AM – 3:00 AM" }
+      { name: "Melody", morning: "11:00 AM – 7:00 PM" }
+
+   
     ],
     thursday: [
+      { name: "Chloe", morning: "10:00 AM – 9:00 PM" },
       { name: "Lucy", morning: "10:00 AM – 3:00 AM" },
       { name: "Mizuki", morning: "11:00 AM – 7:00 PM" },
       { name: "May", morning: "10:00 AM – 3:00 AM" },
       { name: "Angelina", morning: "10:00 AM – 8:00 PM" },
       { name: "Selina", morning: "1:00 PM – 9:00 PM" },
-      { name: "Coco", morning: "11:00 AM – 3:00 AM" },
       { name: "Tia",  afternoon: "10:00 AM – 3:00 AM" }
     ],
     friday: [
-      { name: "Chloe", morning: "10:00 AM – 9:00 PM" },
+     
       { name: "Ai", afternoon: "8:00 PM – 3:00 AM" },
       { name: "Jeniffer", morning: "10:00 AM – 10:00 PM" },
       { name: "Aurora", morning: "2:00 AM – 10:00 PM"},
       { name: "Lucy", morning: "10:00 AM – 3:00 AM" },
+      { name: "Sugar", morning: "2:00 PM – 3:00 AM" },
       { name: "Selina", morning: "1:00 PM – 9:00 PM" },
       { name: "Hebe", morning: "10:00 AM – 8:00 PM" },
       { name: "Lucky", morning: "10:00 AM – 8:00 PM" },
@@ -1124,7 +1146,9 @@
     ],
     sunday: [
       { name: "Sarah", morning: "10:00 AM – 9:00 PM" },
+      { name: "Apple", morning: "11:00 AM – 6:00 PM" },
       { name: "May", morning: "10:00 AM – 3:00 AM" },
+      { name: "Sugar", morning: "2:00 PM – 3:00 AM" },
       { name: "Lucy", morning: "10:00 AM – 3:00 AM" },
       { name: "Ai",  afternoon: "8:00 PM – 3:00 AM" },
       { name: "Melody", morning: "11:00 AM – 12:00 AM" },
