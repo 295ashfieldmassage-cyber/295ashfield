@@ -1076,8 +1076,9 @@
       description: "Attractive Chinese beauty",
       image: "images/selina.jpg",
        hoverImages: [
-        "images/selina1.jpg"
-    
+        "images/selina1.jpg",
+        "images/selina2.jpg",
+        "images/selina3.jpg"
       ]
     }
   };
@@ -1158,7 +1159,7 @@
 
   window.ROSTER_PROFILES = profiles;
   window.WEEKLY_ROSTER = {
-    dateRange: "19th Oct– 25th Oct 2026",
+    dateRange: "26th Oct– 1st Nov 2026",
     address: "295 Liverpool Road, Ashfield NSW 2131",
     days
   };
