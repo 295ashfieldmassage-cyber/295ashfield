@@ -1104,6 +1104,7 @@
     ],
     wednesday: [
       { name: "Chloe", morning: "11:00 AM – 9:00 PM" },
+      { name: "Bianca", morning: "10:00 AM – 4:00 PM" },
       { name: "Lucy", morning: "10:00 AM – 3:00 PM" },
       { name: "Selina", morning: "1:00 PM – 9:00 PM" },
       { name: "Domi", morning: "11:00 AM – 5:00 PM" },
