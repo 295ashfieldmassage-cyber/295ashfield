@@ -1066,6 +1066,42 @@
           ]
 
     },
+    Water: {
+      name: "water",
+      nationality: "Hongkong",
+      height: "166 cm",
+      weight: "46kg",
+      age: 20,
+      cup: "C",
+      role: "Amazing Hk girl",
+      description: "Friendly massage practitioner",
+      image: "images/water.jpg",
+      hoverImages: [
+        "images/water1.jpg",
+        "images/water2.jpg",
+        "images/water3.jpg",
+        "images/water4.jpg"
+          ]
+
+    },
+    Shiely: {
+      name: "shiely",
+      nationality: "Hongkong",
+      height: "165 cm",
+      weight: "46kg",
+      age: 23,
+      cup: "C",
+      role: "Amazing Hk girl",
+      description: "Friendly massage practitioner",
+      image: "images/shiely.jpg",
+      hoverImages: [
+        "images/shiely1.jpg",
+        "images/shiely2.jpg",
+        "images/shiely3.jpg",
+        "images/shiely4.jpg"
+          ]
+
+    },
     Selina: {
       name: "Selina",
       nationality: "Chinese",
@@ -1123,7 +1159,8 @@
       { name: "Tia",  afternoon: "10:00 AM – 3:00 AM" }
     ],
     friday: [
-     
+      { name: "Water", afternoon: "1:00 PM – 12:00 AM" },
+      { name: "Shiely", afternoon: "1:00 PM – 12:00 AM" },
       { name: "Ai", afternoon: "8:00 PM – 3:00 AM" },
       { name: "Jeniffer", morning: "10:00 AM – 10:00 PM" },
       { name: "Lucy", morning: "10:00 AM – 3:00 AM" },
@@ -1133,14 +1170,16 @@
 
     ],
     saturday: [
-      { name: "Jolie", morning: "10:00 AM – 8:00 PM" },
+      { name: "Water", afternoon: "1:00 PM – 12:00 AM" },
+      { name: "Shiely", afternoon: "10:00 AM – 12:00 AM" },
       { name: "Lucy", morning: "10:00 AM – 3:00 AM" },
-      { name: "Melody", morning: "12:00 PM – 8:00 PM" },
       { name: "Angelina", morning: "10:00 AM – 8:00 PM" },
       { name: "Sarah",  afternoon: "5:00 PM – 11:00 PM" }
 
     ],
     sunday: [
+      { name: "Water", afternoon: "1:00 PM – 12:00 AM" },
+      { name: "Shiely", afternoon: "10:00 AM – 12:00 AM" },
       { name: "Sarah", morning: "10:00 AM – 9:00 PM" },
       { name: "Lucy", morning: "10:00 AM – 3:00 AM" },
       { name: "Sugar", morning: "2:00 PM – 3:00 AM" },
