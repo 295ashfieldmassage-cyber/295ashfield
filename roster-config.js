@@ -1084,8 +1084,8 @@
           ]
 
     },
-    Shiely: {
-      name: "shiely",
+    Shirley: {
+      name: "shirley",
       nationality: "Hongkong",
       height: "165 cm",
       weight: "46kg",
@@ -1093,12 +1093,12 @@
       cup: "C",
       role: "Amazing Hk girl",
       description: "Friendly massage practitioner",
-      image: "images/shiely.jpg",
+      image: "images/shirley.jpg",
       hoverImages: [
-        "images/shiely1.jpg",
-        "images/shiely2.jpg",
-        "images/shiely3.jpg",
-        "images/shiely4.jpg"
+        "images/shirley1.jpg",
+        "images/shirley2.jpg",
+        "images/shirley3.jpg",
+        "images/shirley4.jpg"
           ]
 
     },
@@ -1160,7 +1160,7 @@
     ],
     friday: [
       { name: "Water", afternoon: "1:00 PM – 12:00 AM" },
-      { name: "Shiely", afternoon: "1:00 PM – 12:00 AM" },
+      { name: "Shirley", afternoon: "1:00 PM – 12:00 AM" },
       { name: "Ai", afternoon: "8:00 PM – 3:00 AM" },
       { name: "Jeniffer", morning: "10:00 AM – 10:00 PM" },
       { name: "Lucy", morning: "10:00 AM – 3:00 AM" },
@@ -1171,7 +1171,7 @@
     ],
     saturday: [
       { name: "Water", afternoon: "1:00 PM – 12:00 AM" },
-      { name: "Shiely", afternoon: "10:00 AM – 12:00 AM" },
+      { name: "Shirley", afternoon: "10:00 AM – 12:00 AM" },
       { name: "Lucy", morning: "10:00 AM – 3:00 AM" },
       { name: "Angelina", morning: "10:00 AM – 8:00 PM" },
       { name: "Sarah",  afternoon: "5:00 PM – 11:00 PM" }
@@ -1179,7 +1179,7 @@
     ],
     sunday: [
       { name: "Water", afternoon: "1:00 PM – 12:00 AM" },
-      { name: "Shiely", afternoon: "10:00 AM – 12:00 AM" },
+      { name: "Shirley", afternoon: "10:00 AM – 12:00 AM" },
       { name: "Sarah", morning: "10:00 AM – 9:00 PM" },
       { name: "Lucy", morning: "10:00 AM – 3:00 AM" },
       { name: "Sugar", morning: "2:00 PM – 3:00 AM" },
