@@ -1065,6 +1065,60 @@
         "images/sugar4.jpg"
           ]
 
+          },
+    Haze: {
+      name: "haze",
+      nationality: "Turkey",
+      height: "162 cm",
+      weight: "58kg",
+      age: 21,
+      cup: "D",
+      role: "Open minded friendly girl",
+      description: "Friendly massage practitioner",
+      image: "images/haze.jpg",
+      hoverImages: [
+        "images/haze1.jpg",
+        "images/haze2.jpg",
+        "images/haze3.jpg",
+        "images/haze4.jpg"
+          ]
+
+          },
+    Mimi: {
+      name: "mimi",
+      nationality: "Thai",
+      height: "170cm",
+      weight: "56kg",
+      age: 20,
+      cup: "C",
+      role: "Super model girl",
+      description: "Open minded service",
+      image: "images/mimi.jpg",
+      hoverImages: [
+        "images/mimi1.jpg",
+        "images/mimi2.jpg",
+        "images/mimi3.jpg",
+        "images/mimi4.jpg"
+          ]
+
+    },
+    Yumi: {
+      name: "yumi",
+      nationality: "Korean",
+      height: "165cm",
+      weight: "45kg",
+      age: 20,
+      cup: "D",
+      role: "Super cure girl",
+      description: "Open minded service",
+      image: "images/yumi.jpg",
+      hoverImages: [
+        "images/yumi1.jpg",
+        "images/yumi2.jpg",
+        "images/yumi3.jpg",
+        "images/yumi4.jpg"
+          ]
+
     },
     Water: {
       name: "water",
@@ -1123,16 +1177,24 @@
   // 如果当天没有某一个时段，请填写空字符串，例如：afternoon: ""。
   const weeklySchedule = {
     monday: [
-      { name: "Domi", morning: "11:00 AM – 5:00 PM" },
+     
+      { name: "Bianca", morning: "10:00 AM – 4:00 PM" },
       { name: "Mizuki", morning: "1:00 PM – 8:00 PM" },
-      { name: "Isabella", morning: "10:00 AM – 3:00 AM" },
-      { name: "Angelina", morning: "10:00 AM – 8:00 PM" },
+      { name: "Water", afternoon: "1:00 PM – 12:00 AM" },
+      { name: "Shirley", afternoon: "11:00 AM – 9:00 PM" },
+      { name: "Mimi", morning: "10:00 AM – 3:00 AM" },
+      { name: "Haze", morning: "6:00 PM – 3:00 AM" },
       { name: "Melody", morning: "10:00 AM – 8:00 PM" },
       { name: "Tia", afternoon: "8:00 PM – 3:00 AM" }
     ],
     tuesday: [
       { name: "Sarah", morning: "10:00 AM – 9:00 PM" },
+      { name: "Yumi", morning: "10:00 AM – 5:00 AM" },
+      { name: "Lucy", morning: "10:00 AM – 3:00 AM" },
+      { name: "Water", afternoon: "1:00 PM – 12:00 AM" },
+      { name: "Shirley", afternoon: "10:00 AM – 12:00 AM" },
       { name: "Bianca", morning: "10:00 AM – 4:00 PM" },
+      { name: "Haze", morning: "6:00 PM – 3:00 AM" },
       { name: "Melody", morning: "12:00 PM – 8:00 PM" },
       { name: "Andie", afternoon: "1:00 PM – 3:00 AM" }
 
@@ -1140,10 +1202,9 @@
     ],
     wednesday: [
       { name: "Chloe", morning: "11:00 AM – 9:00 PM" },
-      { name: "Bianca", morning: "10:00 AM – 4:00 PM" },
       { name: "Lucy", morning: "10:00 AM – 3:00 AM" },
-      { name: "Selina", morning: "1:00 PM – 9:00 PM" },
-      { name: "Domi", morning: "11:00 AM – 5:00 PM" },
+      { name: "Water", afternoon: "1:00 PM – 12:00 AM" },
+      { name: "Shirley", afternoon: "10:00 AM – 12:00 AM" },
       { name: "Mizuki", morning: "1:00 AM – 7:00 PM" },
       { name: "Melody", morning: "11:00 AM – 7:00 PM" }
 
@@ -1151,16 +1212,20 @@
     ],
     thursday: [
       { name: "Chloe", morning: "11:00 AM – 8:00 PM" },
-      { name: "Lucy", morning: "10:00 AM – 3:00 AM" },
+      { name: "Bianca", morning: "10:00 AM – 4:00 PM" },
+      { name: "Domi", morning: "11:00 AM – 5:00 PM" },
+      { name: "Water", afternoon: "1:00 PM – 12:00 AM" },
+      { name: "Shirley", afternoon: "10:00 AM – 12:00 AM" },
       { name: "Mizuki", morning: "11:00 AM – 7:00 PM" },
       { name: "May", morning: "10:00 AM – 3:00 AM" },
       { name: "Angelina", morning: "10:00 AM – 8:00 PM" },
-      { name: "Selina", morning: "1:00 PM – 9:00 PM" },
       { name: "Tia",  afternoon: "10:00 AM – 3:00 AM" }
     ],
     friday: [
       { name: "Water", afternoon: "1:00 PM – 12:00 AM" },
       { name: "Shirley", afternoon: "1:00 PM – 12:00 AM" },
+      { name: "Yumi", morning: "10:00 AM – 5:00 AM" },
+      { name: "Bianca", morning: "10:00 AM – 4:00 PM" },
       { name: "Ai", afternoon: "8:00 PM – 3:00 AM" },
       { name: "Jeniffer", morning: "10:00 AM – 10:00 PM" },
       { name: "Lucy", morning: "10:00 AM – 3:00 AM" },
