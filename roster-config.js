@@ -1,1271 +1,630 @@
 /* ============================================================
-   295 ASHFIELD — SINGLE EDITABLE ROSTER FILE
+   239 LIVERPOOL — SINGLE EDITABLE ROSTER FILE
    客户以后只需要修改此文件：人员资料、图片、Hover图片、每周排班。
-   Hover photos rotate while the pointer stays on a profile.
+   Hover photos rotate every 2 seconds while the pointer stays on a profile.
 ============================================================ */
 (function () {
   const profiles = {
-    Domi: {
-      name: "Domi",
+    Amy: {
+      name: "Amy",
+      description: "Busty Mature & Prostate Massage Chinese",
       nationality: "Chinese",
-      height: "160 cm",
-      weight: "44 kg",
-      age: 21,
-      cup: "B",
-      description: "New young Chinese team member",
-      image: "images/domi.jpg",
-      hoverImages: [
-        "images/domi1.jpg",
-        "images/domi2.jpg",
-        "images/domi3.jpg"
-      ]
-    },
-    Sky: {
-      name: "Sky",
-      nationality: "Thai",
-      height: "168 cm",
-      weight: "48 kg",
-      age: 22,
-      cup: "B",
-      description: "New tall and slim Thai team member",
-      image: "images/sky.jpg",
-      hoverImages: [
-        "images/sky1.jpg",
-        "images/sky2.jpg",
-        "images/sky3.jpg",
-        "images/sky4.jpg",
-        "images/sky5.jpg",
-        "images/sky6.jpg"
-      ]
-    },
-    Doris: {
-      name: "Doris",
-      nationality: "Chinese",
-      height: "164 cm",
-      weight: "52 kg",
-      age: 23,
-      cup: "D",
-      description: "Adorable Chinese team member",
-      image: "images/doris.jpg",
-      hoverImages: [
-        "images/Doris1.jpg",
-        "images/Doris2.jpg",
-        "images/Doris3.jpg",
-        "images/Doris4.jpg",
-        "images/Doris5.jpg",
-        "images/Doris6.jpg"
-      ]
+      height: "165cm",
+      weight: "60kg",
+      cup: "G",
+      image: "images/Amy.jpg",
+      hoverImages: ["images/Amy1.jpg", "images/Amy2.jpg", "images/Amy3.jpg", "images/Amy4.jpg", "images/Amy5.jpg"]
     },
     Lucy: {
       name: "Lucy",
+      description: "Excellent Massage Chinese",
       nationality: "Chinese",
-      height: "162 cm",
-      weight: "54 kg",
-      age: 23,
-      cup: "D",
-      description: "Excellent Chinese massage practitioner",
-      image: "images/lucy.jpg",
-      hoverImages: [
-        "images/lucy1.jpg",
-        "images/lucy2.jpg",
-        "images/lucy3.jpg"
-      ]
-    },
-    Lulu: {
-      name: "Lulu",
-      nationality: "Chinese",
-      height: "165 cm",
-      weight: "57 kg",
-      age: 26,
-      cup: "E",
-      description: "Confident and friendly Chinese team member",
-      image: "images/lulu.jpg"
-    },
-    Aya: {
-      name: "Aya",
-      nationality: "Chinese",
-      height: "169 cm",
-      weight: "50 kg",
-      age: 24,
-      cup: "C",
-      description: "Friendly Chinese team member",
-      image: "images/aya.jpg",
-      hoverImages: []
-  
-    },
-    Sofia: {
-      name: "Sofia",
-      nationality: "Filipino",
-      height: "164 cm",
-      weight: "54 kg",
-      age: 23,
-      cup: "D",
-      description: "Cute Filipino team member",
-      image: "images/sofia.jpg",
-      hoverImages: [
-        "images/sofia1.jpg"
-      ]
-    },
-    Ayumi: {
-      name: "Ayumi",
-      nationality: "Japanese",
-      height: "166 cm",
-      weight: "49 kg",
-      age: 28,
-      cup: "D",
-      description: "Fun cosplay-loving Japanese team member",
-      image: "images/Ayumi.jpg",
-      hoverImages: [
-        "images/Ayumi1.jpg",
-        "images/Ayumi2.jpg",
-        "images/Ayumi3.jpg",
-        "images/Ayumi4.jpg"
-      ]
-     },
-    Mizuki: {
-      name: "Mizuki",
-      nationality: "Japanese",
-      height: "166 cm",
-      weight: "49 kg",
-      age: 24,
-      cup: "D",
-      description: "Fun cosplay-loving Japanese team member",
-      image: "images/mizuki.jpg",
-      hoverImages: [
-        "images/mizuki1.jpg",
-        "images/mizuki2.jpg",
-        "images/mizuki3.jpg",
-        "images/mizuki4.jpg"
-      ]
-    },
-    Melody: {
-      name: "Melody",
-      nationality: "Brazilian",
-      height: "165 cm",
-      weight: "50 kg",
-      age: 22,
-      cup: "D",
-      description: "Gorgeous Brazilian team member",
-      image: "images/Melody.jpg",
-      hoverImages: [
-        "images/Melody1.jpg",
-        "images/Melody2.jpg",
-        "images/Melody3.jpg",
-        "images/Melody4.jpg"
-      ]
-    },
-    Ruby: {
-      name: "Ruby",
-      nationality: "Chinese",
-      height: "160 cm",
-      weight: "46 kg",
-      age: 22,
-      cup: "B",
-      description: "Gorgeous Fresh-faced team member",
-      image: "images/ruby.jpg",
-      hoverImages: [
-        "images/ruby1.jpg",
-        "images/ruby2.jpg",
-        "images/ruby3.jpg",
-        "images/ruby4.jpg"
-      ]
-    },
-    Mona: {
-      name: "Mona",
-      nationality: "Thai",
-      height: "165 cm",
-      weight: "52 kg",
-      age: 22,
-      cup: "D",
-      description: "Gorgeous Thai team member",
-      image: "images/mona.jpg",
-      hoverImages: [
-        "images/mona1.jpg",
-        "images/mona2.jpg",
-        "images/mona3.jpg",
-        "images/mona4.jpg"
-      ]
-    },
-    Lina: {
-      name: "Lina",
-      nationality: "Korean",
-      height: "159 cm",
-      weight: "46 kg",
-      age: 22,
-      cup: "C",
-      description: "Lovely Korean beauty",
-      image: "images/lina.jpg",
-      hoverImages: [
-        "images/lina1.jpg",
-        "images/lina2.jpg",
-        "images/lina3.jpg",
-        "images/lina4.jpg",
-        "images/lina5.jpg",
-        "images/lina6.jpg",
-        "images/lina7.jpg"
-      ]
-    },
-    Jeniffer: {
-      name: "Jeniffer",
-      nationality: "Singaporean",
-      height: "168 cm",
-      weight: "50 kg",
-      age: 26,
-      cup: "D",
-      description: "Glamorous Singaporean team member",
-      image: "images/Jenifer.jpg",
-      hoverImages: [
-        "images/Jenifer1.jpg",
-        "images/Jenifer2.jpg",
-        "images/Jenifer3.jpg"
-      ]
-    },
-    Mina: {
-      name: "Mina",
-      nationality: "Thai",
-      height: "165 cm",
-      weight: "57 kg",
-      age: 28,
-      cup: "E",
-      description: "Friendly Thai team member",
-      image: "images/mina.jpg",
-      hoverImages: [
-        "images/Mina1.jpg",
-        "images/Mina2.jpg",
-        "images/Mina3.jpg"
-      ]
-    },
-    Isabella: {
-      name: "Isabella",
-      nationality: "Chinese",
-      height: "162 cm",
-      weight: "50 kg",
-      age: 23,
-      cup: "D",
-      description: "Stunning Chinese team member",
-      image: "images/Isabella.jpg"
-    },
-    Angela: {
-      name: "Angela",
-      nationality: "Chinese",
-      height: "165 cm",
-      weight: "49 kg",
-      age: 21,
-      cup: "C",
-      description: "Friendly Chinese team member",
-      image: "images/Angela.jpg"
-    },
-    Candice: {
-      name: "Candice",
-      nationality: "Taiwanese",
-      height: "166 cm",
-      weight: "48 kg",
-      age: 22,
-      cup: "C",
-      description: "Friendly Taiwanese team member",
-      image: "images/candice.jpg"
-   
-  
-    },
-    May: {
-      name: "May",
-      nationality: "Chinese",
-      height: "166 cm",
+      height: "163cm",
       weight: "54kg",
-      age: 24,
       cup: "D",
-      description: "Gorgeous Chinese team member",
-      image: "images/may.jpg",
-      hoverImages: [
-        "images/may1.jpg",
-        "images/may2.jpg",
-        "images/may3.jpg"
-      ]
+      image: "images/lucy.jpg",
+      hoverImages: ["images/lucy1.jpg", "images/lucy2.jpg", "images/lucy3.jpg"]
     },
-   
-    Andie: {
-      name: "Andie",
-      nationality: "Korean",
-      height: "166 cm",
-      weight: "60 kg",
-      age: 29,
+    Kitty: {
+      name: "Kitty",
+      description: "Busty & Passionate Indonesian",
+      nationality: "Indonesian",
+      height: "161cm",
+      weight: "55kg",
+      cup: "G",
+      image: "images/kitty.jpg",
+      hoverImages: ["images/kitty1.jpg", "images/kitty2.jpg", "images/kitty3.jpg", "images/kitty4.jpg"]
+    },
+    Lola: {
+      name: "Lola",
+      description: "Elegant Chinese Beauty",
+      nationality: "Chinese",
+      height: "163cm",
+      weight: "54kg",
       cup: "D",
-      description: "Charming Korean team member",
-      image: "images/andie.jpg",
-       hoverImages: [
-        "images/andie1.jpg",
-        "images/andie2.jpg",
-        "images/andie3.jpg"
-      ]
+      image: "images/lola.jpg",
+      hoverImages: ["images/lola1.jpg"]
+    },
+      Angel: {
+      name: "Angel",
+      description: "Charming Chinese Beauty",
+      nationality: "Chinese",
+      height: "162cm",
+      weight: "56kg",
+      cup: "D",
+      image: "images/angel.jpg",
+      hoverImages: ["images/angel1.jpg" ,"images/angel2.jpg", "images/angel2.jpg"]
+    },
+    Regina: {
+      name: "Regina",
+      description: "Curvy Mexican Beauty with a Stunnig Booty",
+      nationality: "Mexican",
+      height: "163cm",
+      weight: "58kg",
+      cup: "D",
+      image: "images/regina.jpg",
+      hoverImages: ["images/regina1.jpg"]
+    },
+    Una: {
+      name: "Una",
+      description: "Stunning Colombian Beauty with Gorgeous",
+      nationality: "Colombian",
+      height: "164cm",
+      weight: "57kg",
+      cup: "G",
+      image: "images/una.jpg",
+      hoverImages: ["images/una1.jpg", "images/una2.jpg", "images/una3.jpg", "images/una4.jpg"]
+    },
+    Dory: {
+      name: "Dory",
+      description: "Pocket-Sized Vietnamese Beauty",
+      nationality: "Vietnamese",
+      height: "163cm",
+      weight: "49kg",
+      cup: "B",
+      image: "images/dory.jpg",
+      hoverImages: ["images/dory1.jpg", "images/dory2.jpg", "images/dory3.jpg"]
     },
     Anna: {
       name: "Anna",
+      description: "Blonde Australian Beauty",
       nationality: "Australian",
-      height: "166 cm",
-      weight: "49 kg",
-      age: 30,
-      cup: "B",
-      description: "Blonde, blue-eyed Australian team member",
-      image: "images/anna.jpg",
-       hoverImages: [
-        "images/anna1.jpg",
-        "images/anna2.jpg",
-        "images/anna3.jpg"
-      ]
-    },
-    Rina: {
-      name: "Rina",
-      nationality: "Chinese",
-      height: "169 cm",
-      weight: "58 kg",
-      age: 20,
-      cup: "D",
-      description: "University student",
-      image: "images/Rina.jpg"
-    },
-    Ai: {
-      name: "Ai",
-      nationality: "Japanese",
-      height: "158 cm",
-      weight: "43 kg",
-      age: 19,
-      cup: "B",
-      description: "Fresh-faced Japanese beauty",
-      image: "images/ai.jpg",
-      hoverImages: [
-        "images/ai1.jpg",
-        "images/ai2.jpg",
-        "images/ai3.jpg"
-      ]
-
-    },
-    Mickey: {
-      name: "Mickey",
-      nationality: "Chinese",
-      height: "169 cm",
-      weight: "49 kg",
-      age: 20,
-      cup: "B",
-      description: "Tall young Chinese beauty",
-      image: "images/Mickey.jpg",
-      hoverImages: [
-        "images/mickey1.jpg",
-        "images/mickey2.jpg",
-        "images/mickey3.jpg",
-        "images/mickey4.jpg"
-      ]
-    },
-    Jade: {
-      name: "Jade",
-      nationality: "Chinese",
-      height: "165 cm",
-      weight: "50 kg",
-      age: 20,
-      cup: "C",
-      description: "Sweet and fresh student style",
-      image: "images/Jade.jpg",
-      hoverImages: [
-        "images/jdae1.jpg",
-        "images/jade2.jpg",
-        "images/jade3.jpg"
-      ]
-    },
-    Wendy: {
-      name: "Wendy",
-      nationality: "Chinese",
-      height: "170 cm",
-      weight: "49 kg",
-      age: 21,
-      cup: "B",
-      description: "Tall, stunning Chinese beauty",
-      image: "images/Wendy.jpg",
-      hoverImages: [
-        "images/wendy1.jpg",
-        "images/wendy2.jpg",
-        "images/wendy3.jpg"
-      ]
-     },
-    Erin: {
-      name: "Erin",
-      nationality: "Chinese",
-      height: "165cm",
-      weight: "49 kg",
-      age: 21,
-      cup: "B",
-      description: "TOP1, stunning Chinese beauty",
-      image: "images/erin.jpg",
-      hoverImages: [
-        "images/erin1.jpg",
-        "images/erin.jpg"
-      
-      ]
-  
-    },
-     Tia: {
-      name: "Tia",
-      nationality: "Vietnam",
-      height: "160 cm",
-      weight: "54 kg",
-      age: 28,
-      cup: "D",
-      description: "Playfull Friendly Vietnam team member",
-      image: "images/tia.jpg",
-      hoverImages: [
-        "images/tia1.jpg",
-        "images/tia2.jpg",
-        "images/tia3.jpg"
-      ]
-     },
-     Rose: {
-      name: "Rose",
-      nationality: "Vietnam",
-      height: "162 cm",
-      weight: "55 kg",
-      age: 26,
-      cup: "D",
-      description: "Playfull Friendly Vietnam team member",
-      image: "images/rose.jpg",
-      hoverImages: [
-        "images/rose1.jpg",
-        "images/rose2.jpg",
-        "images/rose3.jpg"
-      ]
-      },
-     Bella: {
-      name: "Bella",
-      nationality: "Vietnam",
-      height: "163 cm",
-      weight: "55 kg",
-      age: 24,
-      cup: "D",
-      description: "Playfull Friendly Vietnam team member",
-      image: "images/bella.jpg",
-      hoverImages: [
-        "images/bella1.jpg",
-        "images/bella2.jpg",
-        "images/bella3.jpg"
-      ]
-    },
-     Liya: {
-      name: "Liya",
-      nationality: "Thai",
-      height: "166 cm",
-      weight: "51 kg",
-      age: 21,
-      cup: "D",
-      description: "Beauty Friendly Thai team member",
-      image: "images/liya.jpg",
-      hoverImages: [
-        "images/liya1.jpg",
-        "images/liya2.jpg",
-        "images/liya3.jpg"
-      ]
-     },
-     Kim: {
-      name: "Kim",
-      nationality: "Russia",
-      height: "168cm",
-      weight: "50 kg",
-      age: 23,
-      cup: "D",
-      description: "Beauty Friendly Russia team member",
-      image: "images/kim.jpg",
-      hoverImages: [
-        "images/kim1.jpg",
-        "images/kim2.jpg",
-        "images/kim3.jpg"
-      ]
-    },
-     Sasa: {
-      name: "Sasa",
-      nationality: "Chinese",
-      height: "166 cm",
-      weight: "55 kg",
-      age: 25,
-      cup: "D",
-      description: "Open M Friendly Chinese team member",
-      image: "images/sasa.jpg",
-      hoverImages: [
-        "images/sasa1.jpg",
-        "images/sasa2.jpg",
-        "images/sasa3.jpg"
-      ]
-     
-     },
-     Moon: {
-      name: "Moon",
-      nationality: "Vietnam",
-      height: "163 cm",
-      weight: "55 kg",
-      age: 26,
-      cup: "D",
-      description: "Beauty Friendly Vietnam team member",
-      image: "images/moon.jpg",
-      hoverImages: [
-        "images/moon1.jpg",
-        "images/moon2.jpg",
-        "images/moon3.jpg"
-      ]
-    
-    },
-     Kitty: {
-      name: "Kitty",
-      nationality: "Indonesia",
-      height: "162 cm",
-      weight: "55 kg",
-      age: 26,
-      cup: "D",
-      description: "Beauty Friendly Indonesia team member",
-      image: "images/kitty.jpg",
-      hoverImages: [
-        "images/kitty1.jpg",
-        "images/kitty2.jpg",
-        "images/kitty3.jpg"
-      ]
-
-    },
-     Fiona: {
-      name: "Fiona",
-      nationality: "Chinese",
-      height: "162 cm",
-      weight: "55 kg",
-      age: 24,
-      cup: "D",
-      description: " Friendly and Excellent skills Chinese team member",
-      image: "images/fiona.jpg",
-      hoverImages: [
-        "images/fiona1.jpg",
-        "images/fiona2.jpg",
-        "images/fiona3.jpg"
-      ]
-    
-    },
-     Bruna: {
-      name: "Bruna",
-      nationality: "Argentina",
-      height: "168 cm",
-      weight: "55 kg",
-      age: 21,
-      cup: "D",
-      description: " Super Model Argentina team member",
-      image: "images/bruna.jpg",
-      hoverImages: [
-        "images/bruna1.jpg",
-        "images/bruna2.jpg",
-        "images/bruna3.jpg"
-      ]
-    },
-     Ashley: {
-      name: "Ashley",
-      nationality: "Australian",
-      height: "168 cm",
-      weight: "63 kg",
-      age: 27,
-      cup: "D",
-      description: " Natual Busty Sweet team member 2-8pm",
-      image: "images/ashley.jpg",
-      hoverImages: [
-        "images/ashley1.jpg",
-        "images/ashley2.jpg",
-        "images/ashley3.jpg"
-      ]
-    },
-     Dodo: {
-      name: "Dodo",
-      nationality: "Vietnam",
-      height: "166 cm",
-      weight: "50 kg",
-      age: 21,
-      cup: "D",
-      description: " New to Industry team member",
-      image: "images/dodo.jpg",
-      hoverImages: [
-        "images/dodo1.jpg",
-        "images/dodo2.jpg",
-        "images/dodo3.jpg"
-      ]
-    
-     },
-     Mona: {
-      name: "Mona",
-      nationality: "Thai",
-      height: "163 cm",
-      weight: "50 kg",
-      age: 21,
-      cup: "D",
-      description: " New Pretty thai team member",
-      image: "mona.jpg",
-      hoverImages: [
-        "mona1.jpg",
-        "mona2.jpg",
-        "mona3.jpg"
-      ]
-    
-    },
-     Lola: {
-      name: "Lola",
-      nationality: "Chinese",
-      height: "167 cm",
-      weight: "56 kg",
-      age: 29,
-      cup: "D",
-      description: " Open minded service Chinese team member",
-      image: "lola.jpg",
-      hoverImages: [
-        "lola1.jpg",
-        "lola2.jpg"
-     
-      ]
-    
-    },
-     Enaya: {
-      name: "Enaya",
-      nationality: "Indian",
-      height: "166cm",
-      weight: "56 kg",
-      age: 20,
-      cup: "D",
-      description: " Stunning Indian team member",
-     image: "images/enaya.jpg",
-      hoverImages: [
-        "images/enaya1.jpg",
-        "images/enaya2.jpg",
-        "images/enaya3.jpg"
-      ]
-    
-    },
-    Amber: {
-      name: "Amber",
-      nationality: "Taiwanese",
-      height: "160 cm",
-      weight: "50 kg",
-      age: 23,
-      cup: "B",
-      role: "Massage Practitioner",
-      description: "Highly skilled massage practitioner",
-      image: "images/amber.jpg"
-    
-    },
-    Rani: {
-      name: "Rani",
-      nationality: "India",
-      height: "163cm",
-      weight: "57 kg",
-      age: 22,
-      cup: "D",
-      role: "Massage Practitioner",
-      description: "Highly skilled massage practitioner",
-      
-    },
-    Aria: {
-      name: "Aria",
-      nationality: "Africa",
-      height: "175 cm",
-      weight: "55 kg",
-      age: 21,
-      cup: "B",
-      role: "super model ",
-      description: "Charming young africa ",
-      image: "images/aria.jpg",
-      hoverImages: [
-        "images/aria1.jpg",
-        "images/aria2.jpg",
-        "images/aria3.jpg"
-      ]
-    },
-    Mia: {
-      name: "Mia",
-      nationality: "Chinese",
-      height: "172 cm",
-      weight: "55 kg",
-      age: 21,
-      cup: "D",
-      role: "super model ",
-      description: "Charming young Chinese ",
-      image: "images/mia.jpg",
-      hoverImages: [
-        "images/mia1.jpg",
-        "images/mia2.jpg",
-        "images/mia3.jpg"
-      ]
-     },
-    Monica: {
-      name: "Monica",
-      nationality: "Chinese",
-      height: "164cm",
-      weight: "56 kg",
-      age: 24,
-      cup: "C",
-      role: "super nice lady ",
-      description: "Charming Open minded Chinese ",
-      image: "images/monica.jpg",
-      hoverImages: [
-        "images/monica1.jpg",
-        "images/monica2.jpg",
-        "images/monicas3.jpg"
-      ]
-    },
-    Amanda: {
-      name: "Amanda",
-      nationality: "Chinese",
-      height: "162cm",
-      weight: "55 kg",
-      age: 23,
-      cup: "B",
-      role: "Open minded Friendly Chinese ",
-      description: "Charming Chinese Girl ",
-      image: "amanda.jpg",
-      hoverImages: [
-        "amanda1.jpg",
-        "amanda2.jpg",
-        "amanda3.jpg"
-      ]
-
-    }, 
-    Rani: {
-      name: "Rani",
-      nationality: "India",
-      height: "165cm",
-      weight: "58kg",
-      age: 23,
-      cup: "C",
-      role: "Stunning Friendly India",
-      description: "Charming India Girl ",
-      image: "rani.jpg",
-      hoverImages: [
-        "rani1.jpg",
-        "rani2.jpg",
-        "rani3.jpg"
-      ]
-     }, 
-    Ally: {
-      name: "Ally",
-      nationality: "Chinese",
-      height: "166cm",
-      weight: "58kg",
-      age: 24,
-      cup: "D",
-      role: "Stunning and Excellent service &Friendly Chinese",
-      description: "Wonderfull Chinese Girl ",
-      image: "ally.jpg",
-      hoverImages: [
-        "ally1.jpg",
-        "ally2.jpg",
-        "ally3.jpg"
-      ]
-      }, 
-    Tiffany: {
-      name: "Tiffany",
-      nationality: "Chinese",
-      height: "166cm",
-      weight: "55kg",
-      age: 24,
-      cup: "D",
-      role: "Stunning and Excellent service &Friendly Chinese",
-      description: "Wonderfull Chinese Girl ",
-      image: "tiffany.jpg",
-      hoverImages: [
-        "tiffany1.jpg",
-        "tiffany2.jpg",
-        "tiffany3.jpg"
-      ]
-     }, 
-    Karin: {
-      name: "Karin",
-      nationality: "Chinese",
-      height: "165cm",
-      weight: "50kg",
-      age: 24,
-      cup: "D",
-      role: "Excellent service &Friendly Chinese",
-      description: "Wonderfull Chinese Girl ",
-      image: "karin.jpg",
-      hoverImages: [
-        "karin1.jpg",
-        "karin2.jpg",
-        "karin3.jpg"
-      ]
-     }, 
-    Jolie: {
-      name: "Jolie",
-      nationality: "Vietnam",
-      height: "165cm",
-      weight: "57kg",
-      age: 24,
-      cup: "D",
-      role: "Nice service &Friendly Vietnam",
-      description: "Wonderfull Vietnam Girl ",
-      image: "images/jolie.jpg",
-      hoverImages: [
-        "images/jolie1.jpg",
-        "images/jolie2.jpg",
-        "images/jolie3.jpg"
-      ]
-
-    },
-    Angelina: {
-      name: "Angelina",
-      nationality: "French",
-      height: "165 cm",
-      weight: "65 kg",
-      age: 29,
-      cup: "D",
-      role: "Good at cosplay-loving",
-      description: "Friendly massage practitioner",
-      image: "images/angelina.jpg",
-      hoverImages: [
-        "images/angelina1.jpg",
-        "images/angelina2.jpg",
-        "images/anglina3.jpg"
-      ]
-     },
-    Tina: {
-      name: "Tina",
-      nationality: "Chinese",
-      height: "164cm",
-      weight: "60 kg",
-      age: 26,
-      cup: "D",
-      role: "More fun more playful",
-      description: "Friendly massage practitioner",
-      image: "images/tina.jpg",
-      hoverImages: [
-        "images/tina1.jpg",
-        "images/tina2.jpg",
-        "images/tina3.jpg"
-      ]
-       },
-    Apple: {
-      name: "Apple",
-      nationality: "Chinese",
-      height: "167cm",
-      weight: "55 kg",
-      age: 23,
-      cup: "D",
-      role: "Good at NURU Massage",
-      description: "Friendly massage practitioner",
-      image: "images/apple.jpg",
-      hoverImages: [
-        "images/apple1.jpg",
-        "images/apple3.jpg",
-        "images/apple4.jpg",
-        "images/apple5.jpg",
-        "images/apple6.jpg"
-      ]
-      },
-    Sarah: {
-      name: "Sarah",
-      nationality: "Japanese",
-      height: "171cm",
-      weight: "47kg",
-      age: 19,
-      cup: "B",
-      role: "TOP1 Highly Recommend",
-      description: "Friendly massage practitioner",
-      image: "images/sarah.jpg",
-      hoverImages: [
-        "images/sarah1.jpg",
-        "images/sarah2.jpg",
-        "images/sarah3.jpg"
-      ]
-       },
-    Chloe: {
-      name: "Chloe",
-      nationality: "Colombian",
-      height: "168cm",
-      weight: "57kg",
-      age: 23,
-      cup: "B",
-      role: "Sexy and charmnig body",
-      description: "Friendly massage practitioner",
-      image: "images/chloe.jpg",
-      hoverImages: [
-        "images/chloe1.jpg",
-        "images/chloe2.jpg",
-        "images/chloe3.jpg"
-      ]
-           },
-    Hebe: {
-      name: "Hebe",
-      nationality: "Chinese",
       height: "165cm",
       weight: "52kg",
-      age: 23,
-      cup: "C",
-      role: "Sexy and charmnig body",
-      description: "Friendly open minded massage practitioner",
-      image: "images/hebe.jpg",
-      hoverImages: [
-        "images/hebe1.jpg",
-        "images/hebe2.jpg",
-        "images/hebe3.jpg"
-      ]
-           },
-    Bianca: {
-      name: "Bianca",
-      nationality: "Brazil",
-      height: "167cm",
-      weight: "57kg",
-      age: 19,
-      cup: "D",
-      role: "Sexy and charmnig body",
-      description: "10-4PM ",
-      image: "images/bianca.jpg",
-      hoverImages: [
-        "images/bianca1.jpg",
-        "images/bianca2.jpg",
-        "images/bianca3.jpg"
-      ]
-           },
-    Athena: {
-      name: "Athena",
-      nationality: "Greece",
-      height: "167cm",
-      weight: "58kg",
-      age: 20,
-      cup: "D",
-      role: "Cute face and charmnig body",
-      description: "Friendly massage practitioner",
-      image: "images/athena.jpg",
-      hoverImages: [
-        "images/athena1.jpg",
-        "images/athena2.jpg",
-        "images/athena3.jpg",
-        "images/athena4.jpg"
-      ]
-           },
-    BB: {
-      name: "BB",
+      cup: "c",
+      image: "images/anna.jpg",
+      hoverImages: ["images/anna1.jpg", "images/anna2.jpg", "images/anna3.jpg", "images/anna4.jpg"]
+    },
+    Lulu: {
+      name: "lulu",
+      description: "Busty & Seductive Chinese Beauty",
       nationality: "Chinese",
-      height: "164cm",
-      weight: "47kg",
-      age: 22,
-      cup: "C",
-      role: "Cute face and charmnig body",
-      description: "Open minded service",
-      image: "images/bb.jpg",
-      hoverImages: [
-        "images/bb1.jpg",
-        "images/bb2.jpg",
-        "images/bb3.jpg",
-        "images/bb4.jpg"
-      ]
-           },
-    Daisy: {
-      name: "Daisy",
+      height: "165cm",
+      weight: "54kg",
+      cup: "E",
+      image: "images/lulu.jpg",
+      hoverImages: ["images/lulu1.jpg", "images/lulu2.jpg", "images/lulu3.jpg"]
+    },
+      Tracy: {
+      name: "Tracy",
+      description: "Busty & Cute Indian",
+      nationality: "Indian",
+      height: "165cm",
+      weight: "63kg",
+      cup: "E",
+      image: "images/tracy1.jpg",
+      hoverImages: ["images/tracy1.jpg", "images/tracy2.jpg"]
+    },
+    Andie: {
+      name: "Andie",
+      description: "Busty & Seductive Korean Beauty",
+      nationality: "Korean",
+      height: "166cm",
+      weight: "54kg",
+      cup: "D",
+      image: "images/andie.jpg",
+      hoverImages: ["images/andie1.jpg", "images/andie2.jpg", "images/andie3.jpg"]
+    },
+    Sweet: {
+      name: "Sweet",
+      description: "Sexy & Playful Filipino Beauty",
+      nationality: "Filipino",
+      height: "159cm",
+      weight: "44g",
+      cup: "B",
+      image: "images/sweet.jpg",
+      hoverImages: ["images/sweet1.jpg", "images/sweet2.jpg", "images/sweet3.jpg"]
+    },
+    Sasa: {
+      name: "Sasa",
+      description: "Fun & Interactive Chinese",
+      nationality: "Chinese",
+      height: "163cm",
+      weight: "53kg",
+      cup: "D",
+      image: "images/sasa.jpg",
+      hoverImages: ["images/sasa1.jpg", "images/sasa2.jpg"]
+    },
+      Fiona: {
+      name: "Fiona",
+      description: "Fun & Playful Chinese",
+      nationality: "Chinese",
+      height: "163cm",
+      weight: "53kg",
+      cup: "D",
+      image: "images/fiona.jpg",
+      hoverImages: ["images/fiona1.jpg", "images/fiona2.jpg", "images/fiona3.jpg"]
+    },
+     Venessa: {
+      name: "Venessa",
+      description: "Fun & Playful Mexican",
+      nationality: "Mexican",
+      height: "166cm",
+      weight: "56kg",
+      cup: "D",
+      image: "images/Venessa.jpg",
+      hoverImages: ["images/Venessa1.jpg", "images/Venessa2.jpg", "images/Venessa3.jpg", "images/Venessa4.jpg"]
+    },
+      Tia: {
+      name: "Tia",
+      description: "Fun & Playful Vietnamese",
+      nationality: "hoverImages",
+      height: "166cm",
+      weight: "56kg",
+      cup: "D",
+      image: "images/tia.jpg",
+      hoverImages: ["images/tia1.jpg", "images/tia2.jpg", "images/tia3.jpg", "images/tia4.jpg"]
+    },
+      Aria: {
+      name: "Aria",
+      description: "Fun & Playful Tall African",
+      nationality: "African",
+      height: "168cm",
+      weight: "50Kg",
+      cup: "D",
+      image: "images/aria.jpg",
+      hoverImages: ["images/aria1.jpg"]
+    },
+
+      lily: {
+      name: "lily",
+      description:"Fun & Cute Tall Chinese",
+      nationality:"Chinese",
+      height: "167cm",
+      weight: "47Kg",
+      cup: "B",
+      image: "images/lily.jpg",
+      hoverImages: ["images/lily1.jpg","images/lily2.jpg","images/lily3.jpg"]
+    },
+
+      kitkat: {
+      name: "kitkat",
+      description: "Juicy and cute Thai",
+      nationality: "Thai",
+      height: "163cm",
+      weight: "44Kg",
+      cup: "B",
+      image: "images/kitkat.jpg",
+      hoverImages: ["images/kitkat1.jpg","images/kitkat2.jpg"]
+    },
+      helen: {
+      name: "helen",
+      description: "Fun & Good skills Chinese",
+      nationality: "Chinese",
+      height: "161cm",
+      weight: "53Kg",
+      cup: "B",
+      image: "images/helen.jpg",
+      hoverImages: ["images/helen1.jpg"]
+   },
+      Natalia: {
+      name: "natalia",
+      description: "Fun gorgeous Italian",
+      nationality: "Italian",
+      height: "158cm",
+      weight: "50Kg",
+      cup: "D",
+      image: "images/natalia.jpg",
+      hoverImages: ["images/natalia.jpg","images/natalia1.jpg","images/natalia2.jpg"]
+  },
+      Aya: {
+      name: "Aya",
+      description: "Tall pretty Chinese",
+      nationality: "Chinese",
+      height: "168cm",
+      weight: "50Kg",
+      cup: "c",
+      image: "images/Aya.jpg",
+      hoverImages: ["images/Aya1.jpg", "images/Aya2.jpg", "images/Aya3.jpg", "images/Aya4.jpg", "images/Aya5.jpg"]
+
+ },
+      Angelina: {
+      name: "Angelina",
+      description: "Tall Busty French",
+      nationality: "French",
+      height: "171cm",
+      weight: "65Kg",
+      cup: "G",
+      image: "images/angelina1.jpg",
+      hoverImages: ["images/angelina2.jpg", "images/angelina3.jpg", "images/angelina4.jpg"]
+
+    },
+      Rose: {
+      name: "Rose",
+      description: "Tall pretty Vietnamese",
+      nationality: "Vietnamese",
+      height: "165cm",
+      weight: "50Kg",
+      cup: "D",
+      image: "images/Rose.jpg",
+      hoverImages: ["images/Rose1.jpg", "images/Rose2.jpg", "images/Rose3.jpg"]
+    },
+     Tina: {
+      name: "Tina",
+      description: "Busty open minded HK",
+      nationality: "Hongkong",
+      height: "165cm",
+      weight: "56Kg",
+      cup: "D",
+      image: "images/tina-red.jpg",
+      hoverImages: ["images/tina1-red.jpg","images/tina2red.jpg"]
+    },
+     Mira: {
+      name: "mira",
+      description: "Full Service Only",
+      nationality: "Vietnamese",
+      height: "165cm",
+      weight: "56Kg",
+      cup: "D",
+      image: "images/mira.jpg",
+      hoverImages: ["images/mira1.jpg","images/mira1.jpg","images/mira2.jpg"]
+    },
+     Jolie: {
+      name: "jolie",
+      description: "Fun gorgeous Vietnamese",
+      nationality: "Vietnamese",
+      height: "165cm",
+      weight: "56Kg",
+      cup: "D",
+      image: "images/jolie.jpg",
+      hoverImages: ["images/jolie1.jpg","images/jolie2.jpg"]
+     },
+     Dodo: {
+      name: "dodo",
+      description: "NEW to massage shop",
+      nationality: "Vie MIX CHN",
+      height: "163cm",
+      weight: "50Kg",
+      cup: "B",
+      image: "images/dodo.jpg",
+      hoverImages: ["images/dodo1.jpg","images/dodo2.jpg","images/dodo3.jpg","images/dodo4.jpg"]
+     },
+     Kim: {
+      name: "kim",
+      description: "Busty Fun Russia",
+      nationality: "Russia",
+      height: "167cm",
+      weight: "55Kg",
+      cup: "E",
+      image: "images/kim.jpg",
+      hoverImages: ["images/kim1.jpg","images/kim2.jpg","images/kim3.jpg","images/kim4.jpg"]
+    },
+     Rachel: {
+      name: "rachel",
+      description: "Fun gorgeous lebanon",
+      nationality: "Lebanon",
+      height: "171cm",
+      weight: "65Kg",
+      cup: "G",
+      image: "images/rachel.jpg",
+      hoverImages: ["images/rachel1.jpg","images/rachel2.jpg"]
+    },
+     Brooke: {
+      name: "brooke",
+      description: "Fun gorgeous switzerland",
+      nationality: "Switzerland",
+      height: "171cm",
+      weight: "65Kg",
+      cup: "G",
+      image: "images/brooke.jpg",
+      hoverImages: ["images/brooke1.jpg","images/brooke2.jpg"]
+     },
+     Chloe: {
+      name: "chloe",
+      description: "Fun gorgeous Colombian",
+      nationality: "Colombian",
+      height: "168cm",
+      weight: "63Kg",
+      cup: "E",
+      image: "images/chloe.jpg",
+      hoverImages: ["images/chloe1.jpg","images/chloe2.jpg","images/chloe3.jpg","images/chloe4.jpg"]
+     },
+     Faye: {
+      name: "faye",
+      description: "Cosplay loving Chinese",
       nationality: "Chinese",
       height: "169cm",
-      weight: "50kg",
-      age: 20,
-      cup: "C",
-      role: "Cute face and charmnig body",
-      description: "Start 5pm",
-      image: "images/daisy.jpg",
-      hoverImages: [
-        "images/daisy1.jpg",
-        "images/daisy2.jpg"
-       
-      ]
-           },    
-    Lucky: {
-      name: "Lucky",
-      nationality: "Vietnam",
-      height: "163 cm",
-      weight: "49 kg",
-      age: 22,
-      cup: "C",
-      role: "Sexy Charming young girl",
-      description: "Friendly massage practitioner",
-      image: "images/lucky.jpg",
-      hoverImages: [
-        "images/lucky1.jpg",
-        "images/lucky2.jpg"
-          ]
-     },
-    Angie: {
-      name: "Angie",
-      nationality: "Brazil",
-      height: "165 cm",
-      weight: "50 kg",
-      age: 22,
-      cup: "B",
-      role: "Sexy Charming young girl",
-      description: "Friendly massage practitioner",
-      image: "images/angie.jpg",
-      hoverImages: [
-        "images/angie1.jpg",
-        "images/angie2.jpg"
-          ]
-
+      weight: "62Kg",
+      cup: "c",
+      image: "images/faye.jpg",
+      hoverImages: ["images/faye1.jpg","images/faye2.jpg"]
     },
-    Coco: {
-      name: "Coco",
+     Amanda: {
+      name: "amanda",
+      description: "Excellent skills and more fun Chinese",
       nationality: "Chinese",
-      height: "165 cm",
-      weight: "60 kg",
-      age: 23,
+      height: "167cm",
+      weight: "62Kg",
       cup: "D",
-      role: "Sexy Charming young girl",
-      description: "Open minded massage practitioner",
-      image: "images/coco.jpg",
-      hoverImages: [
-        "images/coco1.jpg",
-        "images/coco2.jpg"
-          ]
-
+      image: "images/amanda1.jpg",
+      hoverImages: ["images/amanda1.jpg","images/amanda2.jpg","images/amanda3.jpg"]
     },
-    Aurora: {
-      name: "Aurora",
-      nationality: "Bangladesh",
-      height: "160 cm",
-      weight: "47 kg",
-      age: 19,
-      cup: "C",
-      role: "New to massage shop young girl",
-      description: "Soft massage practitioner",
-      image: "images/aurora.jpg",
-      hoverImages: [
-        "images/aurora1.jpg",
-        "images/aurora2.jpg"
-          ]
-
-    },
-    Lin: {
-      name: "Lin",
+     Yoyo: {
+      name: "yoyo",
+      description: "Excellent skills Chinese",
       nationality: "Chinese",
-      height: "165 cm",
-      weight: "45kg",
-      age: 27,
-      cup: "B",
-      role: "Sexy Charming friendly girl",
-      description: "Friendly massage practitioner",
-      image: "images/lin.jpg",
-      hoverImages: [
-        "images/lin1.jpg",
-        "images/lin2.jpg",
-        "images/lin3.jpg",
-        "images/lin4.jpg"
-          ]
-
+      height: "161cm",
+      weight: "56Kg",
+      cup: "D",
+      image: "images/yoyo.jpg",
+      hoverImages: ["images/yoyo1.jpg","images/yoyo2.jpg","images/yoyo3.jpg"]
     },
-    Sugar: {
-      name: "Sugar",
-      nationality: "Cambodia",
-      height: "163 cm",
-      weight: "53kg",
-      age: 23,
-      cup: "D",
-      role: "Open minded friendly girl",
-      description: "Friendly massage practitioner",
-      image: "images/sugar.jpg",
-      hoverImages: [
-        "images/sugar1.jpg",
-        "images/sugar2.jpg",
-        "images/sugar3.jpg",
-        "images/sugar4.jpg"
-          ]
-
-          },
-    Haze: {
-      name: "haze",
-      nationality: "Turkey",
-      height: "162 cm",
-      weight: "58kg",
-      age: 21,
-      cup: "D",
-      role: "Open minded friendly girl",
-      description: "Friendly massage practitioner",
-      image: "images/haze.jpg",
-      hoverImages: [
-        "images/haze1.jpg",
-        "images/haze2.jpg",
-        "images/haze3.jpg",
-        "images/haze4.jpg"
-          ]
-
-          },
-    Mimi: {
-      name: "mimi",
-      nationality: "Thai",
+     Larni: {
+      name: "larni",
+      description: "Excellent skills Chinese",
+      nationality: "Chinese",
+      height: "159cm",
+      weight: "47Kg",
+      cup: "B",
+      image: "images/larni.jpg",
+      hoverImages: ["images/larni1.jpg","images/larni2.jpg","images/larni3.jpg"]
+    },
+     Mico: {
+      name: "mico",
+      description: "Super Model Chinese",
+      nationality: "Chinese",
       height: "170cm",
-      weight: "56kg",
-      age: 20,
-      cup: "C",
-      role: "Super model girl",
-      description: "Open minded service",
-      image: "images/mimi.jpg",
-      hoverImages: [
-        "images/mimi1.jpg",
-        "images/mimi2.jpg",
-        "images/mimi3.jpg",
-        "images/mimi4.jpg"
-          ]
-
+      weight: "51Kg",
+      cup: "E",
+      image: "images/mico.jpg",
+      hoverImages: ["images/mico1.jpg","images/mico2.jpg","images/mico3.jpg"]
     },
-    Yumi: {
-      name: "yumi",
-      nationality: "Korean",
-      height: "165cm",
-      weight: "45kg",
-      age: 20,
-      cup: "D",
-      role: "Super cure girl",
-      description: "Open minded service",
-      image: "images/yumi.jpg",
-      hoverImages: [
-        "images/yumi1.jpg",
-        "images/yumi2.jpg",
-        "images/yumi3.jpg",
-        "images/yumi4.jpg"
-          ]
-
-    },
-    Water: {
-      name: "water",
-      nationality: "Hongkong",
-      height: "166 cm",
-      weight: "46kg",
-      age: 20,
-      cup: "C",
-      role: "Amazing Hk girl",
-      description: "Friendly massage practitioner",
-      image: "images/water.jpg",
-      hoverImages: [
-        "images/water1.jpg",
-        "images/water2.jpg",
-        "images/water3.jpg",
-        "images/water4.jpg"
-          ]
-
-    },
-    Shirley: {
-      name: "shirley",
-      nationality: "Hongkong",
-      height: "165 cm",
-      weight: "46kg",
-      age: 23,
-      cup: "C",
-      role: "Amazing Hk girl",
-      description: "Friendly massage practitioner",
-      image: "images/shirley.jpg",
-      hoverImages: [
-        "images/shirley1.jpg",
-        "images/shirley2.jpg",
-        "images/shirley3.jpg",
-        "images/shirley4.jpg"
-          ]
-
-    },
-    Selina: {
-      name: "Selina",
+     Tiffany: {
+      name: "tiffany",
+      description: "Excellent skills Chinese",
       nationality: "Chinese",
-      height: "164 cm",
-      weight: "48 kg",
-      age: 22,
+      height: "168cm",
+      weight: "51Kg",
+      cup: "E",
+      image: "images/tiffany.jpg",
+      hoverImages: ["images/tiffany1.jpg","images/tiffany2.jpg","images/tiffany3.jpg"]
+     },
+     Dolly: {
+      name: "dolly",
+      description: "Sexy and charming Nepal",
+      nationality: "Nepal",
+      height: "165cm",
+      weight: "47Kg",
       cup: "C",
-      description: "Attractive Chinese beauty",
-      image: "images/selina.jpg",
-       hoverImages: [
-        "images/selina1.jpg",
-        "images/selina2.jpg",
-        "images/selina3.jpg"
-      ]
+      image: "images/dolly.jpg",
+      hoverImages: ["images/dolly1.jpg","images/dolly2.jpg","images/dolly3.jpg"]
+     },
+     Camila: {
+      name: "camila",
+      description: "Sexy and charming Colombian",
+      nationality: "Colombian",
+      height: "165cm",
+      weight: "59Kg",
+      cup: "D",
+      image: "images/camila.jpg",
+      hoverImages: ["images/camila1.jpg","images/camila2.jpg","images/camila3.jpg","images/camila4.jpg"]
+     },
+     Mila: {
+      name: "mila",
+      description: "Young cute Chinese",
+      nationality: "Chinese",
+      height: "166cm",
+      weight: "51Kg",
+      cup: "D",
+      image: "images/mila.jpg",
+      hoverImages: ["images/mila1.jpg","images/mila2.jpg","images/mila3.jpg"]
+ },
+     Diana: {
+      name: "diana",
+      description: "Sexy and busty OPEN Minded",
+      nationality: "Chinese",
+      height: "165cm",
+      weight: "59Kg",
+      cup: "E",
+      image: "images/diana.jpg",
+      hoverImages: ["images/diana1.jpg","images/diana2.jpg","images/diana3.jpg"]
+     },
+     Isabella: {
+      name: "isabella",
+      description: "Sexy and Tall OPEN Minded",
+      nationality: "Chinese",
+      height: "165cm",
+      weight: "56Kg",
+      cup: "D",
+      image: "images/isabella.jpg",
+      hoverImages: ["images/isabella1.jpg","images/isabella2.jpg","images/isabella3.jpg"]
+     },
+     Bianca: {
+      name: "bianca",
+      description: "10am-4pm only",
+      nationality: "Brazil",
+      height: "166cm",
+      weight: "59Kg",
+      cup: "D",
+      image: "images/bianca.jpg",
+      hoverImages: ["images/bianca1.jpg","images/bianca2.jpg","images/bianca3.jpg"]
+     },
+     Monica: {
+      name: "monica",
+      description: "Open minded Friendly Service",
+      nationality: "Chinese",
+      height: "165cm",
+      weight: "50Kg",
+      cup: "D",
+      image: "images/monica.jpg",
+      hoverImages: ["images/monica1.jpg","images/monica2.jpg"]
+      },
+     Karen: {
+      name: "karen",
+      description: "NEW Young Busty Colombian",
+      nationality: "Colombian",
+      height: "166cm",
+      weight: "58Kg",
+      cup: "D",
+      image: "images/karen.jpg",
+      hoverImages: ["images/karen1.jpg","images/karen2.jpg"]
+     },
+     May: {
+      name: "may",
+      description: "NEW Friendly chinese",
+      nationality: "Chinese",
+      height: "166cm",
+      weight: "50Kg",
+      cup: "C",
+      image: "images/may.jpg",
+      hoverImages: ["images/may1.jpg","images/may2.jpg","images/may3.jpg"]
+
+
+
+  },
+    Zuri: {
+      name: "Zuri",
+      description: "West African Black Rose - Romantic & Passionte",
+      nationality: "West African",
+      height: "167cm",
+      weight: "52kg",
+      cup: "c",
+      image: "images/zuri.jpg",
+      hoverImages: ["images/zuri1.jpg", "images/zuri2.jpg"]
     }
   };
 
-  // 每位女孩、每天都有独立时间。直接修改对应行的 morning 和 afternoon。
+  const weeklyNames = {
+    monday: ["Tiffany","Andie","Kitty","Karen","Lucy"],
+    tuesday: ["Karen","Lucy","Amy", "Aya","Angelina","Tina","Kitty"],
+    wednesday: ["Larni","Kim","Aya","Aria","Karen","Kitty" ,"Brooke","Andie","Sasa"],
+    thursday: ["Bianca","Natalia","Kitty" ,"Angelina","Karen","Aya","Monica","Andie", "Anna","Brooke","Sasa"],
+    friday: ["Monica","Amy","Karen","Brooke","Anna","Aya","Kitty" ,"Zuri", "Aria", "Angel","Andie","Natalia","Sasa"],
+    saturday: ["Kitty" ,"Sasa","Angelina","Aya","Brooke","Andie","Angel","Zuri","Aria","Anna","Natalia"],
+    sunday: ["May","Aya","Andie","Zuri", "Aria","Anna","Sasa"]  };
+
+  // 每位女孩、每天都有独立时间。直接修改对应名字的 morning 和 afternoon。
   // 如果当天没有某一个时段，请填写空字符串，例如：afternoon: ""。
-  const weeklySchedule = {
-    monday: [
-     
-      { name: "Bianca", morning: "10:00 AM – 4:00 PM" },
-      { name: "Mizuki", morning: "1:00 PM – 8:00 PM" },
-      { name: "Water", afternoon: "1:00 PM – 12:00 AM" },
-      { name: "Shirley", afternoon: "11:00 AM – 9:00 PM" },
-      { name: "Mimi", morning: "10:00 AM – 3:00 AM" },
-      { name: "Haze", morning: "6:00 PM – 3:00 AM" },
-      { name: "Melody", morning: "10:00 AM – 8:00 PM" },
-      { name: "Tia", afternoon: "8:00 PM – 3:00 AM" }
-    ],
-    tuesday: [
-      { name: "Sarah", morning: "10:00 AM – 9:00 PM" },
-      { name: "Yumi", morning: "10:00 AM – 5:00 AM" },
-      { name: "Lucy", morning: "10:00 AM – 3:00 AM" },
-      { name: "Water", afternoon: "1:00 PM – 12:00 AM" },
-      { name: "Shirley", afternoon: "10:00 AM – 12:00 AM" },
-      { name: "Bianca", morning: "10:00 AM – 4:00 PM" },
-      { name: "Haze", morning: "6:00 PM – 3:00 AM" },
-      { name: "Melody", morning: "12:00 PM – 8:00 PM" },
-      { name: "Andie", afternoon: "1:00 PM – 3:00 AM" }
-
-      
-    ],
-    wednesday: [
-      { name: "Chloe", morning: "11:00 AM – 9:00 PM" },
-      { name: "Lucy", morning: "10:00 AM – 3:00 AM" },
-      { name: "Water", afternoon: "1:00 PM – 12:00 AM" },
-      { name: "Shirley", afternoon: "10:00 AM – 12:00 AM" },
-      { name: "Mizuki", morning: "1:00 AM – 7:00 PM" },
-      { name: "Melody", morning: "11:00 AM – 7:00 PM" }
-
-   
-    ],
-    thursday: [
-      { name: "Chloe", morning: "11:00 AM – 8:00 PM" },
-      { name: "Bianca", morning: "10:00 AM – 4:00 PM" },
-      { name: "Domi", morning: "11:00 AM – 5:00 PM" },
-      { name: "Water", afternoon: "1:00 PM – 12:00 AM" },
-      { name: "Shirley", afternoon: "10:00 AM – 12:00 AM" },
-      { name: "Mizuki", morning: "11:00 AM – 7:00 PM" },
-      { name: "May", morning: "10:00 AM – 3:00 AM" },
-      { name: "Angelina", morning: "10:00 AM – 8:00 PM" },
-      { name: "Tia",  afternoon: "10:00 AM – 3:00 AM" }
-    ],
-    friday: [
-      { name: "Water", afternoon: "1:00 PM – 12:00 AM" },
-      { name: "Shirley", afternoon: "1:00 PM – 12:00 AM" },
-      { name: "Yumi", morning: "10:00 AM – 5:00 AM" },
-      { name: "Bianca", morning: "10:00 AM – 4:00 PM" },
-      { name: "Ai", afternoon: "8:00 PM – 3:00 AM" },
-      { name: "Jeniffer", morning: "10:00 AM – 10:00 PM" },
-      { name: "Lucy", morning: "10:00 AM – 3:00 AM" },
-      { name: "Sugar", morning: "2:00 PM – 3:00 AM" },
-      { name: "Lucky", morning: "10:00 AM – 8:00 PM" },
-      { name: "May", afternoon: "10:00 AM – 3:00 AM" }
-
-    ],
-    saturday: [
-      { name: "Water", afternoon: "1:00 PM – 12:00 AM" },
-      { name: "Shirley", afternoon: "10:00 AM – 12:00 AM" },
-      { name: "Lucy", morning: "10:00 AM – 3:00 AM" },
-      { name: "Angelina", morning: "10:00 AM – 8:00 PM" },
-      { name: "Sarah",  afternoon: "5:00 PM – 11:00 PM" }
-
-    ],
-    sunday: [
-      { name: "Water", afternoon: "1:00 PM – 12:00 AM" },
-      { name: "Shirley", afternoon: "10:00 AM – 12:00 AM" },
-      { name: "Sarah", morning: "10:00 AM – 9:00 PM" },
-      { name: "Lucy", morning: "10:00 AM – 3:00 AM" },
-      { name: "Sugar", morning: "2:00 PM – 3:00 AM" },
-      { name: "Ai",  afternoon: "8:00 PM – 3:00 AM" },
-      { name: "Melody", morning: "12:00 AM – 8:00 AM" }
-
-    ]
+  const workingHoursByDay = {
+    monday: {
+      Tiffany:{morning:"10:00 AM – 10:00 PM"}, 
+      Andie:{morning:"10:00 AM – 3:00 AM"}, 
+      Kitty:{afternoon:"7:00 PM – 3:00 AM"}, 
+      Karen:{morning:"3:00 PM – 12:00 AM"}, 
+      Lucy:{morning:"10:00 AM – 3:00 AM"}
+    },
+    tuesday: {
+      Karen:{morning:"3:00 PM – 12:00 AM"}, 
+      Angelina:{morning:"10:00 AM – 8:00 PM"}, 
+      Lucy:{morning:"10:00 AM – 3:00 AM"},
+      Amy:{morning:"4:00 AM – 1:00 AM"},
+      Aya:{morning:"10:00 AM – 3:00 AM"},
+      Tina:{morning:"8:00 PM – 3:00 PM"}, 
+      Kitty:{afternoon:"4:00 PM – 3:00 AM"}
+    },
+    wednesday: {
+      Larni:{morning:"10:00 AM – 8:00 PM"}, 
+      Karen:{morning:"2:00 PM – 12:00 AM"}, 
+      Kitty:{morning:"2:00 PM – 3:00 AM"},
+      Aya:{morning:"10:00 AM – 3:00 AM"},
+      Kim:{morning:"11:00 AM – 5:00 PM"}, 
+      Andie:{morning:"8:00 PM – 3:00 AM"}, 
+      Brooke:{morning:"7:00 PM – 3:00 AM"}, 
+      Sasa:{morning:"8:00 PM – 3:00 AM"}, 
+      Aria:{morning:"5:00 PM – 1:00 AM"}
+    },
+    thursday: {
+      Natalia:{afternoon:"8:00 PM – 3:00 AM"}, 
+      Monica:{morning:"10:00 AM – 12:00 AM"}, 
+      Karen:{morning:"2:00 PM – 2:00 AM"}, 
+      Andie:{morning:"8:00 PM – 3:00 AM"},
+      Anna:{afternoon:"4:00 PM – 3:00 AM"},
+      Kitty:{morning:"2:00 PM – 3:00 AM"}, 
+      Aya:{morning:"10:00 AM – 3:00 AM"},
+      Angelina:{morning:"10:00 AM – 8:00 PM"}, 
+      Brooke:{morning:"7:00 PM – 3:00 AM"}, 
+      Sasa:{morning:"8:00 PM – 3:00 AM"}, 
+      Anna:{afternoon:"4:00 PM – 3:00 AM"}
+    },
+    friday: {
+      Amy:{morning:"10:00 AM – 12:00 AM"}, 
+      Anna:{afternoon:"4:00 PM – 3:00 AM"},  
+      Karen:{morning:"2:00 PM – 1:00 AM"}, 
+      Monica:{morning:"10:00 AM – 12:00 AM"}, 
+      Angel:{afternoon:"7:00 PM – 3:00 AM"}, 
+      Kitty:{morning:"10:00 AM – 3:00 AM"},
+      Aya:{morning:"10:00 AM – 3:00 AM"}, 
+      Ania:{afternoon:"5:00 PM – 1:00 AM"}, 
+      Brooke:{morning:"7:00 PM – 2:00 PM"}, 
+      Chloe:{morning:"11:00 AM – 8:00 PM"}, 
+      Zuri:{afternoon:"6:00 PM – 1:00 AM"}, 
+      Sasa:{morning:"8:00 PM – 3:00 AM"}, 
+      Natalia:{afternoon:"8:00 PM – 3:00 AM"}
+    },
+    saturday: {
+      Sasa:{morning:"10:00 AM – 3:00 AM"}, 
+      Tiffany:{morning:"10:00 AM – 8:00 PM"},  
+      Angelina:{morning:"10:00 AM – 8:00 PM"}, 
+      Kitty:{morning:"10:00 AM – 3:00 AM"}, 
+      Aya:{morning:"10:00 AM – 3:00 AM"},
+      Andie:{afternoon:"8:00 PM – 3:00 AM"}, 
+      Angel:{afternoon:"8:00 PM – 3:00 AM"}, 
+      Ania:{afternoon:"5:00 PM – 1:00 AM"}, 
+      Zuri:{afternoon:"6:00 PM – 1:00 AM"}, 
+      Natalia:{afternoon:"8:00 PM – 3:00 AM"},
+      Brooke:{morning:"7:00 PM – 2:00 PM"}, 
+      Anna:{afternoon:"4:00 PM – 3:00 AM"}
+    },
+    sunday: {
+      May:{morning:"10:00 AM – 10:00 PM"}, 
+      Angelina:{morning:"10:00 AM – 8:00 PM"}, 
+      Tiffany:{morning:"10:00 AM – 8:00 PM"}, 
+      Aya:{morning:"10:00 AM – 3:00 AM"},
+      Andie:{afternoon:"8:00 PM – 3:00 AM"},
+      Kitty:{morning:"2:00 PM – 3:00 AM"}, 
+      Ania:{afternoon:"5:00 PM – 1:00 AM"}, 
+      Zuri:{afternoon:"6:00 PM – 1:00 AM"}, 
+      Anna:{afternoon:"4:00 PM – 3:00 AM"}
+    }
   };
 
   const days = {};
-  Object.entries(weeklySchedule).forEach(([day, shifts]) => {
-    days[day] = shifts.map(shift => ({
-      ...profiles[shift.name],
-      workingHours: { morning: shift.morning, afternoon: shift.afternoon }
+  Object.entries(weeklyNames).forEach(([day, names]) => {
+    days[day] = names.map(name => ({
+      ...profiles[name],
+      workingHours: { ...workingHoursByDay[day][name] }
     }));
   });
 
   window.ROSTER_PROFILES = profiles;
+  window.FEATURED_SPA_PROFILE = {
+    name: "Jennifer",
+    description: "239 Liverpool spa profile.",
+    nationality: "",
+    height: "",
+    weight: "",
+    cup: "",
+    image: "images/featured-gallery/new-spa-01.jpg",
+    hoverImages: [
+      "images/featured-gallery/new-spa-02.jpg",
+      "images/featured-gallery/new-spa-03.jpg",
+      "images/featured-gallery/new-spa-04.jpg",
+      "images/featured-gallery/new-spa-05.jpg"
+    ]
+  };
   window.WEEKLY_ROSTER = {
-    dateRange: "26th Oct– 1st Nov 2026",
-    address: "295 Liverpool Road, Ashfield NSW 2131",
+    dateRange: "26th Oct TO 1ST Nov",
+    address: "239 Northumberland St, Liverpool NSW 2170",
     days
   };
 })();
