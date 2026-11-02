@@ -1120,6 +1120,24 @@
           ]
 
     },
+    Celine: {
+      name: "celine",
+      nationality: "Chinese",
+      height: "170cm",
+      weight: "55kg",
+      age: 20,
+      cup: "D",
+      role: "Super model girl",
+      description: "Open minded service",
+      image: "images/celine.jpg",
+      hoverImages: [
+        "images/celine1.jpg",
+        "images/celine2.jpg",
+        "images/celine3.jpg",
+        "images/celine4.jpg"
+          ]
+
+    },
     Water: {
       name: "water",
       nationality: "Hongkong",
@@ -1180,19 +1198,16 @@
      
       { name: "Bianca", morning: "10:00 AM – 4:00 PM" },
       { name: "Mizuki", morning: "1:00 PM – 8:00 PM" },
-      { name: "Water", afternoon: "9:00 PM – 2:00 AM" },
-      { name: "Shirley", afternoon: "11:00 AM – 12:00 AM" },
+      { name: "Chloe", afternoon: "12:00 PM – 9:00 AM" },
       { name: "Mimi", morning: "10:00 AM – 3:00 AM" },
       { name: "Haze", morning: "6:00 PM – 3:00 AM" },
-      { name: "Melody", morning: "10:00 AM – 8:00 PM" },
-      { name: "Tia", afternoon: "8:00 PM – 3:00 AM" }
+      { name: "Melody", morning: "12:00 AM – 8:00 PM" },
+      { name: "Lucy", afternoon: "10:00 AM – 3:00 AM" }
     ],
     tuesday: [
       { name: "Sarah", morning: "10:00 AM – 9:00 PM" },
       { name: "Yumi", morning: "10:00 AM – 5:00 AM" },
       { name: "Lucy", morning: "10:00 AM – 3:00 AM" },
-      { name: "Water", afternoon: "10:00 AM – 2:00 AM" },
-      { name: "Shirley", afternoon: "10:00 AM – 12:00 AM" },
       { name: "Bianca", morning: "10:00 AM – 4:00 PM" },
       { name: "Haze", morning: "6:00 PM – 3:00 AM" },
       { name: "Melody", morning: "12:00 PM – 8:00 PM" },
@@ -1202,11 +1217,13 @@
     ],
     wednesday: [
       { name: "Chloe", morning: "11:00 AM – 9:00 PM" },
+      { name: "Kim", morning: "11:00 AM – 5:00 PM" },
       { name: "Lucy", morning: "10:00 AM – 3:00 AM" },
-      { name: "Water", afternoon: "9:00 PM – 12:00 AM" },
-      { name: "Shirley", afternoon: "10:00 AM – 12:00 AM" },
+      { name: "Angelina", morning: "10:00 AM – 8:00 PM" },
       { name: "Mizuki", morning: "1:00 AM – 7:00 PM" },
-      { name: "Melody", morning: "11:00 AM – 7:00 PM" }
+      { name: "Melody", morning: "11:00 AM – 7:00 PM" },
+      { name: "May", afternoon: "8:00 PM – 3:00 AM" }
+
 
    
     ],
@@ -1214,7 +1231,6 @@
       { name: "Chloe", morning: "11:00 AM – 8:00 PM" },
       { name: "Bianca", morning: "10:00 AM – 4:00 PM" },
       { name: "Domi", morning: "11:00 AM – 5:00 PM" },
-      { name: "Water", afternoon: "10:00 AM – 12:00 AM" },
       { name: "Shirley", afternoon: "10:00 AM – 12:00 AM" },
       { name: "Mizuki", morning: "11:00 AM – 7:00 PM" },
       { name: "May", morning: "10:00 AM – 3:00 AM" },
@@ -1222,32 +1238,28 @@
       { name: "Tia",  afternoon: "10:00 AM – 3:00 AM" }
     ],
     friday: [
-      { name: "Water", afternoon: "1:00 PM – 12:00 AM" },
-      { name: "Shirley", afternoon: "1:00 PM – 12:00 AM" },
+      { name: "Shirley", afternoon: "10:00 AM – 2:00 AM" },
       { name: "Yumi", morning: "10:00 AM – 5:00 AM" },
+      { name: "Celine", morning: "10:00 AM – 10:00 PM" },
       { name: "Bianca", morning: "10:00 AM – 4:00 PM" },
       { name: "Ai", afternoon: "8:00 PM – 3:00 AM" },
       { name: "Jeniffer", morning: "10:00 AM – 10:00 PM" },
+      { name: "Angelina", morning: "10:00 AM – 8:00 PM" },
       { name: "Lucy", morning: "10:00 AM – 3:00 AM" },
-      { name: "Sugar", morning: "2:00 PM – 3:00 AM" },
-      { name: "Lucky", morning: "10:00 AM – 8:00 PM" },
       { name: "May", afternoon: "10:00 AM – 3:00 AM" }
 
     ],
     saturday: [
-      { name: "Water", afternoon: "12:00 AM – 1:00 AM" },
-      { name: "Shirley", afternoon: "11:00 AM – 2:00 AM" },
+      { name: "Shirley", afternoon: "10:00 AM – 2:00 AM" },
       { name: "Lucy", morning: "10:00 AM – 3:00 AM" },
-      { name: "Angelina", morning: "10:00 AM – 8:00 PM" },
-      { name: "Sarah",  afternoon: "5:00 PM – 11:00 PM" }
+      { name: "Sarah",  afternoon: "5:00 PM – 11:00 PM" },
+      { name: "Melody", morning: "12:00 AM – 8:00 AM" }
 
     ],
     sunday: [
-      { name: "Water", afternoon: "12:00 AM – 1:00 AM" },
-      { name: "Shirley", afternoon: "9:00 AM – 2:00 AM" },
+      { name: "Shirley", afternoon: "10:00 AM – 2:00 AM" },
       { name: "Sarah", morning: "10:00 AM – 9:00 PM" },
       { name: "Lucy", morning: "10:00 AM – 3:00 AM" },
-      { name: "Sugar", morning: "2:00 PM – 3:00 AM" },
       { name: "Ai",  afternoon: "8:00 PM – 3:00 AM" },
       { name: "Melody", morning: "12:00 AM – 8:00 AM" }
 
@@ -1264,7 +1276,7 @@
 
   window.ROSTER_PROFILES = profiles;
   window.WEEKLY_ROSTER = {
-    dateRange: "26th Oct– 1st Nov 2026",
+    dateRange: "2nd Nov– 8th Nov 2026",
     address: "295 Liverpool Road, Ashfield NSW 2131",
     days
   };
