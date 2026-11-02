@@ -1066,21 +1066,21 @@
           ]
 
           },
-    Haze: {
-      name: "haze",
-      nationality: "Turkey",
-      height: "162 cm",
+    Hazel: {
+      name: "hazel",
+      nationality: "Turkey mix Australian",
+      height: "164 cm",
       weight: "58kg",
-      age: 21,
+      age: 19,
       cup: "D",
       role: "Open minded friendly girl",
       description: "Friendly massage practitioner",
-      image: "images/haze.jpg",
+      image: "images/hazel.jpg",
       hoverImages: [
-        "images/haze1.jpg",
-        "images/haze2.jpg",
-        "images/haze3.jpg",
-        "images/haze4.jpg"
+        "images/hazel1.jpg",
+        "images/hazel2.jpg",
+        "images/hazel3.jpg",
+        "images/hazel4.jpg"
           ]
 
           },
@@ -1200,7 +1200,7 @@
       { name: "Mizuki", morning: "1:00 PM – 8:00 PM" },
       { name: "Chloe", afternoon: "12:00 PM – 9:00 AM" },
       { name: "Mimi", morning: "10:00 AM – 3:00 AM" },
-      { name: "Haze", morning: "6:00 PM – 3:00 AM" },
+      { name: "Hazel", morning: "6:00 PM – 3:00 AM" },
       { name: "Melody", morning: "12:00 AM – 8:00 PM" },
       { name: "Lucy", afternoon: "10:00 AM – 3:00 AM" }
     ],
@@ -1209,7 +1209,7 @@
       { name: "Yumi", morning: "10:00 AM – 5:00 AM" },
       { name: "Lucy", morning: "10:00 AM – 3:00 AM" },
       { name: "Bianca", morning: "10:00 AM – 4:00 PM" },
-      { name: "Haze", morning: "6:00 PM – 3:00 AM" },
+      { name: "Hazel", morning: "6:00 PM – 3:00 AM" },
       { name: "Melody", morning: "12:00 PM – 8:00 PM" },
       { name: "Andie", afternoon: "1:00 PM – 3:00 AM" }
 
@@ -1276,7 +1276,7 @@
 
   window.ROSTER_PROFILES = profiles;
   window.WEEKLY_ROSTER = {
-    dateRange: "2nd Nov– 8th Nov 2026",
+    dateRange: "2– 1st Nov 2026",
     address: "295 Liverpool Road, Ashfield NSW 2131",
     days
   };
