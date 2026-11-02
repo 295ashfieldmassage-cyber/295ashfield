@@ -1138,21 +1138,21 @@
           ]
 
     },
-    Water: {
-      name: "water",
-      nationality: "Hongkong",
+    Ruby: {
+      name: "ruby",
+      nationality: "Chinese",
       height: "166 cm",
-      weight: "46kg",
+      weight: "44kg",
       age: 20,
       cup: "C",
-      role: "Amazing Hk girl",
+      role: "Amazing Young girl",
       description: "Friendly massage practitioner",
-      image: "images/water.jpg",
+      image: "images/ruby.jpg",
       hoverImages: [
-        "images/water1.jpg",
-        "images/water2.jpg",
-        "images/water3.jpg",
-        "images/water4.jpg"
+        "images/ruby1.jpg",
+        "images/ruby2.jpg",
+        "images/ruby3.jpg",
+        "images/ruby4.jpg"
           ]
 
     },
@@ -1171,6 +1171,23 @@
         "images/shirley2.jpg",
         "images/shirley3.jpg",
         "images/shirley4.jpg"
+          ]
+    },
+    Aeya: {
+      name: "Aeya",
+      nationality: "Thai",
+      height: "164 cm",
+      weight: "44kg",
+      age: 18,
+      cup: "C",
+      role: "Amazing Thai girl",
+      description: "Friendly massage practitioner",
+      image: "images/aeya.jpg",
+      hoverImages: [
+        "images/aeya1.jpg",
+        "images/aeya2.jpg",
+        "images/aeya3.jpg",
+        "images/aeya4.jpg"
           ]
 
     },
@@ -1207,7 +1224,6 @@
     tuesday: [
       { name: "Sarah", morning: "10:00 AM – 9:00 PM" },
       { name: "Yumi", morning: "10:00 AM – 5:00 AM" },
-      { name: "Lucy", morning: "10:00 AM – 3:00 AM" },
       { name: "Bianca", morning: "10:00 AM – 4:00 PM" },
       { name: "Hazel", morning: "6:00 PM – 3:00 AM" },
       { name: "Melody", morning: "12:00 PM – 8:00 PM" },
@@ -1216,9 +1232,9 @@
       
     ],
     wednesday: [
-      { name: "Chloe", morning: "11:00 AM – 9:00 PM" },
+      { name: "Aeya", morning: "10:00 AM – 7:00 PM" },
       { name: "Kim", morning: "11:00 AM – 5:00 PM" },
-      { name: "Lucy", morning: "10:00 AM – 3:00 AM" },
+      { name: "Ruby", morning: "10:00 AM – 8:00 PM" },
       { name: "Angelina", morning: "10:00 AM – 8:00 PM" },
       { name: "Mizuki", morning: "1:00 AM – 7:00 PM" },
       { name: "Melody", morning: "11:00 AM – 7:00 PM" },
@@ -1228,9 +1244,9 @@
    
     ],
     thursday: [
-      { name: "Chloe", morning: "11:00 AM – 8:00 PM" },
       { name: "Bianca", morning: "10:00 AM – 4:00 PM" },
       { name: "Domi", morning: "11:00 AM – 5:00 PM" },
+      { name: "Ruby", morning: "10:00 AM – 8:00 PM" },
       { name: "Shirley", afternoon: "10:00 AM – 12:00 AM" },
       { name: "Mizuki", morning: "11:00 AM – 7:00 PM" },
       { name: "May", morning: "10:00 AM – 3:00 AM" },
@@ -1239,18 +1255,20 @@
     ],
     friday: [
       { name: "Shirley", afternoon: "10:00 AM – 2:00 AM" },
+      { name: "Chloe", morning: "11:00 AM – 9:00 PM" },
+      { name: "Ruby", morning: "10:00 AM – 8:00 PM" },
       { name: "Yumi", morning: "10:00 AM – 5:00 AM" },
       { name: "Celine", morning: "10:00 AM – 10:00 PM" },
       { name: "Bianca", morning: "10:00 AM – 4:00 PM" },
       { name: "Ai", afternoon: "8:00 PM – 3:00 AM" },
       { name: "Jeniffer", morning: "10:00 AM – 10:00 PM" },
       { name: "Angelina", morning: "10:00 AM – 8:00 PM" },
-      { name: "Lucy", morning: "10:00 AM – 3:00 AM" },
       { name: "May", afternoon: "10:00 AM – 3:00 AM" }
 
     ],
     saturday: [
       { name: "Shirley", afternoon: "10:00 AM – 2:00 AM" },
+      { name: "Ruby", morning: "10:00 AM – 8:00 PM" },
       { name: "Lucy", morning: "10:00 AM – 3:00 AM" },
       { name: "Sarah",  afternoon: "5:00 PM – 11:00 PM" },
       { name: "Melody", morning: "12:00 AM – 8:00 AM" }
@@ -1259,6 +1277,7 @@
     sunday: [
       { name: "Shirley", afternoon: "10:00 AM – 2:00 AM" },
       { name: "Sarah", morning: "10:00 AM – 9:00 PM" },
+      { name: "Ruby", morning: "10:00 AM – 8:00 PM" },
       { name: "Lucy", morning: "10:00 AM – 3:00 AM" },
       { name: "Ai",  afternoon: "8:00 PM – 3:00 AM" },
       { name: "Melody", morning: "12:00 AM – 8:00 AM" }
@@ -1276,7 +1295,7 @@
 
   window.ROSTER_PROFILES = profiles;
   window.WEEKLY_ROSTER = {
-    dateRange: "2– 1st Nov 2026",
+    dateRange: "2nd Nov– 8th Nov 2026",
     address: "295 Liverpool Road, Ashfield NSW 2131",
     days
   };
