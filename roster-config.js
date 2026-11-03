@@ -1238,6 +1238,7 @@
       { name: "Angelina", morning: "10:00 AM – 8:00 PM" },
       { name: "Mizuki", morning: "1:00 AM – 7:00 PM" },
       { name: "Melody", morning: "11:00 AM – 7:00 PM" },
+      { name: "Hazel", morning: "8:00 PM – 3:00 AM" },
       { name: "May", afternoon: "8:00 PM – 3:00 AM" }
 
 
@@ -1245,13 +1246,14 @@
     ],
     thursday: [
       { name: "Bianca", morning: "10:00 AM – 4:00 PM" },
+      { name: "Wendy", morning: "12:00 PM – 8:00 PM" },
       { name: "Domi", morning: "11:00 AM – 5:00 PM" },
       { name: "Ruby", morning: "10:00 AM – 8:00 PM" },
       { name: "Shirley", afternoon: "10:00 AM – 12:00 AM" },
       { name: "Mizuki", morning: "11:00 AM – 7:00 PM" },
       { name: "May", morning: "10:00 AM – 3:00 AM" },
-      { name: "Angelina", morning: "10:00 AM – 8:00 PM" },
-      { name: "Tia",  afternoon: "10:00 AM – 3:00 AM" }
+      { name: "Angelina", morning: "10:00 AM – 8:00 PM" }
+     
     ],
     friday: [
       { name: "Shirley", afternoon: "10:00 AM – 2:00 AM" },
