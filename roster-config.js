@@ -1239,7 +1239,7 @@
       { name: "Mizuki", morning: "1:00 AM – 7:00 PM" },
       { name: "Melody", morning: "11:00 AM – 7:00 PM" },
       { name: "Hazel", morning: "8:00 PM – 3:00 AM" },
-      { name: "May", afternoon: "8:00 PM – 3:00 AM" }
+      { name: "Andie", afternoon: "8:00 PM – 3:00 AM" }
 
 
    
@@ -1249,6 +1249,7 @@
       { name: "Wendy", morning: "12:00 PM – 8:00 PM" },
       { name: "Domi", morning: "11:00 AM – 5:00 PM" },
       { name: "Ruby", morning: "10:00 AM – 8:00 PM" },
+      { name: "Sugar", morning: "2:00 PM – 3:00 AM" },
       { name: "Shirley", afternoon: "10:00 AM – 12:00 AM" },
       { name: "Mizuki", morning: "11:00 AM – 7:00 PM" },
       { name: "May", morning: "10:00 AM – 3:00 AM" },
@@ -1256,6 +1257,7 @@
      
     ],
     friday: [
+      { name: "Rani", morning: "11:00 AM – 7:00 PM" },
       { name: "Shirley", afternoon: "10:00 AM – 2:00 AM" },
       { name: "Chloe", morning: "11:00 AM – 9:00 PM" },
       { name: "Ruby", morning: "10:00 AM – 8:00 PM" },
@@ -1265,10 +1267,11 @@
       { name: "Ai", afternoon: "8:00 PM – 3:00 AM" },
       { name: "Jeniffer", morning: "10:00 AM – 10:00 PM" },
       { name: "Angelina", morning: "10:00 AM – 8:00 PM" },
-      { name: "May", afternoon: "10:00 AM – 3:00 AM" }
+      { name: "May", afternoon: "6:00 PM – 3:00 AM" }
 
     ],
     saturday: [
+      { name: "Rani", morning: "4:00 PM – 9:00 PM" },
       { name: "Shirley", afternoon: "10:00 AM – 2:00 AM" },
       { name: "Ruby", morning: "10:00 AM – 8:00 PM" },
       { name: "Lucy", morning: "10:00 AM – 3:00 AM" },
