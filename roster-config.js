@@ -1281,7 +1281,7 @@
       { name: "Chloe", morning: "11:00 AM – 9:00 PM" },
       { name: "Ruby", morning: "10:00 AM – 8:00 PM" },
       { name: "Yumi", morning: "10:00 AM – 5:00 AM" },
-      { name: "Celine", morning: "10:00 AM – 10:00 PM" },
+      { name: "Melody", morning: "12:00 AM – 8:00 PM" },
       { name: "Bianca", morning: "10:00 AM – 4:00 PM" },
       { name: "Ai", afternoon: "8:00 PM – 3:00 AM" },
       { name: "Jeniffer", morning: "10:00 AM – 10:00 PM" },
