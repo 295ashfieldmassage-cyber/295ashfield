@@ -1156,6 +1156,24 @@
           ]
 
     },
+    Grace: {
+      name: "grace",
+      nationality: "Chinese",
+      height: "162 cm",
+      weight: "46kg",
+      age: 20,
+      cup: "C",
+      role: "Amazing Young girl",
+      description: "Friendly massage practitioner",
+      image: "images/grace.jpg",
+      hoverImages: [
+        "images/grace1.jpg",
+        "images/grace2.jpg",
+        "images/grace3.jpg",
+        "images/grace4.jpg"
+          ]
+
+    },
     Shirley: {
       name: "shirley",
       nationality: "Hongkong",
@@ -1259,6 +1277,7 @@
     friday: [
       { name: "Rani", morning: "11:00 AM – 7:00 PM" },
       { name: "Shirley", afternoon: "10:00 AM – 2:00 AM" },
+      { name: "Liya", afternoon: "11:00 AM – 6:00 PM" },
       { name: "Chloe", morning: "11:00 AM – 9:00 PM" },
       { name: "Ruby", morning: "10:00 AM – 8:00 PM" },
       { name: "Yumi", morning: "10:00 AM – 5:00 AM" },
@@ -1266,7 +1285,7 @@
       { name: "Bianca", morning: "10:00 AM – 4:00 PM" },
       { name: "Ai", afternoon: "8:00 PM – 3:00 AM" },
       { name: "Jeniffer", morning: "10:00 AM – 10:00 PM" },
-      { name: "Angelina", morning: "10:00 AM – 8:00 PM" },
+      { name: "Grace", morning: "10:00 PM – 3:00 PM" },
       { name: "May", afternoon: "6:00 PM – 3:00 AM" }
 
     ],
@@ -1274,19 +1293,15 @@
       { name: "Rani", morning: "4:00 PM – 9:00 PM" },
       { name: "Shirley", afternoon: "10:00 AM – 2:00 AM" },
       { name: "Ruby", morning: "10:00 AM – 8:00 PM" },
-      { name: "Lucy", morning: "10:00 AM – 3:00 AM" },
-      { name: "Sarah",  afternoon: "5:00 PM – 11:00 PM" },
-      { name: "Melody", morning: "12:00 AM – 8:00 AM" }
-
+      { name: "Sarah",  afternoon: "5:00 PM – 11:00 PM" }
+      
     ],
     sunday: [
       { name: "Shirley", afternoon: "10:00 AM – 2:00 AM" },
       { name: "Sarah", morning: "10:00 AM – 9:00 PM" },
       { name: "Ruby", morning: "10:00 AM – 8:00 PM" },
-      { name: "Lucy", morning: "10:00 AM – 3:00 AM" },
-      { name: "Ai",  afternoon: "8:00 PM – 3:00 AM" },
-      { name: "Melody", morning: "12:00 AM – 8:00 AM" }
-
+      { name: "Ai",  afternoon: "8:00 PM – 3:00 AM" }
+     
     ]
   };
 
