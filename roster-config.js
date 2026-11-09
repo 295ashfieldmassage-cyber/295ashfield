@@ -979,7 +979,8 @@
       image: "images/lucky.jpg",
       hoverImages: [
         "images/lucky1.jpg",
-        "images/lucky2.jpg"
+        "images/lucky2.jpg",
+        "images/lucky3.jpg"
           ]
      },
     Angie: {
@@ -1242,6 +1243,24 @@
         "images/didi2.jpg",
         "images/didi3.jpg",
         "images/didi4.jpg"
+          ]
+
+    },
+    Tongtong: {
+      name: "Tongtong",
+      nationality: "Chinese",
+      height: "167 cm",
+      weight: "48kg",
+      age: 23,
+      cup: "D",
+      role: "Amazing NEW Chinese girl",
+      description: "OPEN MINDED service",
+      image: "images/tongtong.jpg",
+      hoverImages: [
+        "images/tongtong1.jpg",
+        "images/tongtong2.jpg",
+        "images/tongtong3.jpg",
+        "images/tongtong4.jpg"
           ]
 
     },
