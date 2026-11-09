@@ -1175,13 +1175,13 @@
 
     },
     Vivi: {
-      name: "Vivi",
+      name: "vivi",
       nationality: "Chinese",
-      height: "164 cm",
-      weight: "48kg",
-      age: 25,
+      height: "165 cm",
+      weight: "46kg",
+      age: 24,
       cup: "C",
-      role: "More fun Chinese girl",
+      role: "More fun Chinese",
       description: "Friendly massage practitioner",
       image: "images/vivi.jpg",
       hoverImages: [
@@ -1227,6 +1227,24 @@
           ]
 
     },
+    Didi: {
+      name: "Didi",
+      nationality: "Thai",
+      height: "164 cm",
+      weight: "44kg",
+      age: 19,
+      cup: "C",
+      role: "Amazing Thai girl",
+      description: "Friendly massage practitioner",
+      image: "images/didi.jpg",
+      hoverImages: [
+        "images/didi1.jpg",
+        "images/didi2.jpg",
+        "images/didi3.jpg",
+        "images/didi4.jpg"
+          ]
+
+    },
     Selina: {
       name: "Selina",
       nationality: "Chinese",
@@ -1265,7 +1283,7 @@
       { name: "Tongtong", morning: "10:00 AM – 3:00 AM" },
       { name: "Hazel", morning: "6:00 PM – 3:00 AM" },
       { name: "Melody", morning: "12:00 PM – 8:00 PM" },
-      { name: "Chloe", afternoon: "12:00 PM – 9:00 PM" },
+      { name: "Didi", afternoon: "4:00 PM – 10:00 PM" },
       { name: "Andie", afternoon: "1:00 PM – 3:00 AM" },
       { name: "Lucky", afternoon: "10:00 AM – 3:00 AM" }
 
@@ -1275,8 +1293,8 @@
       { name: "Tongtong", morning: "10:00 AM – 3:00 AM" },
       { name: "Lucky", afternoon: "10:00 AM – 3:00 AM" },
       { name: "Angelina", morning: "10:00 AM – 8:00 PM" },
-      { name: "Chloe", afternoon: "12:00 PM – 9:00 PM" },
       { name: "Mizuki", morning: "1:00 AM – 7:00 PM" },
+      { name: "Melody", morning: "12:00 PM – 8:00 PM" },
       { name: "Hazel", morning: "8:00 PM – 3:00 AM" },
       { name: "Andie", afternoon: "8:00 PM – 3:00 AM" }
 
