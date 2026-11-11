@@ -1242,25 +1242,47 @@
         "images/didi1.jpg",
         "images/didi2.jpg",
         "images/didi3.jpg",
-        "images/didi4.jpg"
+        "images/didi4.jpg",
+        "images/didi5.jpg",
+        "images/didi6.jpg"
           ]
 
     },
-    Tongtong: {
-      name: "Tongtong",
-      nationality: "Chinese",
+    Gigi: {
+      name: "Gigi",
+      nationality: "Singaporean",
       height: "167 cm",
-      weight: "48kg",
-      age: 23,
+      weight: "53kg",
+      age: 22,
+      cup: "D",
+      role: "Amazing Singaporean girl",
+      description: "Friendly massage practitioner",
+      image: "images/gigi.jpg",
+      hoverImages: [
+        "images/gigi1.jpg",
+        "images/gigi2.jpg",
+        "images/didi3.jpg",
+        "images/didi4.jpg",
+        "images/didi5.jpg",
+        "images/didi6.jpg"
+          ]
+
+    },
+    Emily: {
+      name: "Emily",
+      nationality: "Chinese",
+      height: "165 cm",
+      weight: "50kg",
+      age: 25,
       cup: "D",
       role: "Amazing NEW Chinese girl",
       description: "OPEN MINDED service",
-      image: "images/tongtong.jpg",
+      image: "images/emily.jpg",
       hoverImages: [
-        "images/tongtong1.jpg",
-        "images/tongtong2.jpg",
-        "images/tongtong3.jpg",
-        "images/tongtong4.jpg"
+        "images/emily1.jpg",
+        "images/emily2.jpg",
+        "images/emily3.jpg",
+        "images/emily4.jpg"
           ]
 
     },
@@ -1291,7 +1313,7 @@
       { name: "Chloe", afternoon: "12:00 PM – 9:00 PM" },
       { name: "Mimi", morning: "10:00 AM – 3:00 AM" },
       { name: "Hazel", morning: "6:00 PM – 3:00 AM" },
-      { name: "Tongtong", morning: "2:00 PM – 3:00 AM" },
+      { name: "Emily", morning: "10:00 AM – 3:00 AM" },
       { name: "Melody", morning: "12:00 AM – 8:00 PM" },
       { name: "Lucky", afternoon: "10:00 AM – 3:00 AM" }
     ],
@@ -1299,8 +1321,7 @@
       { name: "Sarah", morning: "10:00 AM – 9:00 PM" },
       { name: "Yumi", morning: "10:00 AM – 5:00 AM" },
       { name: "Bianca", morning: "10:00 AM – 4:00 PM" },
-      { name: "Tongtong", morning: "10:00 AM – 3:00 AM" },
-      { name: "Hazel", morning: "6:00 PM – 3:00 AM" },
+      { name: "Emily", morning: "10:00 AM – 3:00 AM" },
       { name: "Melody", morning: "12:00 PM – 8:00 PM" },
       { name: "Didi", afternoon: "4:00 PM – 10:00 PM" },
       { name: "Andie", afternoon: "1:00 PM – 3:00 AM" },
@@ -1309,23 +1330,20 @@
       
     ],
     wednesday: [
-      { name: "Tongtong", morning: "10:00 AM – 3:00 AM" },
       { name: "Lucky", afternoon: "10:00 AM – 3:00 AM" },
       { name: "Angelina", morning: "10:00 AM – 8:00 PM" },
       { name: "Mizuki", morning: "1:00 AM – 7:00 PM" },
+      { name: "Emily", morning: "10:00 AM – 3:00 AM" },
       { name: "Melody", morning: "12:00 PM – 8:00 PM" },
-      { name: "Hazel", morning: "8:00 PM – 3:00 AM" },
       { name: "Andie", afternoon: "8:00 PM – 3:00 AM" }
 
 
    
     ],
     thursday: [
-      { name: "Bianca", morning: "10:00 AM – 4:00 PM" },
-      { name: "Wendy", morning: "12:00 PM – 8:00 PM" },
       { name: "Domi", morning: "11:00 AM – 5:00 PM" },
       { name: "Sugar", morning: "2:00 PM – 3:00 AM" },
-      { name: "Tongtong", morning: "10:00 AM – 3:00 AM" },
+      { name: "Emily", morning: "10:00 AM – 3:00 AM" },
       { name: "Lucky", afternoon: "10:00 AM – 3:00 AM" },
       { name: "Mizuki", morning: "11:00 AM – 7:00 PM" },
       { name: "Angelina", morning: "10:00 AM – 8:00 PM" }
@@ -1333,31 +1351,29 @@
     ],
     friday: [
       { name: "Chloe", morning: "11:00 AM – 9:00 PM" },
-      { name: "Ruby", morning: "10:00 AM – 8:00 PM" },
-      { name: "Yumi", morning: "10:00 AM – 5:00 AM" },
+      { name: "Gigi", morning: "12:00 PM – 10:00 PM" },
+      { name: "Emily", morning: "10:00 AM – 3:00 AM" },
       { name: "Melody", morning: "12:00 AM – 8:00 PM" },
-      { name: "Tongtong", morning: "10:00 AM – 3:00 AM" },
       { name: "Lucky", afternoon: "10:00 AM – 3:00 AM" },
-      { name: "Bianca", morning: "10:00 AM – 4:00 PM" },
-      { name: "Jeniffer", morning: "10:00 AM – 10:00 PM" },
+      { name: "Lucy", afternoon: "10:00 AM – 3:00 AM" },
       { name: "Angelina", morning: "10:00 AM – 8:00 PM" }
       
     ],
     saturday: [
-      { name: "Annie", morning: "10:00 AM – 10:00 PM" },
-      { name: "Tongtong", morning: "10:00 AM – 3:00 AM" },
+      { name: "Emily", morning: "10:00 AM – 3:00 AM" },
       { name: "Lucky", afternoon: "10:00 AM – 3:00 AM" },
-      { name: "May", afternoon: "1:00 PM – 3:00 AM" },
       { name: "Jolie", afternoon: "12:00 PM – 9:00 PM" },
       { name: "Melody", morning: "12:00 PM – 8:00 PM" },
-      { name: "Vivi", morning: "10:00 AM – 8:00 PM" },
-      { name: "Sarah",  afternoon: "5:00 PM – 11:00 PM" }
-      
+      { name: "Lucy", afternoon: "10:00 AM – 3:00 AM" },
+      { name: "Vivi", morning: "10:00 AM – 8:00 PM" }
+    
     ],
     sunday: [
       { name: "Melody", morning: "12:00 PM – 8:00 PM" },
-      { name: "Tongtong", morning: "10:00 AM – 3:00 AM" },
+      { name: "Emily", morning: "10:00 AM – 3:00 AM" },
       { name: "Lucky", afternoon: "10:00 AM – 3:00 AM" },
+      { name: "Lucy", afternoon: "10:00 AM – 3:00 AM" },
+      { name: "Gigi", morning: "12:00 PM – 10:00 PM" },
       { name: "Sarah", morning: "10:00 AM – 9:00 PM" }
 
       
