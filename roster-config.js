@@ -170,20 +170,20 @@
         "images/ruby4.jpg"
       ]
     },
-    Mona: {
-      name: "Mona",
-      nationality: "Thai",
-      height: "165 cm",
-      weight: "52 kg",
-      age: 22,
+    Kk: {
+      name: "Kk",
+      nationality: "Chinese",
+      height: "164 cm",
+      weight: "48 kg",
+      age: 20,
       cup: "D",
-      description: "Gorgeous Thai team member",
-      image: "images/mona.jpg",
+      description: "Gorgeous Chinese team member",
+      image: "images/kk.jpg",
       hoverImages: [
-        "images/mona1.jpg",
-        "images/mona2.jpg",
-        "images/mona3.jpg",
-        "images/mona4.jpg"
+        "images/kk1.jpg",
+        "images/kk2.jpg",
+        "images/kk3.jpg",
+        "images/kK4.jpg"
       ]
     },
     Lina: {
@@ -339,20 +339,20 @@
       ]
 
     },
-    Mickey: {
-      name: "Mickey",
+     Alice: {
+      name: "Alice",
       nationality: "Chinese",
-      height: "169 cm",
+      height: "168 cm",
       weight: "49 kg",
-      age: 20,
-      cup: "B",
+      age: 24,
+      cup: "C",
       description: "Tall young Chinese beauty",
-      image: "images/Mickey.jpg",
+      image: "images/alice.jpg",
       hoverImages: [
-        "images/mickey1.jpg",
-        "images/mickey2.jpg",
-        "images/mickey3.jpg",
-        "images/mickey4.jpg"
+        "images/alice1.jpg",
+        "images/alice2.jpg",
+        "images/alice3.jpg",
+        "images/alice4.jpg"
       ]
     },
     Jade: {
@@ -969,10 +969,10 @@
            },    
     Lucky: {
       name: "Lucky",
-      nationality: "Vietnam",
-      height: "163 cm",
+      nationality: "Chinese",
+      height: "164 cm",
       weight: "49 kg",
-      age: 22,
+      age: 23,
       cup: "C",
       role: "Sexy Charming young girl",
       description: "Friendly massage practitioner",
@@ -999,19 +999,19 @@
           ]
 
     },
-    Coco: {
-      name: "Coco",
-      nationality: "Chinese",
-      height: "165 cm",
-      weight: "60 kg",
+    Abby: {
+      name: "abby",
+      nationality: "Africa",
+      height: "169 cm",
+      weight: "56 kg",
       age: 23,
       cup: "D",
-      role: "Sexy Charming young girl",
+      role: "Sexy Charming africa girl",
       description: "Open minded massage practitioner",
-      image: "images/coco.jpg",
+      image: "images/abby.jpg",
       hoverImages: [
-        "images/coco1.jpg",
-        "images/coco2.jpg"
+        "images/abby1.jpg",
+        "images/abby2.jpg"
           ]
 
     },
@@ -1210,21 +1210,21 @@
         "images/shirley4.jpg"
           ]
     },
-    Aeya: {
-      name: "Aeya",
-      nationality: "Thai",
-      height: "164 cm",
-      weight: "44kg",
-      age: 18,
+    Alice: {
+      name: "Alice",
+      nationality: "Chinese",
+      height: "162 cm",
+      weight: "46kg",
+      age: 26,
       cup: "C",
-      role: "Amazing Thai girl",
+      role: "Amazing Chinese girl",
       description: "Friendly massage practitioner",
-      image: "images/aeya.jpg",
+      image: "images/alice.jpg",
       hoverImages: [
-        "images/aeya1.jpg",
-        "images/aeya2.jpg",
-        "images/aeya3.jpg",
-        "images/aeya4.jpg"
+        "images/alice1.jpg",
+        "images/alice2.jpg",
+        "images/alice3.jpg",
+        "images/alice4.jpg"
           ]
 
     },
@@ -1307,11 +1307,11 @@
   // 如果当天没有某一个时段，请填写空字符串，例如：afternoon: ""。
   const weeklySchedule = {
     monday: [
-     
+      { name: "Kk", morning: "10:00 AM – 3:00 AM" },
       { name: "Bianca", morning: "10:00 AM – 4:00 PM" },
       { name: "Mizuki", morning: "1:00 PM – 8:00 PM" },
       { name: "Chloe", afternoon: "12:00 PM – 9:00 PM" },
-      { name: "Mimi", morning: "10:00 AM – 3:00 AM" },
+      { name: "Mimi", morning: "10:00 AM – 9:00 PM" },
       { name: "Hazel", morning: "6:00 PM – 3:00 AM" },
       { name: "Emily", morning: "10:00 AM – 3:00 AM" },
       { name: "Melody", morning: "12:00 AM – 8:00 PM" },
@@ -1345,7 +1345,7 @@
       { name: "Sugar", morning: "2:00 PM – 3:00 AM" },
       { name: "Emily", morning: "10:00 AM – 3:00 AM" },
       { name: "Lucky", afternoon: "10:00 AM – 3:00 AM" },
-      { name: "Mizuki", morning: "11:00 AM – 7:00 PM" },
+      { name: "Alice", morning: "3:00 PM – 3:00 AM" },
       { name: "Angelina", morning: "10:00 AM – 8:00 PM" }
      
     ],
@@ -1355,15 +1355,19 @@
       { name: "Emily", morning: "10:00 AM – 3:00 AM" },
       { name: "Melody", morning: "12:00 AM – 8:00 PM" },
       { name: "Lucky", afternoon: "10:00 AM – 3:00 AM" },
+      { name: "Alice", afternoon: "10:00 AM – 3:00 AM" },
       { name: "Lucy", afternoon: "10:00 AM – 3:00 AM" },
+      { name: "Abby", afternoon: "8:00 PM – 3:00 AM" },
       { name: "Angelina", morning: "10:00 AM – 8:00 PM" }
       
     ],
     saturday: [
       { name: "Emily", morning: "10:00 AM – 3:00 AM" },
       { name: "Lucky", afternoon: "10:00 AM – 3:00 AM" },
+      { name: "Ruby", afternoon: "10:00 AM – 8:00 PM" },
       { name: "Jolie", afternoon: "12:00 PM – 9:00 PM" },
       { name: "Melody", morning: "12:00 PM – 8:00 PM" },
+      { name: "Alice", afternoon: "10:00 AM – 3:00 AM" },
       { name: "Lucy", afternoon: "10:00 AM – 3:00 AM" },
       { name: "Vivi", morning: "10:00 AM – 8:00 PM" }
     
@@ -1371,6 +1375,7 @@
     sunday: [
       { name: "Melody", morning: "12:00 PM – 8:00 PM" },
       { name: "Emily", morning: "10:00 AM – 3:00 AM" },
+      { name: "Alice", afternoon: "10:00 AM – 3:00 AM" },
       { name: "Lucky", afternoon: "10:00 AM – 3:00 AM" },
       { name: "Lucy", afternoon: "10:00 AM – 3:00 AM" },
       { name: "Gigi", morning: "12:00 PM – 10:00 PM" },
