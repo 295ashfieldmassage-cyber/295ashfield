@@ -951,19 +951,19 @@
         "images/bb4.jpg"
       ]
            },
-    Daisy: {
-      name: "Daisy",
-      nationality: "Chinese",
+    Crystal: {
+      name: "Crystal",
+      nationality: "Africa",
       height: "169cm",
-      weight: "50kg",
+      weight: "49kg",
       age: 20,
       cup: "C",
       role: "Cute face and charmnig body",
-      description: "Start 5pm",
-      image: "images/daisy.jpg",
+      description: "Open minded model",
+      image: "images/crystal.jpg",
       hoverImages: [
-        "images/daisy1.jpg",
-        "images/daisy2.jpg"
+        "images/crystal1.jpg",
+        "images/crystal2.jpg"
        
       ]
            },    
@@ -1000,7 +1000,7 @@
 
     },
     Abby: {
-      name: "abby",
+      name: "Abby",
       nationality: "Africa",
       height: "169 cm",
       weight: "56 kg",
@@ -1261,10 +1261,7 @@
       hoverImages: [
         "images/gigi1.jpg",
         "images/gigi2.jpg",
-        "images/didi3.jpg",
-        "images/didi4.jpg",
-        "images/didi5.jpg",
-        "images/didi6.jpg"
+       
           ]
 
     },
@@ -1309,9 +1306,11 @@
     monday: [
       { name: "Kk", morning: "10:00 AM – 3:00 AM" },
       { name: "Bianca", morning: "10:00 AM – 4:00 PM" },
+      { name: "Domi", morning: "11:00 AM – 5:00 PM" },
       { name: "Mizuki", morning: "1:00 PM – 8:00 PM" },
       { name: "Chloe", afternoon: "12:00 PM – 9:00 PM" },
       { name: "Mimi", morning: "10:00 AM – 9:00 PM" },
+      { name: "Alice", afternoon: "10:00 AM – 3:00 AM" },
       { name: "Hazel", morning: "6:00 PM – 3:00 AM" },
       { name: "Emily", morning: "10:00 AM – 3:00 AM" },
       { name: "Melody", morning: "12:00 AM – 8:00 PM" },
@@ -1319,7 +1318,7 @@
     ],
     tuesday: [
       { name: "Sarah", morning: "10:00 AM – 9:00 PM" },
-      { name: "Yumi", morning: "10:00 AM – 5:00 AM" },
+      { name: "Alice", afternoon: "10:00 AM – 3:00 AM" },
       { name: "Bianca", morning: "10:00 AM – 4:00 PM" },
       { name: "Emily", morning: "10:00 AM – 3:00 AM" },
       { name: "Melody", morning: "12:00 PM – 8:00 PM" },
@@ -1332,6 +1331,7 @@
     wednesday: [
       { name: "Lucky", afternoon: "10:00 AM – 3:00 AM" },
       { name: "Angelina", morning: "10:00 AM – 8:00 PM" },
+      { name: "Alice", afternoon: "10:00 AM – 3:00 AM" },
       { name: "Mizuki", morning: "1:00 AM – 7:00 PM" },
       { name: "Emily", morning: "10:00 AM – 3:00 AM" },
       { name: "Melody", morning: "12:00 PM – 8:00 PM" },
@@ -1363,7 +1363,7 @@
     ],
     saturday: [
       { name: "Emily", morning: "10:00 AM – 3:00 AM" },
-      { name: "Lucky", afternoon: "10:00 AM – 3:00 AM" },
+      { name: "Selina", afternoon: "1:00 PM – 9:00 PM" },
       { name: "Ruby", afternoon: "10:00 AM – 8:00 PM" },
       { name: "Jolie", afternoon: "12:00 PM – 9:00 PM" },
       { name: "Melody", morning: "12:00 PM – 8:00 PM" },
@@ -1376,7 +1376,6 @@
       { name: "Melody", morning: "12:00 PM – 8:00 PM" },
       { name: "Emily", morning: "10:00 AM – 3:00 AM" },
       { name: "Alice", afternoon: "10:00 AM – 3:00 AM" },
-      { name: "Lucky", afternoon: "10:00 AM – 3:00 AM" },
       { name: "Lucy", afternoon: "10:00 AM – 3:00 AM" },
       { name: "Gigi", morning: "12:00 PM – 10:00 PM" },
       { name: "Sarah", morning: "10:00 AM – 9:00 PM" }
