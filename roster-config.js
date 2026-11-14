@@ -1228,6 +1228,24 @@
           ]
 
     },
+    Sofia: {
+      name: "Sofia",
+      nationality: "Chinese",
+      height: "166 cm",
+      weight: "46kg",
+      age: 25,
+      cup: "C",
+      role: "Amazing Chinese girl",
+      description: "Friendly massage practitioner",
+      image: "images/sofia.jpg",
+      hoverImages: [
+        "images/sofia1.jpg",
+        "images/sofia2.jpg",
+        "images/sofia3.jpg",
+        "images/sofia4.jpg"
+          ]
+
+    },
     Didi: {
       name: "Didi",
       nationality: "Thai",
@@ -1306,19 +1324,16 @@
     monday: [
       { name: "Kk", morning: "10:00 AM – 3:00 AM" },
       { name: "Bianca", morning: "10:00 AM – 4:00 PM" },
-      { name: "Domi", morning: "11:00 AM – 5:00 PM" },
       { name: "Mizuki", morning: "1:00 PM – 8:00 PM" },
       { name: "Chloe", afternoon: "12:00 PM – 9:00 PM" },
+      { name: "Gigi", morning: "12:00 PM – 10:00 PM" },
       { name: "Mimi", morning: "10:00 AM – 9:00 PM" },
-      { name: "Alice", afternoon: "10:00 AM – 3:00 AM" },
       { name: "Hazel", morning: "6:00 PM – 3:00 AM" },
       { name: "Emily", morning: "10:00 AM – 3:00 AM" },
       { name: "Melody", morning: "12:00 AM – 8:00 PM" },
       { name: "Lucky", afternoon: "10:00 AM – 3:00 AM" }
     ],
     tuesday: [
-      { name: "Sarah", morning: "10:00 AM – 9:00 PM" },
-      { name: "Alice", afternoon: "10:00 AM – 3:00 AM" },
       { name: "Bianca", morning: "10:00 AM – 4:00 PM" },
       { name: "Emily", morning: "10:00 AM – 3:00 AM" },
       { name: "Melody", morning: "12:00 PM – 8:00 PM" },
@@ -1331,7 +1346,6 @@
     wednesday: [
       { name: "Lucky", afternoon: "10:00 AM – 3:00 AM" },
       { name: "Angelina", morning: "10:00 AM – 8:00 PM" },
-      { name: "Alice", afternoon: "10:00 AM – 3:00 AM" },
       { name: "Mizuki", morning: "1:00 AM – 7:00 PM" },
       { name: "Emily", morning: "10:00 AM – 3:00 AM" },
       { name: "Melody", morning: "12:00 PM – 8:00 PM" },
@@ -1363,20 +1377,18 @@
     ],
     saturday: [
       { name: "Emily", morning: "10:00 AM – 3:00 AM" },
-      { name: "Selina", afternoon: "1:00 PM – 9:00 PM" },
+      { name: "Lucky", afternoon: "10:00 AM – 3:00 AM" },
       { name: "Ruby", afternoon: "10:00 AM – 8:00 PM" },
-      { name: "Jolie", afternoon: "12:00 PM – 9:00 PM" },
-      { name: "Melody", morning: "12:00 PM – 8:00 PM" },
-      { name: "Alice", afternoon: "10:00 AM – 3:00 AM" },
-      { name: "Lucy", afternoon: "10:00 AM – 3:00 AM" },
-      { name: "Vivi", morning: "10:00 AM – 8:00 PM" }
+      { name: "Selina", afternoon: "12:00 PM – 9:00 PM" },
+      { name: "Gigi", morning: "12:00 PM – 10:00 PM" },
+      { name: "Crystal", morning: "6:00 PM – 3:00 AM" },
+      { name: "Sofia", morning: "10:00 AM – 8:00 PM" }
     
     ],
     sunday: [
       { name: "Melody", morning: "12:00 PM – 8:00 PM" },
       { name: "Emily", morning: "10:00 AM – 3:00 AM" },
-      { name: "Alice", afternoon: "10:00 AM – 3:00 AM" },
-      { name: "Lucy", afternoon: "10:00 AM – 3:00 AM" },
+      { name: "Lucky", afternoon: "10:00 AM – 3:00 AM" },
       { name: "Gigi", morning: "12:00 PM – 10:00 PM" },
       { name: "Sarah", morning: "10:00 AM – 9:00 PM" }
 
