@@ -1336,7 +1336,7 @@
     tuesday: [
       { name: "Bianca", morning: "10:00 AM – 4:00 PM" },
       { name: "Emily", morning: "10:00 AM – 3:00 AM" },
-      { name: "Melody", morning: "12:00 PM – 8:00 PM" },
+      { name: "Selina", morning: "1:00 PM – 9:00 PM" },
       { name: "Didi", afternoon: "4:00 PM – 10:00 PM" },
       { name: "Andie", afternoon: "1:00 PM – 3:00 AM" },
       { name: "Lucky", afternoon: "10:00 AM – 3:00 AM" }
@@ -1348,29 +1348,28 @@
       { name: "Angelina", morning: "10:00 AM – 8:00 PM" },
       { name: "Mizuki", morning: "1:00 AM – 7:00 PM" },
       { name: "Emily", morning: "10:00 AM – 3:00 AM" },
-      { name: "Melody", morning: "12:00 PM – 8:00 PM" },
+      { name: "Tia", morning: "10:00 AM – 8:00 PM" },
+      { name: "Didi", afternoon: "6:00 PM – 11:00 PM" },
       { name: "Andie", afternoon: "8:00 PM – 3:00 AM" }
 
 
    
     ],
     thursday: [
-      { name: "Domi", morning: "11:00 AM – 5:00 PM" },
+      { name: "Sarah", morning: "10:00 AM – 9:00 PM" },
+      { name: "Rani", morning: "11:00 AM – 8:00 PM" },
       { name: "Sugar", morning: "2:00 PM – 3:00 AM" },
       { name: "Emily", morning: "10:00 AM – 3:00 AM" },
       { name: "Lucky", afternoon: "10:00 AM – 3:00 AM" },
-      { name: "Alice", morning: "3:00 PM – 3:00 AM" },
       { name: "Angelina", morning: "10:00 AM – 8:00 PM" }
      
     ],
     friday: [
       { name: "Chloe", morning: "11:00 AM – 9:00 PM" },
-      { name: "Gigi", morning: "12:00 PM – 10:00 PM" },
       { name: "Emily", morning: "10:00 AM – 3:00 AM" },
-      { name: "Melody", morning: "12:00 AM – 8:00 PM" },
+      { name: "Tia", morning: "10:00 AM – 8:00 PM" },
       { name: "Lucky", afternoon: "10:00 AM – 3:00 AM" },
-      { name: "Alice", afternoon: "10:00 AM – 3:00 AM" },
-      { name: "Lucy", afternoon: "10:00 AM – 3:00 AM" },
+      { name: "Jeniffer", afternoon: "1:00 PM – 10:00 PM" },
       { name: "Abby", afternoon: "8:00 PM – 3:00 AM" },
       { name: "Angelina", morning: "10:00 AM – 8:00 PM" }
       
@@ -1378,18 +1377,16 @@
     saturday: [
       { name: "Emily", morning: "10:00 AM – 3:00 AM" },
       { name: "Lucky", afternoon: "10:00 AM – 3:00 AM" },
-      { name: "Ruby", afternoon: "10:00 AM – 8:00 PM" },
-      { name: "Selina", afternoon: "12:00 PM – 9:00 PM" },
-      { name: "Gigi", morning: "12:00 PM – 10:00 PM" },
-      { name: "Crystal", morning: "6:00 PM – 3:00 AM" },
-      { name: "Sofia", morning: "10:00 AM – 8:00 PM" }
+      { name: "Selina", afternoon: "1:00 PM – 9:00 PM" },
+      { name: "Melody", morning: "12:00 PM – 8:00 PM" },
+      { name: "Sarah", morning: "5:00 PM – 10:00 PM" }
     
     ],
     sunday: [
       { name: "Melody", morning: "12:00 PM – 8:00 PM" },
       { name: "Emily", morning: "10:00 AM – 3:00 AM" },
       { name: "Lucky", afternoon: "10:00 AM – 3:00 AM" },
-      { name: "Gigi", morning: "12:00 PM – 10:00 PM" },
+      { name: "Hazel", morning: "5:00 PM – 3:00 AM" },
       { name: "Sarah", morning: "10:00 AM – 9:00 PM" }
 
       
@@ -1407,7 +1404,7 @@
 
   window.ROSTER_PROFILES = profiles;
   window.WEEKLY_ROSTER = {
-    dateRange: "9th Nov– 15th Nov 2026",
+    dateRange: "16th Nov– 22th Nov 2026",
     address: "295 Liverpool Road, Ashfield NSW 2131",
     days
   };
