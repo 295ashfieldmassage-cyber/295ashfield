@@ -1336,6 +1336,7 @@
     ],
     tuesday: [
       { name: "Bianca", morning: "10:00 AM – 4:00 PM" },
+      { name: "Rani", morning: "12:00 PM – 8:00 PM" },
       { name: "Emily", morning: "10:00 AM – 3:00 AM" },
       { name: "Selina", morning: "1:00 PM – 9:00 PM" },
       { name: "Didi", afternoon: "4:00 PM – 10:00 PM" },
