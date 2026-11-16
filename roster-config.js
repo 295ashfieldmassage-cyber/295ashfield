@@ -651,10 +651,16 @@
       nationality: "India",
       height: "163cm",
       weight: "57 kg",
-      age: 22,
+      age: 20,
       cup: "D",
       role: "Massage Practitioner",
       description: "Highly skilled massage practitioner",
+      image: "images/rani.jpg",
+      hoverImages: [
+        "images/rani1.jpg",
+        "images/rani2.jpg",
+        "images/rani3.jpg"
+      ]
       
     },
     Aria: {
@@ -682,12 +688,7 @@
       cup: "D",
       role: "super model ",
       description: "Charming young Chinese ",
-      image: "images/mia.jpg",
-      hoverImages: [
-        "images/mia1.jpg",
-        "images/mia2.jpg",
-        "images/mia3.jpg"
-      ]
+      
      },
     Monica: {
       name: "Monica",
