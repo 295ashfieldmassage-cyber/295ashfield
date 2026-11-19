@@ -1360,8 +1360,7 @@
     thursday: [
       { name: "Sarah", morning: "10:00 AM – 9:00 PM" },
       { name: "Kk", morning: "10:00 AM – 12:00 PM" },
-      { name: "Rani", morning: "11:00 AM – 8:00 PM" },
-      { name: "Melody", morning: "12:00 PM – 8:00 PM" },
+      { name: "Chloe", morning: "7:00 PM – 3:00 AM" },
       { name: "Sugar", morning: "2:00 PM – 3:00 AM" },
       { name: "Emily", morning: "10:00 AM – 3:00 AM" },
       { name: "Lucky", afternoon: "10:00 AM – 3:00 AM" },
@@ -1370,8 +1369,9 @@
      
     ],
     friday: [
-      { name: "Chloe", morning: "11:00 AM – 9:00 PM" },
+      { name: "Chloe", morning: "7:00 AM – 3:00 AM" },
       { name: "Emily", morning: "10:00 AM – 3:00 AM" },
+      { name: "Melody", morning: "12:00 PM – 8:00 PM" },
       { name: "Tia", morning: "10:00 AM – 8:00 PM" },
       { name: "Lucky", afternoon: "10:00 AM – 3:00 AM" },
       { name: "Kim", afternoon: "11:00 AM – 5:00 PM" },
