@@ -1194,8 +1194,8 @@
           ]
 
     },
-    Cherry: {
-      name: "cherry",
+    Dolly: {
+      name: "Dolly",
       nationality: "Nepal",
       height: "166 cm",
       weight: "44kg",
@@ -1203,12 +1203,12 @@
       cup: "C",
       role: "Amazing Nepal girl",
       description: "Friendly massage practitioner",
-      image: "images/cherry.jpg",
+      image: "images/dolly.jpg",
       hoverImages: [
-        "images/cherry1.jpg",
-        "images/cherry2.jpg",
-        "images/cherry3.jpg",
-        "images/cherry4.jpg"
+        "images/dolly1.jpg",
+        "images/dolly2.jpg",
+        "images/dolly3.jpg",
+        "images/dolly4.jpg"
           ]
     },
     Alice: {
@@ -1370,7 +1370,7 @@
       { name: "Alice", morning: "2:00 PM – 3:00 AM" }
     ],
     saturday: [
-      { name: "Cherry", morning: "7:00 PM – 3:00 AM" },
+      { name: "Dolly", morning: "7:00 PM – 3:00 AM" },
       { name: "Emily", morning: "10:00 AM – 3:00 AM" },
       { name: "Sofia", afternoon: "10:00 AM – 8:00 PM" },
       { name: "Lucky", afternoon: "10:00 AM – 3:00 AM" },
@@ -1381,7 +1381,7 @@
     
     ],
     sunday: [
-      { name: "Cherry", morning: "11:00 AM – 3:00 AM" },
+      { name: "Dolly", morning: "11:00 AM – 3:00 AM" },
       { name: "Melody", morning: "12:00 PM – 8:00 PM" },
       { name: "Emily", morning: "10:00 AM – 3:00 AM" },
       { name: "Lucky", afternoon: "10:00 AM – 3:00 AM" },
