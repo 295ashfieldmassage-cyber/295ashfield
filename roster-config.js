@@ -935,21 +935,21 @@
         "images/athena4.jpg"
       ]
            },
-    BB: {
-      name: "BB",
-      nationality: "Chinese",
+    Vicky: {
+      name: "vicky",
+      nationality: "Korean",
       height: "164cm",
       weight: "47kg",
-      age: 22,
+      age: 19,
       cup: "C",
       role: "Cute face and charmnig body",
-      description: "Open minded service",
-      image: "images/bb.jpg",
+      description: "New young chinese",
+      image: "images/vicky.jpg",
       hoverImages: [
-        "images/bb1.jpg",
-        "images/bb2.jpg",
-        "images/bb3.jpg",
-        "images/bb4.jpg"
+        "images/vicky1.jpg",
+        "images/vicky2.jpg",
+        "images/vicky3.jpg",
+        "images/vicky4.jpg"
       ]
            },
     Crystal: {
@@ -1350,8 +1350,9 @@
     wednesday: [
       { name: "Lucky", afternoon: "10:00 AM – 3:00 AM" },
       { name: "Selina", morning: "1:00 PM – 9:00 PM" },
-      { name: "Bianca", morning: "10:00 AM – 4:00 AM" },
+      { name: "Chloe", afternoon: "12:00 PM – 7:00 PM" },
       { name: "Miso", morning: "12:00 PM – 6:00 PM" },
+      { name: "Vicky", morning: "12:00 PM – 8:00 PM" },
       { name: "Angelina", morning: "10:00 AM – 8:00 PM" },
       { name: "Melody", morning: "12:00 AM – 8:00 PM" },
       { name: "Emily", morning: "10:00 AM – 3:00 AM" },
@@ -1365,8 +1366,8 @@
     thursday: [
       { name: "Sarah", morning: "10:00 AM – 9:00 PM" },
       { name: "Bianca", morning: "10:00 AM – 4:00 AM" },
-      { name: "Chloe", morning: "7:00 PM – 3:00 AM" },
       { name: "Alice", morning: "2:00 PM – 3:00 AM" },
+      { name: "Melody", morning: "12:00 AM – 8:00 PM" },
       { name: "Emily", morning: "10:00 AM – 10:00 PM" },
       { name: "Lucky", afternoon: "10:00 AM – 3:00 AM" },
       { name: "Angelina", morning: "10:00 AM – 8:00 PM" }
@@ -1384,8 +1385,6 @@
       { name: "Emily", morning: "10:00 AM – 3:00 AM" },
       { name: "Sofia", afternoon: "10:00 AM – 8:00 PM" },
       { name: "Lucky", afternoon: "10:00 AM – 3:00 AM" },
-      { name: "Kk", morning: "10:00 AM – 5:00 PM" },
-      { name: "Gigi", morning: "12:00 PM – 10:00 PM" },
       { name: "Alice", morning: "2:00 PM – 3:00 AM" },
       { name: "Sarah", morning: "5:00 PM – 10:00 PM" }
     
