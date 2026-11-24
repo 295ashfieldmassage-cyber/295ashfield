@@ -984,19 +984,20 @@
         "images/lucky3.jpg"
           ]
      },
-    Angie: {
-      name: "Angie",
-      nationality: "Brazil",
-      height: "165 cm",
-      weight: "50 kg",
-      age: 22,
+    Lemon: {
+      name: "Lemon",
+      nationality: "Chinese",
+      height: "164 cm",
+      weight: "42 kg",
+      age: 20,
       cup: "B",
       role: "Sexy Charming young girl",
       description: "Friendly massage practitioner",
-      image: "images/angie.jpg",
+      image: "images/lemon.jpg",
       hoverImages: [
-        "images/angie1.jpg",
-        "images/angie2.jpg"
+        "images/lemon1.jpg",
+        "images/lemon2.jpg",
+        "images/lemon3.jpg"
           ]
 
     },
@@ -1016,19 +1017,21 @@
           ]
 
     },
-    Aurora: {
-      name: "Aurora",
-      nationality: "Bangladesh",
-      height: "160 cm",
-      weight: "47 kg",
-      age: 19,
+    Miso: {
+      name: "Miso",
+      nationality: "Thai",
+      height: "165 cm",
+      weight: "50 kg",
+      age: 24,
       cup: "C",
-      role: "New to massage shop young girl",
+      role: "New Pretty young Thai girl",
       description: "Soft massage practitioner",
-      image: "images/aurora.jpg",
+      image: "images/miso.jpg",
       hoverImages: [
-        "images/aurora1.jpg",
-        "images/aurora2.jpg"
+        "images/miso1.jpg",
+        "images/miso2.jpg",
+         "images/miso3.jpg",
+        "images/miso4.jpg"
           ]
 
     },
@@ -1323,7 +1326,7 @@
   // 如果当天没有某一个时段，请填写空字符串，例如：afternoon: ""。
   const weeklySchedule = {
     monday: [
-      { name: "Domi", morning: "2:00 PM – 5:00 PM" },
+      { name: "Domi", morning: "11:00 PM – 5:00 PM" },
       { name: "Mizuki", morning: "1:00 PM – 8:00 PM" },
       { name: "Chloe", afternoon: "12:00 PM – 7:00 PM" },
       { name: "Gigi", morning: "12:00 PM – 10:00 PM" },
@@ -1334,8 +1337,11 @@
     ],
     tuesday: [
       { name: "Chloe", afternoon: "12:00 PM – 7:00 PM" },
+      { name: "Bianca", morning: "10:00 AM – 4:00 AM" },
       { name: "Emily", morning: "10:00 AM – 3:00 AM" },
       { name: "Gigi", morning: "12:00 PM – 10:00 PM" },
+      { name: "Angelina", morning: "10:00 AM – 8:00 PM" },
+      { name: "Tia", morning: "10:00 AM – 8:00 PM" },
       { name: "Andie", afternoon: "1:00 PM – 3:00 AM" },
       { name: "Lucky", afternoon: "10:00 AM – 3:00 AM" }
 
@@ -1343,6 +1349,9 @@
     ],
     wednesday: [
       { name: "Lucky", afternoon: "10:00 AM – 3:00 AM" },
+      { name: "Selina", morning: "1:00 PM – 9:00 PM" },
+      { name: "Bianca", morning: "10:00 AM – 4:00 AM" },
+      { name: "Miso", morning: "12:00 PM – 6:00 PM" },
       { name: "Angelina", morning: "10:00 AM – 8:00 PM" },
       { name: "Melody", morning: "12:00 AM – 8:00 PM" },
       { name: "Emily", morning: "10:00 AM – 3:00 AM" },
@@ -1355,6 +1364,7 @@
     ],
     thursday: [
       { name: "Sarah", morning: "10:00 AM – 9:00 PM" },
+      { name: "Bianca", morning: "10:00 AM – 4:00 AM" },
       { name: "Chloe", morning: "7:00 PM – 3:00 AM" },
       { name: "Alice", morning: "2:00 PM – 3:00 AM" },
       { name: "Emily", morning: "10:00 AM – 10:00 PM" },
@@ -1364,13 +1374,13 @@
     ],
     friday: [
       { name: "Melody", morning: "12:00 PM – 8:00 PM" },
+      { name: "Selina", morning: "1:00 PM – 9:00 PM" },
       { name: "Lucky", afternoon: "10:00 AM – 3:00 AM" },
-      { name: "Kim", afternoon: "11:00 AM – 5:00 PM" },
+      { name: "Lemon", afternoon: "10:00 AM – 9:00 PM" },
       { name: "Abby", afternoon: "8:00 PM – 3:00 AM" },
       { name: "Alice", morning: "2:00 PM – 3:00 AM" }
     ],
     saturday: [
-      { name: "Dolly", morning: "7:00 PM – 3:00 AM" },
       { name: "Emily", morning: "10:00 AM – 3:00 AM" },
       { name: "Sofia", afternoon: "10:00 AM – 8:00 PM" },
       { name: "Lucky", afternoon: "10:00 AM – 3:00 AM" },
@@ -1381,7 +1391,6 @@
     
     ],
     sunday: [
-      { name: "Dolly", morning: "11:00 AM – 3:00 AM" },
       { name: "Melody", morning: "12:00 PM – 8:00 PM" },
       { name: "Emily", morning: "10:00 AM – 3:00 AM" },
       { name: "Lucky", afternoon: "10:00 AM – 3:00 AM" },
@@ -1403,7 +1412,7 @@
 
   window.ROSTER_PROFILES = profiles;
   window.WEEKLY_ROSTER = {
-    dateRange: "16th Nov– 22th Nov 2026",
+    dateRange: "23th Nov– 29th Nov 2026",
     address: "295 Liverpool Road, Ashfield NSW 2131",
     days
   };
