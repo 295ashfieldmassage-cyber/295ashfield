@@ -1351,26 +1351,22 @@
       { name: "Lucky", afternoon: "10:00 AM – 3:00 AM" },
       { name: "Selina", morning: "1:00 PM – 9:00 PM" },
       { name: "Chloe", afternoon: "12:00 PM – 7:00 PM" },
-      { name: "Miso", morning: "12:00 PM – 6:00 PM" },
       { name: "Vicky", morning: "12:00 PM – 8:00 PM" },
       { name: "Angelina", morning: "10:00 AM – 8:00 PM" },
       { name: "Melody", morning: "12:00 AM – 8:00 PM" },
       { name: "Emily", morning: "10:00 AM – 3:00 AM" },
-      { name: "Tia", morning: "10:00 AM – 8:00 PM" },
-      { name: "Didi", afternoon: "6:00 PM – 11:00 PM" },
       { name: "Andie", afternoon: "8:00 PM – 3:00 AM" }
 
 
    
     ],
     thursday: [
-      { name: "Sarah", morning: "10:00 AM – 9:00 PM" },
-      { name: "Bianca", morning: "10:00 AM – 4:00 AM" },
       { name: "Alice", morning: "2:00 PM – 3:00 AM" },
       { name: "Melody", morning: "12:00 AM – 8:00 PM" },
       { name: "Emily", morning: "10:00 AM – 10:00 PM" },
       { name: "Lucky", afternoon: "10:00 AM – 3:00 AM" },
-      { name: "Angelina", morning: "10:00 AM – 8:00 PM" }
+      { name: "Angelina", morning: "10:00 AM – 8:00 PM" },
+      { name: "Andie", afternoon: "8:00 PM – 3:00 AM" }
      
     ],
     friday: [
@@ -1378,6 +1374,8 @@
       { name: "Selina", morning: "1:00 PM – 9:00 PM" },
       { name: "Lucky", afternoon: "10:00 AM – 3:00 AM" },
       { name: "Lemon", afternoon: "10:00 AM – 9:00 PM" },
+      { name: "Kim", morning: "11:00 PM – 5:00 PM" },
+      { name: "Crystal", morning: "6:00 PM – 3:00 AM" },
       { name: "Abby", afternoon: "8:00 PM – 3:00 AM" },
       { name: "Alice", morning: "2:00 PM – 3:00 AM" }
     ],
@@ -1385,9 +1383,9 @@
       { name: "Emily", morning: "10:00 AM – 3:00 AM" },
       { name: "Sofia", afternoon: "10:00 AM – 8:00 PM" },
       { name: "Lucky", afternoon: "10:00 AM – 3:00 AM" },
-      { name: "Alice", morning: "2:00 PM – 3:00 AM" },
-      { name: "Sarah", morning: "5:00 PM – 10:00 PM" }
-    
+      { name: "Crystal", morning: "6:00 PM – 3:00 AM" },
+      { name: "Alice", morning: "2:00 PM – 3:00 AM" }
+      
     ],
     sunday: [
       { name: "Melody", morning: "12:00 PM – 8:00 PM" },
