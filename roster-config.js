@@ -1035,21 +1035,21 @@
           ]
 
     },
-    Lin: {
-      name: "Lin",
+    Lily: {
+      name: "Lily",
       nationality: "Chinese",
       height: "165 cm",
       weight: "45kg",
-      age: 27,
-      cup: "B",
+      age: 21,
+      cup: "C",
       role: "Sexy Charming friendly girl",
       description: "Friendly massage practitioner",
-      image: "images/lin.jpg",
+      image: "images/lily.jpg",
       hoverImages: [
-        "images/lin1.jpg",
-        "images/lin2.jpg",
-        "images/lin3.jpg",
-        "images/lin4.jpg"
+        "images/lily1.jpg",
+        "images/lily2.jpg",
+        "images/lily3.jpg",
+        "images/lily4.jpg"
           ]
 
     },
@@ -1327,22 +1327,20 @@
   const weeklySchedule = {
     monday: [
       { name: "Domi", morning: "11:00 PM – 5:00 PM" },
+      { name: "Bianca", morning: "10:00 AM – 4:00 PM" },
       { name: "Mizuki", morning: "1:00 PM – 8:00 PM" },
-      { name: "Chloe", afternoon: "12:00 PM – 7:00 PM" },
+      { name: "Chloe", afternoon: "12:00 PM – 6:00 PM" },
       { name: "Gigi", morning: "12:00 PM – 10:00 PM" },
       { name: "Mimi", morning: "10:00 AM – 9:00 PM" },
-      { name: "Emily", morning: "10:00 AM – 3:00 AM" },
       { name: "Melody", morning: "12:00 AM – 8:00 PM" },
       { name: "Lucky", afternoon: "10:00 AM – 3:00 AM" }
     ],
     tuesday: [
-      { name: "Chloe", afternoon: "12:00 PM – 7:00 PM" },
-      { name: "Bianca", morning: "10:00 AM – 4:00 AM" },
-      { name: "Emily", morning: "10:00 AM – 3:00 AM" },
+      { name: "Chloe", afternoon: "12:00 PM – 6:00 PM" },
+      { name: "Didi", morning: "6:00 PM – 11:00 PM" },
+      { name: "Lily", afternoon: "10:00 AM – 10:00 PM" },
+      { name: "Bianca", morning: "10:00 AM – 4:00 PM" },
       { name: "Gigi", morning: "12:00 PM – 10:00 PM" },
-      { name: "Angelina", morning: "10:00 AM – 8:00 PM" },
-      { name: "Tia", morning: "10:00 AM – 8:00 PM" },
-      { name: "Andie", afternoon: "1:00 PM – 3:00 AM" },
       { name: "Lucky", afternoon: "10:00 AM – 3:00 AM" }
 
       
@@ -1351,18 +1349,16 @@
       { name: "Lucky", afternoon: "10:00 AM – 3:00 AM" },
       { name: "Selina", morning: "1:00 PM – 9:00 PM" },
       { name: "Chloe", afternoon: "12:00 PM – 7:00 PM" },
-      { name: "Vicky", morning: "12:00 PM – 8:00 PM" },
       { name: "Angelina", morning: "10:00 AM – 8:00 PM" },
       { name: "Melody", morning: "12:00 AM – 8:00 PM" },
-      { name: "Emily", morning: "10:00 AM – 3:00 AM" },
       { name: "Andie", afternoon: "8:00 PM – 3:00 AM" }
 
 
    
     ],
     thursday: [
+      { name: "Sarah", morning: "10:00 AM – 9:00 PM" },
       { name: "Chloe", afternoon: "11:00 AM – 9:00 PM" },
-      { name: "Alice", morning: "2:00 PM – 3:00 AM" },
       { name: "Melody", morning: "12:00 AM – 8:00 PM" },
       { name: "Emily", morning: "10:00 AM – 10:00 PM" },
       { name: "Lucky", afternoon: "10:00 AM – 3:00 AM" },
@@ -1385,7 +1381,7 @@
       { name: "Sofia", afternoon: "10:00 AM – 8:00 PM" },
       { name: "Lucky", afternoon: "10:00 AM – 3:00 AM" },
       { name: "Crystal", morning: "6:00 PM – 3:00 AM" },
-      { name: "Didi", morning: "6:00 PM – 11:00 PM" },
+      { name: "Melody", morning: "12:00 PM – 6:00 PM" },
       { name: "Alice", morning: "10:00 AM – 3:00 AM" }
       
     ],
@@ -1394,6 +1390,7 @@
       { name: "Melody", morning: "12:00 PM – 8:00 PM" },
       { name: "Lucky", afternoon: "10:00 AM – 3:00 AM" },
       { name: "Gigi", morning: "12:00 PM – 10:00 PM" },
+      { name: "Angelina", morning: "10:00 AM – 8:00 PM" },
       { name: "Alice", morning: "10:00 AM – 3:00 AM" }
       
      
@@ -1410,7 +1407,7 @@
 
   window.ROSTER_PROFILES = profiles;
   window.WEEKLY_ROSTER = {
-    dateRange: "23th Nov– 29th Nov 2026",
+    dateRange: "28th Nov– 6th Dec 2026",
     address: "295 Liverpool Road, Ashfield NSW 2131",
     days
   };
